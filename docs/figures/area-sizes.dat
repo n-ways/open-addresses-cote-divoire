@@ -1,0 +1,10 @@
+# compounds per code area (lower edge of the bin), areas in the bin; areas with no compound left out
+lo hi areas
+1 10 75
+10 30 173
+30 100 1034
+100 300 2860
+300 1000 3519
+1000 3000 1663
+3000 10000 446
+10000 30000 30

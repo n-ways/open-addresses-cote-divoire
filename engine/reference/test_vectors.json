@@ -1,0 +1,482 @@
+{
+ "about": "Real points (OpenStreetMap, ODbL; Google Open Buildings CC BY 4.0 / Microsoft ODbL footprints via N-Ways). Computed by ci_engine.py from model/ as committed (tools/make_vectors.py). Area names are the interim nearest-named-place areas and will change when areas are frozen; OLC vectors are from the public OLC test suite.",
+ "spots": [
+  {
+   "label": "Cocody, Riviera: OSM building, building=apartments (capital sample id 75715)",
+   "lat": 5.3606529,
+   "lon": -3.9705867,
+   "unit": "010114",
+   "unitName": "Cocody",
+   "areaIndex": "083",
+   "areaName": "Bonoumin",
+   "plateName": "Bonoumin",
+   "plusCode": "6CQR926H+7Q7",
+   "short": "926H+7Q7 Cocody"
+  },
+  {
+   "label": "Le Plateau: OSM building, apartments, 3 levels, pharmacy and office inside (id 280566)",
+   "lat": 5.3198562,
+   "lon": -4.0168613,
+   "unit": "010116",
+   "unitName": "Le Plateau",
+   "areaIndex": "003",
+   "areaName": "Quai Fruitier (QB1 – QB2)",
+   "plateName": "Fruitier",
+   "plusCode": "6CQQ8X9M+W7R",
+   "short": "9M+W7R Le Plateau"
+  },
+  {
+   "label": "Yopougon: Google/Microsoft footprint, h=6.0 m (id 293417)",
+   "lat": 5.3440781,
+   "lon": -4.0770469,
+   "unit": "010120",
+   "unitName": "Yopougon",
+   "areaIndex": "034",
+   "areaName": "Sicogi",
+   "plateName": "Sicogi",
+   "plusCode": "6CQQ8WVF+J5P",
+   "short": "VF+J5P Yopougon"
+  },
+  {
+   "label": "Koumassi Remblais: OSM building (id 94937)",
+   "lat": 5.3003922,
+   "lon": -3.9643765,
+   "unit": "010115",
+   "unitName": "Koumassi",
+   "areaIndex": "005",
+   "areaName": "Koumassi remblais",
+   "plateName": "Remblais",
+   "plusCode": "6CQR822P+565",
+   "short": "2P+565 Koumassi"
+  },
+  {
+   "label": "Port-Bouët, Adjouffou: OSM building (id 46588)",
+   "lat": 5.2436407,
+   "lon": -3.9208946,
+   "unit": "010118",
+   "unitName": "Port-Bouët",
+   "areaIndex": "021",
+   "areaName": "Adjouffou",
+   "plateName": "Adjouffou",
+   "plusCode": "6CQR63VH+FJ5",
+   "short": "63VH+FJ5 Port-Bouët"
+  },
+  {
+   "label": "Bouaké: OSM place=city node",
+   "lat": 7.689021,
+   "lon": -5.028355,
+   "unit": "110301",
+   "unitName": "Bouaké",
+   "areaIndex": "096",
+   "areaName": "Bouaké",
+   "plateName": "Bouaké",
+   "plusCode": "6CVPMXQC+JM2",
+   "short": "+JM2 Bouaké"
+  },
+  {
+   "label": "Yamoussoukro: OSM place=city node",
+   "lat": 6.820007,
+   "lon": -5.277603,
+   "unit": "020201",
+   "unitName": "Yamoussoukro",
+   "areaIndex": "027",
+   "areaName": "Yamoussoukro",
+   "plateName": "Yamoussoukro",
+   "plusCode": "6CRPRPCC+2X2",
+   "short": "+2X2 Yamoussoukro"
+  },
+  {
+   "label": "Campement Assouam (rural farm camp, Nawa/San-Pédro area): OSM place=hamlet node",
+   "lat": 5.005232,
+   "lon": -7.056605,
+   "unit": "290103",
+   "unitName": "Dogbo",
+   "areaIndex": "007",
+   "areaName": "Campement Assouam",
+   "plateName": "Assouam",
+   "plusCode": "6CQJ2W4V+39R",
+   "short": "2W4V+39R Dogbo"
+  }
+ ],
+ "olc": [
+  {
+   "lat": 20.375,
+   "lon": 2.775,
+   "length": 6,
+   "code": "7FG49Q00+"
+  },
+  {
+   "lat": 20.3700625,
+   "lon": 2.7821875,
+   "length": 10,
+   "code": "7FG49QCJ+2V"
+  },
+  {
+   "lat": 20.3701125,
+   "lon": 2.782234375,
+   "length": 11,
+   "code": "7FG49QCJ+2VX"
+  },
+  {
+   "lat": 47.0000625,
+   "lon": 8.0000625,
+   "length": 10,
+   "code": "8FVC2222+22"
+  },
+  {
+   "lat": -41.2730625,
+   "lon": 174.7859375,
+   "length": 10,
+   "code": "4VCPPQGP+Q9"
+  },
+  {
+   "lat": 1,
+   "lon": 1,
+   "length": 11,
+   "code": "6FH32222+222"
+  }
+ ],
+ "olcShorten": [
+  {
+   "code": "9C3W9QCJ+2VX",
+   "lat": 51.3701125,
+   "lon": -1.217765625,
+   "short": "+2VX"
+  },
+  {
+   "code": "9C3W9QCJ+2VX",
+   "lat": 51.3708675,
+   "lon": -1.217765625,
+   "short": "CJ+2VX"
+  },
+  {
+   "code": "9C3W9QCJ+2VX",
+   "lat": 51.3852125,
+   "lon": -1.217765625,
+   "short": "9QCJ+2VX"
+  }
+ ],
+ "olcRecover": [
+  {
+   "short": "22+",
+   "lat": 42.899,
+   "lon": 9.012,
+   "full": "8FJFW222+"
+  },
+  {
+   "short": "22+",
+   "lat": 14.95125,
+   "lon": -23.5001,
+   "full": "796RXG22+"
+  }
+ ],
+ "damm": [
+  {
+   "digits": "572",
+   "check": 4
+  },
+  {
+   "digits": "0101140834817",
+   "check": 8
+  }
+ ],
+ "check": [
+  {
+   "key": "sikogi",
+   "number": 18817,
+   "nameDigits": "281820241618",
+   "check": 7
+  },
+  {
+   "key": "madina",
+   "number": 4600,
+   "nameDigits": "221013182310",
+   "check": 7
+  },
+  {
+   "key": "belevile",
+   "number": 45000,
+   "nameDigits": "1114211431182114",
+   "check": 0
+  },
+  {
+   "key": "bonoumin",
+   "number": 5552,
+   "nameDigits": "1124232430221823",
+   "check": 0
+  }
+ ],
+ "sampleRegistry": {
+  "file": "sample-cocody-riviera.csv",
+  "note": "numbers only the 209-footprint sample, as if it were the whole area",
+  "buildings": 209,
+  "compounds": 178,
+  "digits": 4,
+  "step": 16,
+  "tailReserve": [
+   6933,
+   8399
+  ],
+  "block": [
+   4000,
+   8399
+  ],
+  "building75715": {
+   "number": 5152,
+   "machine": "CI-010114-083-5152-5",
+   "remembered": "Bonoumin · 51 52",
+   "written": "Bonoumin 51 52 (Cocody)",
+   "members": [
+    "75715"
+   ]
+  },
+  "provisional": {
+   "lat": 5.36,
+   "lon": -3.97,
+   "number": 6616
+  }
+ },
+ "nameKeys": [
+  {
+   "names": [
+    "Koffikro",
+    "Kofikro"
+   ],
+   "key": "kofikro"
+  },
+  {
+   "names": [
+    "Adjouffou",
+    "Adjoufou"
+   ],
+   "key": "adjoufou"
+  },
+  {
+   "names": [
+    "Riviéra II",
+    "Riviera 2",
+    "RIVIERA-2"
+   ],
+   "key": "riviera2"
+  },
+  {
+   "names": [
+    "Les Lauriers",
+    "Lauriers"
+   ],
+   "key": "laurier"
+  },
+  {
+   "names": [
+    "Kouassikro",
+    "Kwassikro"
+   ],
+   "key": "kwasikro"
+  },
+  {
+   "names": [
+    "Cocody",
+    "Kokody"
+   ],
+   "key": "kokodi"
+  },
+  {
+   "names": [
+    "PK 18",
+    "Kilomètre 18"
+   ],
+   "key": "km18"
+  },
+  {
+   "names": [
+    "N'Guessankro",
+    "Nguessankro",
+    "N’Guéssankro"
+   ],
+   "key": "nguesankro"
+  },
+  {
+   "names": [
+    "Saint-Michel",
+    "St Michel"
+   ],
+   "key": "saintmichel"
+  }
+ ],
+ "sameName": [
+  {
+   "text": "Madina 1500",
+   "unit": "040301",
+   "index": "008",
+   "area": "Madina",
+   "commune": "Touba",
+   "machine": "CI-040301-008-1500-7",
+   "written": "Madina 15 00 (Touba)"
+  },
+  {
+   "text": "Madina 46 00",
+   "unit": "100203",
+   "index": "001",
+   "area": "Madina",
+   "commune": "Sokoro",
+   "machine": "CI-100203-001-4600-7",
+   "written": "Madina 46 00 (Sokoro)"
+  },
+  {
+   "text": "Madina 5800",
+   "unit": "280201",
+   "index": "002",
+   "area": "Madina",
+   "commune": "Korhogo",
+   "machine": "CI-280201-002-5800-7",
+   "written": "Madina 58 00 (Korhogo)"
+  },
+  {
+   "text": "Belleville 31200",
+   "unit": "010111",
+   "index": "001",
+   "area": "Belleville",
+   "commune": "Abobo",
+   "machine": "CI-010111-001-31200-2",
+   "written": "Belleville 3 12 00 (Abobo)"
+  },
+  {
+   "text": "Belleville 3 85 00",
+   "unit": "010111",
+   "index": "028",
+   "area": "Belleville",
+   "commune": "Abobo",
+   "machine": "CI-010111-028-38500-1",
+   "written": "Belleville 3 85 00 (Abobo)"
+  },
+  {
+   "text": "Belleville 45000",
+   "unit": "020201",
+   "index": "041",
+   "area": "Belleville",
+   "commune": "Yamoussoukro",
+   "machine": "CI-020201-041-45000-0",
+   "written": "Belleville 4 50 00 (Yamoussoukro)"
+  }
+ ],
+ "notIssued": [
+  "Madina 9000",
+  "Belleville 4817",
+  "Belleville 12000",
+  "Sicogi 4817",
+  "Koffikro 11200"
+ ],
+ "plateNames": [
+  {
+   "official": "Koumassi remblais",
+   "plate": "Remblais",
+   "rule": "distinctive",
+   "text": "Koumassi remblais 1500",
+   "machine": "CI-010115-005-1500-2",
+   "remembered": "Remblais · 15 00"
+  },
+  {
+   "official": "Deux Plateaux",
+   "plate": "II Plateaux",
+   "rule": "known",
+   "text": "Deux Plateaux 2000",
+   "machine": "CI-010114-079-2000-7",
+   "remembered": "II Plateaux · 20 00"
+  },
+  {
+   "official": "Gonzagueville",
+   "plate": "Gonzague",
+   "rule": "known",
+   "text": "Gonzagueville 12000",
+   "machine": "CI-010118-019-12000-0",
+   "remembered": "Gonzague · 1 20 00"
+  }
+ ],
+ "plateCollision": [
+  {
+   "text": "Sicogi 1 05 00",
+   "unit": "010114",
+   "index": "019",
+   "area": "Sicogi",
+   "official": "Cité Sicogi",
+   "commune": "Cocody",
+   "machine": "CI-010114-019-10500-4"
+  },
+  {
+   "text": "Sicogi 1 88 17",
+   "unit": "010115",
+   "index": "008",
+   "area": "Sicogi",
+   "official": "Koumassi Sicogi",
+   "commune": "Koumassi",
+   "machine": "CI-010115-008-18817-7"
+  }
+ ],
+ "aliasNotIssued": [
+  "Cité Sicogi 18817"
+ ],
+ "numberInName": [
+  {
+   "text": "Koffikro 1 12 00",
+   "area": "Koffikro 1",
+   "machine": "CI-180103-015-1200-6"
+  },
+  {
+   "text": "Koffikro 1 · 12 00",
+   "area": "Koffikro 1",
+   "machine": "CI-180103-015-1200-6"
+  },
+  {
+   "text": "Zone 4 1000",
+   "area": "Zone 4",
+   "machine": "CI-010117-010-1000-0"
+  }
+ ],
+ "plateLimit": {
+  "ok": [
+   "II Plateaux",
+   "Riviéra 2",
+   "Lém-Ferreira",
+   "N'Guessankro",
+   "Zone 4C"
+  ],
+  "over": [
+   "Koumassi remblais",
+   "Cité Angré Star 10",
+   "Abri 2000 Émeraude 4",
+   "Kouakoudougou"
+  ]
+ },
+ "spoken": [
+  {
+   "number": 1817,
+   "pairs": "18 17",
+   "fr": "dix-huit dix-sept"
+  },
+  {
+   "number": 4817,
+   "pairs": "48 17",
+   "fr": "quarante-huit dix-sept"
+  },
+  {
+   "number": 1071,
+   "pairs": "10 71",
+   "fr": "dix soixante-et-onze"
+  },
+  {
+   "number": 48217,
+   "pairs": "4 82 17",
+   "fr": "quatre quatre-vingt-deux dix-sept"
+  },
+  {
+   "number": 9080,
+   "pairs": "90 80",
+   "fr": "quatre-vingt-dix quatre-vingts"
+  },
+  {
+   "number": 1007,
+   "pairs": "10 07",
+   "fr": "dix zéro sept"
+  }
+ ]
+}

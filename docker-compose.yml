@@ -1,0 +1,25 @@
+# N-Ways Addressing for Côte d'Ivoire: the registry server and its JSON API.
+#
+#   docker compose up -d        # first start imports the registry, then serves on :8080
+#
+# Read-only by default. Issuing new codes is for the one issuer the State or
+# N-WAYS LIMITED designates (server/README.md, "One issuer"): only that
+# deployment sets ISSUE_KEYS.
+services:
+  addresses:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    image: nways-addresses-ci
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      ISSUE_KEYS: "${ISSUE_KEYS:-}"
+      ISSUE_PER_DAY: "${ISSUE_PER_DAY:-5}"
+      CORS_ORIGINS: "${CORS_ORIGINS:-*}"
+    volumes:
+      - addresses-data:/data
+    restart: unless-stopped
+
+volumes:
+  addresses-data:

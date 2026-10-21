@@ -1,0 +1,25 @@
+% The Plus Code cell 6CQR926H (about 277 m square) in Bonoumin, its 20 x 20 cells of 0.000125 degrees, and the entrances inside it (data: spot.dat).
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\definecolor{ink}{HTML}{9A4A00}\definecolor{orange}{HTML}{F77F00}\definecolor{green}{HTML}{009E60}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=10cm,height=10cm,axis equal image,xmin=0,xmax=277.1,ymin=0,ymax=276.4,
+  xlabel={metres east of 6CQR926H's south-west corner},ylabel={metres north},
+  tick label style={font=\small},label style={font=\small},
+  xtick={0,55.42,110.84,166.26,221.68,277.1},xticklabels={0,,,,,277},ytick={0,55.28,110.56,165.84,221.12,276.4},yticklabels={0,,,,,276}]
+\foreach \i in {1,...,19} {
+  \edef\tmp{\noexpand\draw[black!12,line width=0.2pt] (axis cs:\i*13.855,0) -- (axis cs:\i*13.855,276.4);
+            \noexpand\draw[black!12,line width=0.2pt] (axis cs:0,\i*13.82) -- (axis cs:277.1,\i*13.82);}\tmp }
+% the cell 6CQR926H+7Q: row 5 (7), column 15 (Q) of the 20 x 20 grid, with its 4 x 5 grid
+\fill[orange!25] (axis cs:15*13.855,5*13.82) rectangle (axis cs:16*13.855,6*13.82);
+\foreach \j in {1,2,3,4} { \edef\tmp{\noexpand\draw[orange,line width=0.2pt] (axis cs:15*13.855+\j*3.464,5*13.82) -- (axis cs:15*13.855+\j*3.464,6*13.82);}\tmp }
+\foreach \j in {1,2,3,4} { \edef\tmp{\noexpand\draw[orange,line width=0.2pt] (axis cs:15*13.855,5*13.82+\j*2.764) -- (axis cs:16*13.855,5*13.82+\j*2.764);}\tmp }
+\addplot[only marks,mark=*,mark size=1.3pt,green!60!black] table[x=x,y=y] {spot.dat};
+\draw[ink,thick] (axis cs:15*13.855,5*13.82) rectangle (axis cs:16*13.855,6*13.82);
+\node[font=\small,fill=white,inner sep=1.5pt,anchor=south east] at (axis cs:14.5*13.855,7*13.82) {6CQR926H+7Q7};
+\draw[ink,->] (axis cs:14.3*13.855,7*13.82) -- (axis cs:15.4*13.855,6.05*13.82);
+\end{axis}
+\end{tikzpicture}
+\end{document}

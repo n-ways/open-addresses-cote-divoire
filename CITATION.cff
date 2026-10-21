@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use these addresses, the engine or the paper, please cite them as below."
+title: "N-Ways Addressing for Côte d'Ivoire"
+abstract: "An address for every compound of Côte d'Ivoire: the name of a quartier, village or cité people already use and a number of four or five digits read in pairs, unique in the whole country on its own; the official address first wherever the State has given one. The repository holds the model, the reference engine, the registry of 7,956,622 issued codes and a server that publishes them."
+type: dataset
+authors:
+  - name: "The N-Ways Addressing Group"
+    address: "N-WAYS LIMITED"
+    email: "hello@nways.ng"
+    website: "https://nways.ng"
+date-released: 2026-10-20
+license: ODbL-1.0
+repository-code: "https://github.com/n-ways/open-addresses-cote-divoire"
+url: "https://github.com/n-ways/open-addresses-cote-divoire"
+keywords:
+  - addressing
+  - street addressing
+  - Côte d'Ivoire
+  - geocoding
+  - Open Location Code
+  - Hilbert curve
+  - Damm check digit
+preferred-citation:
+  type: report
+  title: "A code for every compound: the N-Ways addressing model for Côte d'Ivoire"
+  authors:
+    - name: "The N-Ways Addressing Group"
+      address: "N-WAYS LIMITED"
+      email: "hello@nways.ng"
+      website: "https://nways.ng"
+  institution:
+    name: "N-WAYS LIMITED"
+  year: 2026
+  month: 10
+  license: CC-BY-4.0
+  url: "https://github.com/n-ways/open-addresses-cote-divoire/blob/main/docs/paper.md"
+  languages:
+    - en
+    - fr

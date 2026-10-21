@@ -1,0 +1,19 @@
+% French labels; written by tools/paper-figures.py from sources.tex.
+% Building footprints per region by source (data: sources-fr.dat, from model/stats/building-stats.json).
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{pgfplots}\usepgfplotslibrary{}\usepackage{pgfplotstable}\pgfplotsset{compat=1.18,/pgf/number format/.cd,use comma,1000 sep={\,}}
+\definecolor{ink}{HTML}{9A4A00}\definecolor{orange}{HTML}{F77F00}\definecolor{green}{HTML}{009E60}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[xbar stacked,width=12cm,height=17cm,bar width=6.5pt,xmin=0,
+  xlabel={empreintes (milliers)},ytick={0,...,32},yticklabels from table={sources-fr.dat}{region},
+  y tick label style={font=\scriptsize},x tick label style={font=\small},label style={font=\small},
+  legend style={at={(0.97,0.03)},anchor=south east,font=\small,draw=none},legend cell align=left,
+  axis lines*=left,xmajorgrids,grid style={black!10},ytick style={draw=none}]
+\addplot[fill=green,draw=none] table[y expr=\coordindex,x=osm] {sources-fr.dat};
+\addplot[fill=orange!80,draw=none] table[y expr=\coordindex,x=ml] {sources-fr.dat};
+\legend{OpenStreetMap,Google Open Buildings et Microsoft}
+\end{axis}
+\end{tikzpicture}
+\end{document}

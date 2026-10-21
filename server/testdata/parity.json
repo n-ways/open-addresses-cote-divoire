@@ -1,0 +1,2837 @@
+{
+ "about": "Numbers and forms the N-Ways issuer (internal/addressing/ci, Register.Insert and AddressForms) gives to new compounds of the fixture registry, one after another, each as another door ('of') of the first code of its area. The server must give exactly these.",
+ "areas": [
+  {
+   "zone": "080104-003",
+   "of": "CI-080104-003-1000-3",
+   "results": [
+    {
+     "lat": 9.5383053,
+     "lng": -3.4790474,
+     "number": 1015,
+     "machine": "CI-080104-003-1015-1",
+     "home": "Mampère 1 1015",
+     "remembered": "Mampère 1 · 10 15",
+     "written": "Mampère 1 10 15 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5392534,
+     "lng": -3.4789178,
+     "number": 1066,
+     "machine": "CI-080104-003-1066-8",
+     "home": "Mampère 1 1066",
+     "remembered": "Mampère 1 · 10 66",
+     "written": "Mampère 1 10 66 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386752,
+     "lng": -3.4789463,
+     "number": 1013,
+     "machine": "CI-080104-003-1013-8",
+     "home": "Mampère 1 1013",
+     "remembered": "Mampère 1 · 10 13",
+     "written": "Mampère 1 10 13 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390834,
+     "lng": -3.4788029,
+     "number": 1051,
+     "machine": "CI-080104-003-1051-2",
+     "home": "Mampère 1 1051",
+     "remembered": "Mampère 1 · 10 51",
+     "written": "Mampère 1 10 51 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390725,
+     "lng": -3.4789436,
+     "number": 1067,
+     "machine": "CI-080104-003-1067-6",
+     "home": "Mampère 1 1067",
+     "remembered": "Mampère 1 · 10 67",
+     "written": "Mampère 1 10 67 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538923,
+     "lng": -3.4788041,
+     "number": 1049,
+     "machine": "CI-080104-003-1049-7",
+     "home": "Mampère 1 1049",
+     "remembered": "Mampère 1 · 10 49",
+     "written": "Mampère 1 10 49 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538556,
+     "lng": -3.479156,
+     "number": 1016,
+     "machine": "CI-080104-003-1016-7",
+     "home": "Mampère 1 1016",
+     "remembered": "Mampère 1 · 10 16",
+     "written": "Mampère 1 10 16 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538857,
+     "lng": -3.4787928,
+     "number": 1068,
+     "machine": "CI-080104-003-1068-4",
+     "home": "Mampère 1 1068",
+     "remembered": "Mampère 1 · 10 68",
+     "written": "Mampère 1 10 68 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387356,
+     "lng": -3.47882,
+     "number": 1058,
+     "machine": "CI-080104-003-1058-5",
+     "home": "Mampère 1 1058",
+     "remembered": "Mampère 1 · 10 58",
+     "written": "Mampère 1 10 58 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5392403,
+     "lng": -3.4790901,
+     "number": 1032,
+     "machine": "CI-080104-003-1032-8",
+     "home": "Mampère 1 1032",
+     "remembered": "Mampère 1 · 10 32",
+     "written": "Mampère 1 10 32 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387706,
+     "lng": -3.4786842,
+     "number": 1063,
+     "machine": "CI-080104-003-1063-7",
+     "home": "Mampère 1 1063",
+     "remembered": "Mampère 1 · 10 63",
+     "written": "Mampère 1 10 63 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5392914,
+     "lng": -3.4788865,
+     "number": 1052,
+     "machine": "CI-080104-003-1052-0",
+     "home": "Mampère 1 1052",
+     "remembered": "Mampère 1 · 10 52",
+     "written": "Mampère 1 10 52 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385594,
+     "lng": -3.478639,
+     "number": 1053,
+     "machine": "CI-080104-003-1053-6",
+     "home": "Mampère 1 1053",
+     "remembered": "Mampère 1 · 10 53",
+     "written": "Mampère 1 10 53 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387474,
+     "lng": -3.4785677,
+     "number": 1069,
+     "machine": "CI-080104-003-1069-2",
+     "home": "Mampère 1 1069",
+     "remembered": "Mampère 1 · 10 69",
+     "written": "Mampère 1 10 69 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5383154,
+     "lng": -3.4789025,
+     "number": 1014,
+     "machine": "CI-080104-003-1014-6",
+     "home": "Mampère 1 1014",
+     "remembered": "Mampère 1 · 10 14",
+     "written": "Mampère 1 10 14 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386995,
+     "lng": -3.4791786,
+     "number": 1017,
+     "machine": "CI-080104-003-1017-2",
+     "home": "Mampère 1 1017",
+     "remembered": "Mampère 1 · 10 17",
+     "written": "Mampère 1 10 17 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387781,
+     "lng": -3.4789114,
+     "number": 1070,
+     "machine": "CI-080104-003-1070-7",
+     "home": "Mampère 1 1070",
+     "remembered": "Mampère 1 · 10 70",
+     "written": "Mampère 1 10 70 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5393046,
+     "lng": -3.478916,
+     "number": 1071,
+     "machine": "CI-080104-003-1071-0",
+     "home": "Mampère 1 1071",
+     "remembered": "Mampère 1 · 10 71",
+     "written": "Mampère 1 10 71 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5392408,
+     "lng": -3.4787755,
+     "number": 1060,
+     "machine": "CI-080104-003-1060-0",
+     "home": "Mampère 1 1060",
+     "remembered": "Mampère 1 · 10 60",
+     "written": "Mampère 1 10 60 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386475,
+     "lng": -3.4786428,
+     "number": 1072,
+     "machine": "CI-080104-003-1072-9",
+     "home": "Mampère 1 1072",
+     "remembered": "Mampère 1 · 10 72",
+     "written": "Mampère 1 10 72 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388262,
+     "lng": -3.4788732,
+     "number": 1073,
+     "machine": "CI-080104-003-1073-2",
+     "home": "Mampère 1 1073",
+     "remembered": "Mampère 1 · 10 73",
+     "written": "Mampère 1 10 73 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389344,
+     "lng": -3.4789725,
+     "number": 1074,
+     "machine": "CI-080104-003-1074-1",
+     "home": "Mampère 1 1074",
+     "remembered": "Mampère 1 · 10 74",
+     "written": "Mampère 1 10 74 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386262,
+     "lng": -3.4790906,
+     "number": 1003,
+     "machine": "CI-080104-003-1003-4",
+     "home": "Mampère 1 1003",
+     "remembered": "Mampère 1 · 10 03",
+     "written": "Mampère 1 10 03 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387044,
+     "lng": -3.4792592,
+     "number": 1008,
+     "machine": "CI-080104-003-1008-8",
+     "home": "Mampère 1 1008",
+     "remembered": "Mampère 1 · 10 08",
+     "written": "Mampère 1 10 08 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386951,
+     "lng": -3.4793687,
+     "number": 1004,
+     "machine": "CI-080104-003-1004-2",
+     "home": "Mampère 1 1004",
+     "remembered": "Mampère 1 · 10 04",
+     "written": "Mampère 1 10 04 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385282,
+     "lng": -3.4793257,
+     "number": 1075,
+     "machine": "CI-080104-003-1075-5",
+     "home": "Mampère 1 1075",
+     "remembered": "Mampère 1 · 10 75",
+     "written": "Mampère 1 10 75 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390394,
+     "lng": -3.479395,
+     "number": 1001,
+     "machine": "CI-080104-003-1001-6",
+     "home": "Mampère 1 1001",
+     "remembered": "Mampère 1 · 10 01",
+     "written": "Mampère 1 10 01 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385783,
+     "lng": -3.4791776,
+     "number": 1011,
+     "machine": "CI-080104-003-1011-4",
+     "home": "Mampère 1 1011",
+     "remembered": "Mampère 1 · 10 11",
+     "written": "Mampère 1 10 11 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388161,
+     "lng": -3.4793204,
+     "number": 1025,
+     "machine": "CI-080104-003-1025-2",
+     "home": "Mampère 1 1025",
+     "remembered": "Mampère 1 · 10 25",
+     "written": "Mampère 1 10 25 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388703,
+     "lng": -3.4793894,
+     "number": 1002,
+     "machine": "CI-080104-003-1002-7",
+     "home": "Mampère 1 1002",
+     "remembered": "Mampère 1 · 10 02",
+     "written": "Mampère 1 10 02 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391308,
+     "lng": -3.4789567,
+     "number": 1050,
+     "machine": "CI-080104-003-1050-4",
+     "home": "Mampère 1 1050",
+     "remembered": "Mampère 1 · 10 50",
+     "written": "Mampère 1 10 50 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387134,
+     "lng": -3.4795348,
+     "number": 1076,
+     "machine": "CI-080104-003-1076-4",
+     "home": "Mampère 1 1076",
+     "remembered": "Mampère 1 · 10 76",
+     "written": "Mampère 1 10 76 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538645,
+     "lng": -3.4790097,
+     "number": 1009,
+     "machine": "CI-080104-003-1009-1",
+     "home": "Mampère 1 1009",
+     "remembered": "Mampère 1 · 10 09",
+     "written": "Mampère 1 10 09 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386427,
+     "lng": -3.4794634,
+     "number": 1077,
+     "machine": "CI-080104-003-1077-8",
+     "home": "Mampère 1 1077",
+     "remembered": "Mampère 1 · 10 77",
+     "written": "Mampère 1 10 77 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.539223,
+     "lng": -3.4787953,
+     "number": 1064,
+     "machine": "CI-080104-003-1064-5",
+     "home": "Mampère 1 1064",
+     "remembered": "Mampère 1 · 10 64",
+     "written": "Mampère 1 10 64 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386897,
+     "lng": -3.4788704,
+     "number": 1055,
+     "machine": "CI-080104-003-1055-7",
+     "home": "Mampère 1 1055",
+     "remembered": "Mampère 1 · 10 55",
+     "written": "Mampère 1 10 55 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384105,
+     "lng": -3.4793685,
+     "number": 1078,
+     "machine": "CI-080104-003-1078-6",
+     "home": "Mampère 1 1078",
+     "remembered": "Mampère 1 · 10 78",
+     "written": "Mampère 1 10 78 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384175,
+     "lng": -3.4789697,
+     "number": 1079,
+     "machine": "CI-080104-003-1079-3",
+     "home": "Mampère 1 1079",
+     "remembered": "Mampère 1 · 10 79",
+     "written": "Mampère 1 10 79 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391016,
+     "lng": -3.478831,
+     "number": 1065,
+     "machine": "CI-080104-003-1065-9",
+     "home": "Mampère 1 1065",
+     "remembered": "Mampère 1 · 10 65",
+     "written": "Mampère 1 10 65 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387277,
+     "lng": -3.4790105,
+     "number": 1010,
+     "machine": "CI-080104-003-1010-9",
+     "home": "Mampère 1 1010",
+     "remembered": "Mampère 1 · 10 10",
+     "written": "Mampère 1 10 10 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5392179,
+     "lng": -3.479103,
+     "number": 1028,
+     "machine": "CI-080104-003-1028-3",
+     "home": "Mampère 1 1028",
+     "remembered": "Mampère 1 · 10 28",
+     "written": "Mampère 1 10 28 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5383834,
+     "lng": -3.479228,
+     "number": 1045,
+     "machine": "CI-080104-003-1045-6",
+     "home": "Mampère 1 1045",
+     "remembered": "Mampère 1 · 10 45",
+     "written": "Mampère 1 10 45 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.53917,
+     "lng": -3.4789664,
+     "number": 1057,
+     "machine": "CI-080104-003-1057-3",
+     "home": "Mampère 1 1057",
+     "remembered": "Mampère 1 · 10 57",
+     "written": "Mampère 1 10 57 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391447,
+     "lng": -3.4789605,
+     "number": 1056,
+     "machine": "CI-080104-003-1056-1",
+     "home": "Mampère 1 1056",
+     "remembered": "Mampère 1 · 10 56",
+     "written": "Mampère 1 10 56 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5392042,
+     "lng": -3.4790783,
+     "number": 1041,
+     "machine": "CI-080104-003-1041-9",
+     "home": "Mampère 1 1041",
+     "remembered": "Mampère 1 · 10 41",
+     "written": "Mampère 1 10 41 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.53885,
+     "lng": -3.4795023,
+     "number": 1039,
+     "machine": "CI-080104-003-1039-0",
+     "home": "Mampère 1 1039",
+     "remembered": "Mampère 1 · 10 39",
+     "written": "Mampère 1 10 39 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388695,
+     "lng": -3.478876,
+     "number": 1080,
+     "machine": "CI-080104-003-1080-1",
+     "home": "Mampère 1 1080",
+     "remembered": "Mampère 1 · 10 80",
+     "written": "Mampère 1 10 80 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390527,
+     "lng": -3.4793338,
+     "number": 1026,
+     "machine": "CI-080104-003-1026-0",
+     "home": "Mampère 1 1026",
+     "remembered": "Mampère 1 · 10 26",
+     "written": "Mampère 1 10 26 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388405,
+     "lng": -3.4786191,
+     "number": 1081,
+     "machine": "CI-080104-003-1081-7",
+     "home": "Mampère 1 1081",
+     "remembered": "Mampère 1 · 10 81",
+     "written": "Mampère 1 10 81 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384886,
+     "lng": -3.4786137,
+     "number": 1082,
+     "machine": "CI-080104-003-1082-5",
+     "home": "Mampère 1 1082",
+     "remembered": "Mampère 1 · 10 82",
+     "written": "Mampère 1 10 82 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389483,
+     "lng": -3.4794265,
+     "number": 1083,
+     "machine": "CI-080104-003-1083-0",
+     "home": "Mampère 1 1083",
+     "remembered": "Mampère 1 · 10 83",
+     "written": "Mampère 1 10 83 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384698,
+     "lng": -3.4792569,
+     "number": 1059,
+     "machine": "CI-080104-003-1059-9",
+     "home": "Mampère 1 1059",
+     "remembered": "Mampère 1 · 10 59",
+     "written": "Mampère 1 10 59 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384577,
+     "lng": -3.4789318,
+     "number": 1084,
+     "machine": "CI-080104-003-1084-9",
+     "home": "Mampère 1 1084",
+     "remembered": "Mampère 1 · 10 84",
+     "written": "Mampère 1 10 84 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538893,
+     "lng": -3.4787016,
+     "number": 1085,
+     "machine": "CI-080104-003-1085-8",
+     "home": "Mampère 1 1085",
+     "remembered": "Mampère 1 · 10 85",
+     "written": "Mampère 1 10 85 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391585,
+     "lng": -3.4791156,
+     "number": 1027,
+     "machine": "CI-080104-003-1027-1",
+     "home": "Mampère 1 1027",
+     "remembered": "Mampère 1 · 10 27",
+     "written": "Mampère 1 10 27 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384944,
+     "lng": -3.4787717,
+     "number": 1086,
+     "machine": "CI-080104-003-1086-3",
+     "home": "Mampère 1 1086",
+     "remembered": "Mampère 1 · 10 86",
+     "written": "Mampère 1 10 86 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384795,
+     "lng": -3.4794166,
+     "number": 1087,
+     "machine": "CI-080104-003-1087-4",
+     "home": "Mampère 1 1087",
+     "remembered": "Mampère 1 · 10 87",
+     "written": "Mampère 1 10 87 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386786,
+     "lng": -3.4791257,
+     "number": 1088,
+     "machine": "CI-080104-003-1088-2",
+     "home": "Mampère 1 1088",
+     "remembered": "Mampère 1 · 10 88",
+     "written": "Mampère 1 10 88 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389074,
+     "lng": -3.4790062,
+     "number": 1089,
+     "machine": "CI-080104-003-1089-6",
+     "home": "Mampère 1 1089",
+     "remembered": "Mampère 1 · 10 89",
+     "written": "Mampère 1 10 89 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391601,
+     "lng": -3.4793415,
+     "number": 1090,
+     "machine": "CI-080104-003-1090-6",
+     "home": "Mampère 1 1090",
+     "remembered": "Mampère 1 · 10 90",
+     "written": "Mampère 1 10 90 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389062,
+     "lng": -3.4786504,
+     "number": 1091,
+     "machine": "CI-080104-003-1091-1",
+     "home": "Mampère 1 1091",
+     "remembered": "Mampère 1 · 10 91",
+     "written": "Mampère 1 10 91 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384292,
+     "lng": -3.4793256,
+     "number": 1092,
+     "machine": "CI-080104-003-1092-2",
+     "home": "Mampère 1 1092",
+     "remembered": "Mampère 1 · 10 92",
+     "written": "Mampère 1 10 92 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390552,
+     "lng": -3.4786655,
+     "number": 1093,
+     "machine": "CI-080104-003-1093-3",
+     "home": "Mampère 1 1093",
+     "remembered": "Mampère 1 · 10 93",
+     "written": "Mampère 1 10 93 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385803,
+     "lng": -3.4786849,
+     "number": 1061,
+     "machine": "CI-080104-003-1061-3",
+     "home": "Mampère 1 1061",
+     "remembered": "Mampère 1 · 10 61",
+     "written": "Mampère 1 10 61 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538613,
+     "lng": -3.4789054,
+     "number": 1046,
+     "machine": "CI-080104-003-1046-2",
+     "home": "Mampère 1 1046",
+     "remembered": "Mampère 1 · 10 46",
+     "written": "Mampère 1 10 46 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390825,
+     "lng": -3.4792263,
+     "number": 1094,
+     "machine": "CI-080104-003-1094-0",
+     "home": "Mampère 1 1094",
+     "remembered": "Mampère 1 · 10 94",
+     "written": "Mampère 1 10 94 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384252,
+     "lng": -3.4787786,
+     "number": 1095,
+     "machine": "CI-080104-003-1095-4",
+     "home": "Mampère 1 1095",
+     "remembered": "Mampère 1 · 10 95",
+     "written": "Mampère 1 10 95 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389005,
+     "lng": -3.4785145,
+     "number": 1096,
+     "machine": "CI-080104-003-1096-5",
+     "home": "Mampère 1 1096",
+     "remembered": "Mampère 1 · 10 96",
+     "written": "Mampère 1 10 96 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385636,
+     "lng": -3.4791622,
+     "number": 1097,
+     "machine": "CI-080104-003-1097-9",
+     "home": "Mampère 1 1097",
+     "remembered": "Mampère 1 · 10 97",
+     "written": "Mampère 1 10 97 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391145,
+     "lng": -3.4789304,
+     "number": 1098,
+     "machine": "CI-080104-003-1098-7",
+     "home": "Mampère 1 1098",
+     "remembered": "Mampère 1 · 10 98",
+     "written": "Mampère 1 10 98 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.538421,
+     "lng": -3.4789484,
+     "number": 1099,
+     "machine": "CI-080104-003-1099-8",
+     "home": "Mampère 1 1099",
+     "remembered": "Mampère 1 · 10 99",
+     "written": "Mampère 1 10 99 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388558,
+     "lng": -3.4793439,
+     "number": 1100,
+     "machine": "CI-080104-003-1100-8",
+     "home": "Mampère 1 1100",
+     "remembered": "Mampère 1 · 11 00",
+     "written": "Mampère 1 11 00 (Parc National de Bona)",
+     "newBlock": [
+      1100,
+      1299
+     ]
+    },
+    {
+     "lat": 9.5386646,
+     "lng": -3.478694,
+     "number": 1062,
+     "machine": "CI-080104-003-1062-1",
+     "home": "Mampère 1 1062",
+     "remembered": "Mampère 1 · 10 62",
+     "written": "Mampère 1 10 62 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5383266,
+     "lng": -3.4788755,
+     "number": 1166,
+     "machine": "CI-080104-003-1166-5",
+     "home": "Mampère 1 1166",
+     "remembered": "Mampère 1 · 11 66",
+     "written": "Mampère 1 11 66 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390284,
+     "lng": -3.4795004,
+     "number": 1233,
+     "machine": "CI-080104-003-1233-9",
+     "home": "Mampère 1 1233",
+     "remembered": "Mampère 1 · 12 33",
+     "written": "Mampère 1 12 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389117,
+     "lng": -3.4788607,
+     "number": 1199,
+     "machine": "CI-080104-003-1199-6",
+     "home": "Mampère 1 1199",
+     "remembered": "Mampère 1 · 11 99",
+     "written": "Mampère 1 11 99 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385548,
+     "lng": -3.4793534,
+     "number": 1133,
+     "machine": "CI-080104-003-1133-6",
+     "home": "Mampère 1 1133",
+     "remembered": "Mampère 1 · 11 33",
+     "written": "Mampère 1 11 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387162,
+     "lng": -3.4790149,
+     "number": 1044,
+     "machine": "CI-080104-003-1044-3",
+     "home": "Mampère 1 1044",
+     "remembered": "Mampère 1 · 10 44",
+     "written": "Mampère 1 10 44 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389672,
+     "lng": -3.4788553,
+     "number": 1216,
+     "machine": "CI-080104-003-1216-1",
+     "home": "Mampère 1 1216",
+     "remembered": "Mampère 1 · 12 16",
+     "written": "Mampère 1 12 16 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384284,
+     "lng": -3.4792476,
+     "number": 1047,
+     "machine": "CI-080104-003-1047-0",
+     "home": "Mampère 1 1047",
+     "remembered": "Mampère 1 · 10 47",
+     "written": "Mampère 1 10 47 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5391122,
+     "lng": -3.4786874,
+     "number": 1224,
+     "machine": "CI-080104-003-1224-5",
+     "home": "Mampère 1 1224",
+     "remembered": "Mampère 1 · 12 24",
+     "written": "Mampère 1 12 24 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386835,
+     "lng": -3.478873,
+     "number": 1182,
+     "machine": "CI-080104-003-1182-6",
+     "home": "Mampère 1 1182",
+     "remembered": "Mampère 1 · 11 82",
+     "written": "Mampère 1 11 82 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388697,
+     "lng": -3.4785287,
+     "number": 1228,
+     "machine": "CI-080104-003-1228-4",
+     "home": "Mampère 1 1228",
+     "remembered": "Mampère 1 · 12 28",
+     "written": "Mampère 1 12 28 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387687,
+     "lng": -3.4785056,
+     "number": 1226,
+     "machine": "CI-080104-003-1226-8",
+     "home": "Mampère 1 1226",
+     "remembered": "Mampère 1 · 12 26",
+     "written": "Mampère 1 12 26 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389248,
+     "lng": -3.4792067,
+     "number": 1116,
+     "machine": "CI-080104-003-1116-8",
+     "home": "Mampère 1 1116",
+     "remembered": "Mampère 1 · 11 16",
+     "written": "Mampère 1 11 16 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5382982,
+     "lng": -3.4791216,
+     "number": 1124,
+     "machine": "CI-080104-003-1124-4",
+     "home": "Mampère 1 1124",
+     "remembered": "Mampère 1 · 11 24",
+     "written": "Mampère 1 11 24 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5383947,
+     "lng": -3.4792662,
+     "number": 1149,
+     "machine": "CI-080104-003-1149-3",
+     "home": "Mampère 1 1149",
+     "remembered": "Mampère 1 · 11 49",
+     "written": "Mampère 1 11 49 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5387329,
+     "lng": -3.4794969,
+     "number": 1043,
+     "machine": "CI-080104-003-1043-5",
+     "home": "Mampère 1 1043",
+     "remembered": "Mampère 1 · 10 43",
+     "written": "Mampère 1 10 43 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385568,
+     "lng": -3.478628,
+     "number": 1157,
+     "machine": "CI-080104-003-1157-5",
+     "home": "Mampère 1 1157",
+     "remembered": "Mampère 1 · 11 57",
+     "written": "Mampère 1 11 57 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5390364,
+     "lng": -3.47896,
+     "number": 1120,
+     "machine": "CI-080104-003-1120-2",
+     "home": "Mampère 1 1120",
+     "remembered": "Mampère 1 · 11 20",
+     "written": "Mampère 1 11 20 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389667,
+     "lng": -3.479042,
+     "number": 1118,
+     "machine": "CI-080104-003-1118-4",
+     "home": "Mampère 1 1118",
+     "remembered": "Mampère 1 · 11 18",
+     "written": "Mampère 1 11 18 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388673,
+     "lng": -3.4791508,
+     "number": 1021,
+     "machine": "CI-080104-003-1021-8",
+     "home": "Mampère 1 1021",
+     "remembered": "Mampère 1 · 10 21",
+     "written": "Mampère 1 10 21 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386983,
+     "lng": -3.4785721,
+     "number": 1230,
+     "machine": "CI-080104-003-1230-5",
+     "home": "Mampère 1 1230",
+     "remembered": "Mampère 1 · 12 30",
+     "written": "Mampère 1 12 30 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384965,
+     "lng": -3.4794198,
+     "number": 1040,
+     "machine": "CI-080104-003-1040-8",
+     "home": "Mampère 1 1040",
+     "remembered": "Mampère 1 · 10 40",
+     "written": "Mampère 1 10 40 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388333,
+     "lng": -3.4790836,
+     "number": 1122,
+     "machine": "CI-080104-003-1122-8",
+     "home": "Mampère 1 1122",
+     "remembered": "Mampère 1 · 11 22",
+     "written": "Mampère 1 11 22 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5388319,
+     "lng": -3.478755,
+     "number": 1190,
+     "machine": "CI-080104-003-1190-1",
+     "home": "Mampère 1 1190",
+     "remembered": "Mampère 1 · 11 90",
+     "written": "Mampère 1 11 90 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5384424,
+     "lng": -3.4793777,
+     "number": 1019,
+     "machine": "CI-080104-003-1019-5",
+     "home": "Mampère 1 1019",
+     "remembered": "Mampère 1 · 10 19",
+     "written": "Mampère 1 10 19 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5385901,
+     "lng": -3.4792621,
+     "number": 1234,
+     "machine": "CI-080104-003-1234-7",
+     "home": "Mampère 1 1234",
+     "remembered": "Mampère 1 · 12 34",
+     "written": "Mampère 1 12 34 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5386606,
+     "lng": -3.4792758,
+     "number": 1235,
+     "machine": "CI-080104-003-1235-2",
+     "home": "Mampère 1 1235",
+     "remembered": "Mampère 1 · 12 35",
+     "written": "Mampère 1 12 35 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5389153,
+     "lng": -3.479163,
+     "number": 1023,
+     "machine": "CI-080104-003-1023-9",
+     "home": "Mampère 1 1023",
+     "remembered": "Mampère 1 · 10 23",
+     "written": "Mampère 1 10 23 (Parc National de Bona)"
+    }
+   ]
+  },
+  {
+   "zone": "080104-004",
+   "of": "CI-080104-004-40200-6",
+   "results": [
+    {
+     "lat": 9.5245763,
+     "lng": -3.4705083,
+     "number": 40266,
+     "machine": "CI-080104-004-40266-4",
+     "home": "Sokoura 40266",
+     "remembered": "Sokoura · 4 02 66",
+     "written": "Sokoura 4 02 66 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.52509,
+     "lng": -3.4705911,
+     "number": 40203,
+     "machine": "CI-080104-004-40203-3",
+     "home": "Sokoura 40203",
+     "remembered": "Sokoura · 4 02 03",
+     "written": "Sokoura 4 02 03 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253694,
+     "lng": -3.4703074,
+     "number": 40205,
+     "machine": "CI-080104-004-40205-4",
+     "home": "Sokoura 40205",
+     "remembered": "Sokoura · 4 02 05",
+     "written": "Sokoura 4 02 05 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247459,
+     "lng": -3.4700856,
+     "number": 40219,
+     "machine": "CI-080104-004-40219-9",
+     "home": "Sokoura 40219",
+     "remembered": "Sokoura · 4 02 19",
+     "written": "Sokoura 4 02 19 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249446,
+     "lng": -3.4706534,
+     "number": 40201,
+     "machine": "CI-080104-004-40201-1",
+     "home": "Sokoura 40201",
+     "remembered": "Sokoura · 4 02 01",
+     "written": "Sokoura 4 02 01 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251518,
+     "lng": -3.4705577,
+     "number": 40267,
+     "machine": "CI-080104-004-40267-8",
+     "home": "Sokoura 40267",
+     "remembered": "Sokoura · 4 02 67",
+     "written": "Sokoura 4 02 67 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247817,
+     "lng": -3.4708765,
+     "number": 40268,
+     "machine": "CI-080104-004-40268-6",
+     "home": "Sokoura 40268",
+     "remembered": "Sokoura · 4 02 68",
+     "written": "Sokoura 4 02 68 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246656,
+     "lng": -3.470447,
+     "number": 40269,
+     "machine": "CI-080104-004-40269-3",
+     "home": "Sokoura 40269",
+     "remembered": "Sokoura · 4 02 69",
+     "written": "Sokoura 4 02 69 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246892,
+     "lng": -3.4704587,
+     "number": 40270,
+     "machine": "CI-080104-004-40270-1",
+     "home": "Sokoura 40270",
+     "remembered": "Sokoura · 4 02 70",
+     "written": "Sokoura 4 02 70 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248406,
+     "lng": -3.4706955,
+     "number": 40235,
+     "machine": "CI-080104-004-40235-2",
+     "home": "Sokoura 40235",
+     "remembered": "Sokoura · 4 02 35",
+     "written": "Sokoura 4 02 35 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.524969,
+     "lng": -3.4710292,
+     "number": 40271,
+     "machine": "CI-080104-004-40271-7",
+     "home": "Sokoura 40271",
+     "remembered": "Sokoura · 4 02 71",
+     "written": "Sokoura 4 02 71 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247004,
+     "lng": -3.4703305,
+     "number": 40221,
+     "machine": "CI-080104-004-40221-3",
+     "home": "Sokoura 40221",
+     "remembered": "Sokoura · 4 02 21",
+     "written": "Sokoura 4 02 21 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245465,
+     "lng": -3.4704913,
+     "number": 40233,
+     "machine": "CI-080104-004-40233-9",
+     "home": "Sokoura 40233",
+     "remembered": "Sokoura · 4 02 33",
+     "written": "Sokoura 4 02 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5244818,
+     "lng": -3.4703428,
+     "number": 40227,
+     "machine": "CI-080104-004-40227-6",
+     "home": "Sokoura 40227",
+     "remembered": "Sokoura · 4 02 27",
+     "written": "Sokoura 4 02 27 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253887,
+     "lng": -3.4703208,
+     "number": 40272,
+     "machine": "CI-080104-004-40272-5",
+     "home": "Sokoura 40272",
+     "remembered": "Sokoura · 4 02 72",
+     "written": "Sokoura 4 02 72 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253918,
+     "lng": -3.4704707,
+     "number": 40273,
+     "machine": "CI-080104-004-40273-0",
+     "home": "Sokoura 40273",
+     "remembered": "Sokoura · 4 02 73",
+     "written": "Sokoura 4 02 73 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253738,
+     "lng": -3.4703278,
+     "number": 40274,
+     "machine": "CI-080104-004-40274-9",
+     "home": "Sokoura 40274",
+     "remembered": "Sokoura · 4 02 74",
+     "written": "Sokoura 4 02 74 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.525277,
+     "lng": -3.4708838,
+     "number": 40275,
+     "machine": "CI-080104-004-40275-8",
+     "home": "Sokoura 40275",
+     "remembered": "Sokoura · 4 02 75",
+     "written": "Sokoura 4 02 75 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5250089,
+     "lng": -3.4709827,
+     "number": 40276,
+     "machine": "CI-080104-004-40276-3",
+     "home": "Sokoura 40276",
+     "remembered": "Sokoura · 4 02 76",
+     "written": "Sokoura 4 02 76 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5252399,
+     "lng": -3.4701504,
+     "number": 40277,
+     "machine": "CI-080104-004-40277-4",
+     "home": "Sokoura 40277",
+     "remembered": "Sokoura · 4 02 77",
+     "written": "Sokoura 4 02 77 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245676,
+     "lng": -3.4702822,
+     "number": 40278,
+     "machine": "CI-080104-004-40278-2",
+     "home": "Sokoura 40278",
+     "remembered": "Sokoura · 4 02 78",
+     "written": "Sokoura 4 02 78 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246772,
+     "lng": -3.4705358,
+     "number": 40279,
+     "machine": "CI-080104-004-40279-6",
+     "home": "Sokoura 40279",
+     "remembered": "Sokoura · 4 02 79",
+     "written": "Sokoura 4 02 79 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5254206,
+     "lng": -3.4702925,
+     "number": 40209,
+     "machine": "CI-080104-004-40209-8",
+     "home": "Sokoura 40209",
+     "remembered": "Sokoura · 4 02 09",
+     "written": "Sokoura 4 02 09 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246839,
+     "lng": -3.4704788,
+     "number": 40280,
+     "machine": "CI-080104-004-40280-3",
+     "home": "Sokoura 40280",
+     "remembered": "Sokoura · 4 02 80",
+     "written": "Sokoura 4 02 80 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.524899,
+     "lng": -3.470996,
+     "number": 40281,
+     "machine": "CI-080104-004-40281-6",
+     "home": "Sokoura 40281",
+     "remembered": "Sokoura · 4 02 81",
+     "written": "Sokoura 4 02 81 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5250754,
+     "lng": -3.4708179,
+     "number": 40282,
+     "machine": "CI-080104-004-40282-7",
+     "home": "Sokoura 40282",
+     "remembered": "Sokoura · 4 02 82",
+     "written": "Sokoura 4 02 82 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253462,
+     "lng": -3.4705144,
+     "number": 40283,
+     "machine": "CI-080104-004-40283-4",
+     "home": "Sokoura 40283",
+     "remembered": "Sokoura · 4 02 83",
+     "written": "Sokoura 4 02 83 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249414,
+     "lng": -3.4708425,
+     "number": 40251,
+     "machine": "CI-080104-004-40251-9",
+     "home": "Sokoura 40251",
+     "remembered": "Sokoura · 4 02 51",
+     "written": "Sokoura 4 02 51 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249514,
+     "lng": -3.4706065,
+     "number": 40284,
+     "machine": "CI-080104-004-40284-2",
+     "home": "Sokoura 40284",
+     "remembered": "Sokoura · 4 02 84",
+     "written": "Sokoura 4 02 84 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253245,
+     "lng": -3.4701185,
+     "number": 40285,
+     "machine": "CI-080104-004-40285-0",
+     "home": "Sokoura 40285",
+     "remembered": "Sokoura · 4 02 85",
+     "written": "Sokoura 4 02 85 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251093,
+     "lng": -3.4707537,
+     "number": 40286,
+     "machine": "CI-080104-004-40286-9",
+     "home": "Sokoura 40286",
+     "remembered": "Sokoura · 4 02 86",
+     "written": "Sokoura 4 02 86 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5244904,
+     "lng": -3.4702949,
+     "number": 40287,
+     "machine": "CI-080104-004-40287-5",
+     "home": "Sokoura 40287",
+     "remembered": "Sokoura · 4 02 87",
+     "written": "Sokoura 4 02 87 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251145,
+     "lng": -3.4706179,
+     "number": 40288,
+     "machine": "CI-080104-004-40288-8",
+     "home": "Sokoura 40288",
+     "remembered": "Sokoura · 4 02 88",
+     "written": "Sokoura 4 02 88 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246198,
+     "lng": -3.4702054,
+     "number": 40289,
+     "machine": "CI-080104-004-40289-1",
+     "home": "Sokoura 40289",
+     "remembered": "Sokoura · 4 02 89",
+     "written": "Sokoura 4 02 89 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245956,
+     "lng": -3.4702517,
+     "number": 40253,
+     "machine": "CI-080104-004-40253-5",
+     "home": "Sokoura 40253",
+     "remembered": "Sokoura · 4 02 53",
+     "written": "Sokoura 4 02 53 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249889,
+     "lng": -3.4706602,
+     "number": 40290,
+     "machine": "CI-080104-004-40290-2",
+     "home": "Sokoura 40290",
+     "remembered": "Sokoura · 4 02 90",
+     "written": "Sokoura 4 02 90 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246842,
+     "lng": -3.4707373,
+     "number": 40291,
+     "machine": "CI-080104-004-40291-5",
+     "home": "Sokoura 40291",
+     "remembered": "Sokoura · 4 02 91",
+     "written": "Sokoura 4 02 91 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5250836,
+     "lng": -3.4707899,
+     "number": 40292,
+     "machine": "CI-080104-004-40292-8",
+     "home": "Sokoura 40292",
+     "remembered": "Sokoura · 4 02 92",
+     "written": "Sokoura 4 02 92 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251746,
+     "lng": -3.4701509,
+     "number": 40241,
+     "machine": "CI-080104-004-40241-4",
+     "home": "Sokoura 40241",
+     "remembered": "Sokoura · 4 02 41",
+     "written": "Sokoura 4 02 41 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246891,
+     "lng": -3.47076,
+     "number": 40293,
+     "machine": "CI-080104-004-40293-1",
+     "home": "Sokoura 40293",
+     "remembered": "Sokoura · 4 02 93",
+     "written": "Sokoura 4 02 93 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249972,
+     "lng": -3.4707255,
+     "number": 40243,
+     "machine": "CI-080104-004-40243-8",
+     "home": "Sokoura 40243",
+     "remembered": "Sokoura · 4 02 43",
+     "written": "Sokoura 4 02 43 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5252326,
+     "lng": -3.4709346,
+     "number": 40294,
+     "machine": "CI-080104-004-40294-4",
+     "home": "Sokoura 40294",
+     "remembered": "Sokoura · 4 02 94",
+     "written": "Sokoura 4 02 94 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246654,
+     "lng": -3.4704685,
+     "number": 40295,
+     "machine": "CI-080104-004-40295-3",
+     "home": "Sokoura 40295",
+     "remembered": "Sokoura · 4 02 95",
+     "written": "Sokoura 4 02 95 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5252053,
+     "lng": -3.4701857,
+     "number": 40259,
+     "machine": "CI-080104-004-40259-7",
+     "home": "Sokoura 40259",
+     "remembered": "Sokoura · 4 02 59",
+     "written": "Sokoura 4 02 59 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253553,
+     "lng": -3.4703247,
+     "number": 40296,
+     "machine": "CI-080104-004-40296-6",
+     "home": "Sokoura 40296",
+     "remembered": "Sokoura · 4 02 96",
+     "written": "Sokoura 4 02 96 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.525224,
+     "lng": -3.4705372,
+     "number": 40297,
+     "machine": "CI-080104-004-40297-7",
+     "home": "Sokoura 40297",
+     "remembered": "Sokoura · 4 02 97",
+     "written": "Sokoura 4 02 97 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248116,
+     "lng": -3.4705973,
+     "number": 40217,
+     "machine": "CI-080104-004-40217-3",
+     "home": "Sokoura 40217",
+     "remembered": "Sokoura · 4 02 17",
+     "written": "Sokoura 4 02 17 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5250475,
+     "lng": -3.4701454,
+     "number": 40223,
+     "machine": "CI-080104-004-40223-7",
+     "home": "Sokoura 40223",
+     "remembered": "Sokoura · 4 02 23",
+     "written": "Sokoura 4 02 23 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.524687,
+     "lng": -3.4708626,
+     "number": 40260,
+     "machine": "CI-080104-004-40260-7",
+     "home": "Sokoura 40260",
+     "remembered": "Sokoura · 4 02 60",
+     "written": "Sokoura 4 02 60 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5252724,
+     "lng": -3.4703204,
+     "number": 40207,
+     "machine": "CI-080104-004-40207-9",
+     "home": "Sokoura 40207",
+     "remembered": "Sokoura · 4 02 07",
+     "written": "Sokoura 4 02 07 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245317,
+     "lng": -3.4705461,
+     "number": 40298,
+     "machine": "CI-080104-004-40298-9",
+     "home": "Sokoura 40298",
+     "remembered": "Sokoura · 4 02 98",
+     "written": "Sokoura 4 02 98 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245887,
+     "lng": -3.4702056,
+     "number": 40239,
+     "machine": "CI-080104-004-40239-4",
+     "home": "Sokoura 40239",
+     "remembered": "Sokoura · 4 02 39",
+     "written": "Sokoura 4 02 39 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253702,
+     "lng": -3.4705002,
+     "number": 40299,
+     "machine": "CI-080104-004-40299-0",
+     "home": "Sokoura 40299",
+     "remembered": "Sokoura · 4 02 99",
+     "written": "Sokoura 4 02 99 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247855,
+     "lng": -3.4709367,
+     "number": 51900,
+     "machine": "CI-080104-004-51900-3",
+     "home": "Sokoura 51900",
+     "remembered": "Sokoura · 5 19 00",
+     "written": "Sokoura 5 19 00 (Parc National de Bona)",
+     "newBlock": [
+      51900,
+      52099
+     ]
+    },
+    {
+     "lat": 9.5248982,
+     "lng": -3.4707795,
+     "number": 40255,
+     "machine": "CI-080104-004-40255-6",
+     "home": "Sokoura 40255",
+     "remembered": "Sokoura · 4 02 55",
+     "written": "Sokoura 4 02 55 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5250013,
+     "lng": -3.4704344,
+     "number": 40213,
+     "machine": "CI-080104-004-40213-6",
+     "home": "Sokoura 40213",
+     "remembered": "Sokoura · 4 02 13",
+     "written": "Sokoura 4 02 13 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248796,
+     "lng": -3.4709292,
+     "number": 40254,
+     "machine": "CI-080104-004-40254-3",
+     "home": "Sokoura 40254",
+     "remembered": "Sokoura · 4 02 54",
+     "written": "Sokoura 4 02 54 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5252611,
+     "lng": -3.4702143,
+     "number": 40249,
+     "machine": "CI-080104-004-40249-5",
+     "home": "Sokoura 40249",
+     "remembered": "Sokoura · 4 02 49",
+     "written": "Sokoura 4 02 49 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247446,
+     "lng": -3.4706877,
+     "number": 52033,
+     "machine": "CI-080104-004-52033-4",
+     "home": "Sokoura 52033",
+     "remembered": "Sokoura · 5 20 33",
+     "written": "Sokoura 5 20 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245813,
+     "lng": -3.4706488,
+     "number": 51966,
+     "machine": "CI-080104-004-51966-8",
+     "home": "Sokoura 51966",
+     "remembered": "Sokoura · 5 19 66",
+     "written": "Sokoura 5 19 66 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249807,
+     "lng": -3.4706798,
+     "number": 40237,
+     "machine": "CI-080104-004-40237-1",
+     "home": "Sokoura 40237",
+     "remembered": "Sokoura · 4 02 37",
+     "written": "Sokoura 4 02 37 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253288,
+     "lng": -3.4701107,
+     "number": 51967,
+     "machine": "CI-080104-004-51967-6",
+     "home": "Sokoura 51967",
+     "remembered": "Sokoura · 5 19 67",
+     "written": "Sokoura 5 19 67 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251324,
+     "lng": -3.4709596,
+     "number": 51933,
+     "machine": "CI-080104-004-51933-1",
+     "home": "Sokoura 51933",
+     "remembered": "Sokoura · 5 19 33",
+     "written": "Sokoura 5 19 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5246804,
+     "lng": -3.4700963,
+     "number": 40225,
+     "machine": "CI-080104-004-40225-9",
+     "home": "Sokoura 40225",
+     "remembered": "Sokoura · 4 02 25",
+     "written": "Sokoura 4 02 25 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251778,
+     "lng": -3.470868,
+     "number": 51950,
+     "machine": "CI-080104-004-51950-4",
+     "home": "Sokoura 51950",
+     "remembered": "Sokoura · 5 19 50",
+     "written": "Sokoura 5 19 50 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248347,
+     "lng": -3.4707522,
+     "number": 52034,
+     "machine": "CI-080104-004-52034-2",
+     "home": "Sokoura 52034",
+     "remembered": "Sokoura · 5 20 34",
+     "written": "Sokoura 5 20 34 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249687,
+     "lng": -3.4708261,
+     "number": 52035,
+     "machine": "CI-080104-004-52035-0",
+     "home": "Sokoura 52035",
+     "remembered": "Sokoura · 5 20 35",
+     "written": "Sokoura 5 20 35 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5253612,
+     "lng": -3.4708185,
+     "number": 51958,
+     "machine": "CI-080104-004-51958-5",
+     "home": "Sokoura 51958",
+     "remembered": "Sokoura · 5 19 58",
+     "written": "Sokoura 5 19 58 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247032,
+     "lng": -3.4706191,
+     "number": 52036,
+     "machine": "CI-080104-004-52036-9",
+     "home": "Sokoura 52036",
+     "remembered": "Sokoura · 5 20 36",
+     "written": "Sokoura 5 20 36 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251277,
+     "lng": -3.4700265,
+     "number": 52000,
+     "machine": "CI-080104-004-52000-9",
+     "home": "Sokoura 52000",
+     "remembered": "Sokoura · 5 20 00",
+     "written": "Sokoura 5 20 00 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245629,
+     "lng": -3.4705791,
+     "number": 51932,
+     "machine": "CI-080104-004-51932-8",
+     "home": "Sokoura 51932",
+     "remembered": "Sokoura · 5 19 32",
+     "written": "Sokoura 5 19 32 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5247292,
+     "lng": -3.4707585,
+     "number": 51999,
+     "machine": "CI-080104-004-51999-8",
+     "home": "Sokoura 51999",
+     "remembered": "Sokoura · 5 19 99",
+     "written": "Sokoura 5 19 99 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248495,
+     "lng": -3.4705071,
+     "number": 52037,
+     "machine": "CI-080104-004-52037-5",
+     "home": "Sokoura 52037",
+     "remembered": "Sokoura · 5 20 37",
+     "written": "Sokoura 5 20 37 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.525066,
+     "lng": -3.4705045,
+     "number": 40211,
+     "machine": "CI-080104-004-40211-2",
+     "home": "Sokoura 40211",
+     "remembered": "Sokoura · 4 02 11",
+     "written": "Sokoura 4 02 11 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5251302,
+     "lng": -3.4708604,
+     "number": 51954,
+     "machine": "CI-080104-004-51954-8",
+     "home": "Sokoura 51954",
+     "remembered": "Sokoura · 5 19 54",
+     "written": "Sokoura 5 19 54 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5245756,
+     "lng": -3.4701762,
+     "number": 40231,
+     "machine": "CI-080104-004-40231-8",
+     "home": "Sokoura 40231",
+     "remembered": "Sokoura · 4 02 31",
+     "written": "Sokoura 4 02 31 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5249836,
+     "lng": -3.4704203,
+     "number": 52016,
+     "machine": "CI-080104-004-52016-6",
+     "home": "Sokoura 52016",
+     "remembered": "Sokoura · 5 20 16",
+     "written": "Sokoura 5 20 16 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248534,
+     "lng": -3.4700606,
+     "number": 52008,
+     "machine": "CI-080104-004-52008-0",
+     "home": "Sokoura 52008",
+     "remembered": "Sokoura · 5 20 08",
+     "written": "Sokoura 5 20 08 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.52514,
+     "lng": -3.4703238,
+     "number": 40215,
+     "machine": "CI-080104-004-40215-7",
+     "home": "Sokoura 40215",
+     "remembered": "Sokoura · 4 02 15",
+     "written": "Sokoura 4 02 15 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5248572,
+     "lng": -3.4700047,
+     "number": 52012,
+     "machine": "CI-080104-004-52012-8",
+     "home": "Sokoura 52012",
+     "remembered": "Sokoura · 5 20 12",
+     "written": "Sokoura 5 20 12 (Parc National de Bona)"
+    }
+   ]
+  },
+  {
+   "zone": "080104-001",
+   "of": "CI-080104-001-1000-9",
+   "results": [
+    {
+     "lat": 9.2800032,
+     "lng": -4.1741829,
+     "number": 1333,
+     "machine": "CI-080104-001-1333-9",
+     "home": "Tiobel 1333",
+     "remembered": "Tiobel · 13 33",
+     "written": "Tiobel 13 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2800332,
+     "lng": -4.1739267,
+     "number": 1250,
+     "machine": "CI-080104-001-1250-1",
+     "home": "Tiobel 1250",
+     "remembered": "Tiobel · 12 50",
+     "written": "Tiobel 12 50 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2794899,
+     "lng": -4.1740322,
+     "number": 1334,
+     "machine": "CI-080104-001-1334-7",
+     "home": "Tiobel 1334",
+     "remembered": "Tiobel · 13 34",
+     "written": "Tiobel 13 34 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2799556,
+     "lng": -4.1736509,
+     "number": 1335,
+     "machine": "CI-080104-001-1335-2",
+     "home": "Tiobel 1335",
+     "remembered": "Tiobel · 13 35",
+     "written": "Tiobel 13 35 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2798956,
+     "lng": -4.1737699,
+     "number": 1336,
+     "machine": "CI-080104-001-1336-0",
+     "home": "Tiobel 1336",
+     "remembered": "Tiobel · 13 36",
+     "written": "Tiobel 13 36 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2801346,
+     "lng": -4.1744639,
+     "number": 1337,
+     "machine": "CI-080104-001-1337-1",
+     "home": "Tiobel 1337",
+     "remembered": "Tiobel · 13 37",
+     "written": "Tiobel 13 37 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2800129,
+     "lng": -4.1738304,
+     "number": 1338,
+     "machine": "CI-080104-001-1338-3",
+     "home": "Tiobel 1338",
+     "remembered": "Tiobel · 13 38",
+     "written": "Tiobel 13 38 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2795431,
+     "lng": -4.1740757,
+     "number": 1251,
+     "machine": "CI-080104-001-1251-7",
+     "home": "Tiobel 1251",
+     "remembered": "Tiobel · 12 51",
+     "written": "Tiobel 12 51 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2800989,
+     "lng": -4.1743788,
+     "number": 1291,
+     "machine": "CI-080104-001-1291-3",
+     "home": "Tiobel 1291",
+     "remembered": "Tiobel · 12 91",
+     "written": "Tiobel 12 91 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2794254,
+     "lng": -4.1743892,
+     "number": 1252,
+     "machine": "CI-080104-001-1252-5",
+     "home": "Tiobel 1252",
+     "remembered": "Tiobel · 12 52",
+     "written": "Tiobel 12 52 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2798018,
+     "lng": -4.1746016,
+     "number": 1339,
+     "machine": "CI-080104-001-1339-4",
+     "home": "Tiobel 1339",
+     "remembered": "Tiobel · 13 39",
+     "written": "Tiobel 13 39 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2802349,
+     "lng": -4.1740457,
+     "number": 1340,
+     "machine": "CI-080104-001-1340-9",
+     "home": "Tiobel 1340",
+     "remembered": "Tiobel · 13 40",
+     "written": "Tiobel 13 40 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2799993,
+     "lng": -4.1742121,
+     "number": 1312,
+     "machine": "CI-080104-001-1312-0",
+     "home": "Tiobel 1312",
+     "remembered": "Tiobel · 13 12",
+     "written": "Tiobel 13 12 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.279462,
+     "lng": -4.1744332,
+     "number": 1294,
+     "machine": "CI-080104-001-1294-5",
+     "home": "Tiobel 1294",
+     "remembered": "Tiobel · 12 94",
+     "written": "Tiobel 12 94 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2802702,
+     "lng": -4.1739295,
+     "number": 1253,
+     "machine": "CI-080104-001-1253-0",
+     "home": "Tiobel 1253",
+     "remembered": "Tiobel · 12 53",
+     "written": "Tiobel 12 53 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2798833,
+     "lng": -4.173742,
+     "number": 1341,
+     "machine": "CI-080104-001-1341-4",
+     "home": "Tiobel 1341",
+     "remembered": "Tiobel · 13 41",
+     "written": "Tiobel 13 41 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2794956,
+     "lng": -4.1740462,
+     "number": 1292,
+     "machine": "CI-080104-001-1292-1",
+     "home": "Tiobel 1292",
+     "remembered": "Tiobel · 12 92",
+     "written": "Tiobel 12 92 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2798503,
+     "lng": -4.1740872,
+     "number": 1342,
+     "machine": "CI-080104-001-1342-3",
+     "home": "Tiobel 1342",
+     "remembered": "Tiobel · 13 42",
+     "written": "Tiobel 13 42 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2801296,
+     "lng": -4.1746492,
+     "number": 1315,
+     "machine": "CI-080104-001-1315-7",
+     "home": "Tiobel 1315",
+     "remembered": "Tiobel · 13 15",
+     "written": "Tiobel 13 15 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2800501,
+     "lng": -4.1739871,
+     "number": 1270,
+     "machine": "CI-080104-001-1270-8",
+     "home": "Tiobel 1270",
+     "remembered": "Tiobel · 12 70",
+     "written": "Tiobel 12 70 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2794915,
+     "lng": -4.1744363,
+     "number": 1254,
+     "machine": "CI-080104-001-1254-9",
+     "home": "Tiobel 1254",
+     "remembered": "Tiobel · 12 54",
+     "written": "Tiobel 12 54 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2796555,
+     "lng": -4.1744106,
+     "number": 1343,
+     "machine": "CI-080104-001-1343-8",
+     "home": "Tiobel 1343",
+     "remembered": "Tiobel · 13 43",
+     "written": "Tiobel 13 43 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2803198,
+     "lng": -4.1744194,
+     "number": 1344,
+     "machine": "CI-080104-001-1344-6",
+     "home": "Tiobel 1344",
+     "remembered": "Tiobel · 13 44",
+     "written": "Tiobel 13 44 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2803359,
+     "lng": -4.1744625,
+     "number": 1345,
+     "machine": "CI-080104-001-1345-1",
+     "home": "Tiobel 1345",
+     "remembered": "Tiobel · 13 45",
+     "written": "Tiobel 13 45 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.279633,
+     "lng": -4.1745911,
+     "number": 1296,
+     "machine": "CI-080104-001-1296-8",
+     "home": "Tiobel 1296",
+     "remembered": "Tiobel · 12 96",
+     "written": "Tiobel 12 96 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2801882,
+     "lng": -4.1741952,
+     "number": 1346,
+     "machine": "CI-080104-001-1346-7",
+     "home": "Tiobel 1346",
+     "remembered": "Tiobel · 13 46",
+     "written": "Tiobel 13 46 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2801087,
+     "lng": -4.1743889,
+     "number": 1280,
+     "machine": "CI-080104-001-1280-2",
+     "home": "Tiobel 1280",
+     "remembered": "Tiobel · 12 80",
+     "written": "Tiobel 12 80 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2801905,
+     "lng": -4.1738471,
+     "number": 1347,
+     "machine": "CI-080104-001-1347-2",
+     "home": "Tiobel 1347",
+     "remembered": "Tiobel · 13 47",
+     "written": "Tiobel 13 47 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2799348,
+     "lng": -4.1739461,
+     "number": 1348,
+     "machine": "CI-080104-001-1348-0",
+     "home": "Tiobel 1348",
+     "remembered": "Tiobel · 13 48",
+     "written": "Tiobel 13 48 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2799593,
+     "lng": -4.1743143,
+     "number": 1349,
+     "machine": "CI-080104-001-1349-5",
+     "home": "Tiobel 1349",
+     "remembered": "Tiobel · 13 49",
+     "written": "Tiobel 13 49 (Parc National de Bona)"
+    }
+   ]
+  },
+  {
+   "zone": "080104-006",
+   "of": "CI-080104-006-1000-1",
+   "results": [
+    {
+     "lat": 9.2749893,
+     "lng": -4.0859296,
+     "number": 1600,
+     "machine": "CI-080104-006-1600-0",
+     "home": "Gadié Péré 1600",
+     "remembered": "Gadié Péré · 16 00",
+     "written": "Gadié Péré 16 00 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2749453,
+     "lng": -4.0849866,
+     "number": 1601,
+     "machine": "CI-080104-006-1601-3",
+     "home": "Gadié Péré 1601",
+     "remembered": "Gadié Péré · 16 01",
+     "written": "Gadié Péré 16 01 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2751623,
+     "lng": -4.0850249,
+     "number": 1602,
+     "machine": "CI-080104-006-1602-1",
+     "home": "Gadié Péré 1602",
+     "remembered": "Gadié Péré · 16 02",
+     "written": "Gadié Péré 16 02 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2744694,
+     "lng": -4.0856912,
+     "number": 1603,
+     "machine": "CI-080104-006-1603-7",
+     "home": "Gadié Péré 1603",
+     "remembered": "Gadié Péré · 16 03",
+     "written": "Gadié Péré 16 03 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2746685,
+     "lng": -4.0853511,
+     "number": 1604,
+     "machine": "CI-080104-006-1604-5",
+     "home": "Gadié Péré 1604",
+     "remembered": "Gadié Péré · 16 04",
+     "written": "Gadié Péré 16 04 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2746429,
+     "lng": -4.0852398,
+     "number": 1605,
+     "machine": "CI-080104-006-1605-9",
+     "home": "Gadié Péré 1605",
+     "remembered": "Gadié Péré · 16 05",
+     "written": "Gadié Péré 16 05 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2748389,
+     "lng": -4.0853807,
+     "number": 1606,
+     "machine": "CI-080104-006-1606-8",
+     "home": "Gadié Péré 1606",
+     "remembered": "Gadié Péré · 16 06",
+     "written": "Gadié Péré 16 06 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2746921,
+     "lng": -4.0856003,
+     "number": 1607,
+     "machine": "CI-080104-006-1607-6",
+     "home": "Gadié Péré 1607",
+     "remembered": "Gadié Péré · 16 07",
+     "written": "Gadié Péré 16 07 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.275178,
+     "lng": -4.0857011,
+     "number": 1608,
+     "machine": "CI-080104-006-1608-4",
+     "home": "Gadié Péré 1608",
+     "remembered": "Gadié Péré · 16 08",
+     "written": "Gadié Péré 16 08 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2752185,
+     "lng": -4.0851297,
+     "number": 1609,
+     "machine": "CI-080104-006-1609-2",
+     "home": "Gadié Péré 1609",
+     "remembered": "Gadié Péré · 16 09",
+     "written": "Gadié Péré 16 09 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2747251,
+     "lng": -4.0855924,
+     "number": 1610,
+     "machine": "CI-080104-006-1610-1",
+     "home": "Gadié Péré 1610",
+     "remembered": "Gadié Péré · 16 10",
+     "written": "Gadié Péré 16 10 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2751781,
+     "lng": -4.0857618,
+     "number": 1611,
+     "machine": "CI-080104-006-1611-7",
+     "home": "Gadié Péré 1611",
+     "remembered": "Gadié Péré · 16 11",
+     "written": "Gadié Péré 16 11 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2751345,
+     "lng": -4.0856304,
+     "number": 1612,
+     "machine": "CI-080104-006-1612-5",
+     "home": "Gadié Péré 1612",
+     "remembered": "Gadié Péré · 16 12",
+     "written": "Gadié Péré 16 12 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2748566,
+     "lng": -4.0853589,
+     "number": 1613,
+     "machine": "CI-080104-006-1613-0",
+     "home": "Gadié Péré 1613",
+     "remembered": "Gadié Péré · 16 13",
+     "written": "Gadié Péré 16 13 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2746663,
+     "lng": -4.0857638,
+     "number": 1614,
+     "machine": "CI-080104-006-1614-9",
+     "home": "Gadié Péré 1614",
+     "remembered": "Gadié Péré · 16 14",
+     "written": "Gadié Péré 16 14 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2752209,
+     "lng": -4.0856287,
+     "number": 1615,
+     "machine": "CI-080104-006-1615-8",
+     "home": "Gadié Péré 1615",
+     "remembered": "Gadié Péré · 16 15",
+     "written": "Gadié Péré 16 15 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2749582,
+     "lng": -4.085367,
+     "number": 1401,
+     "machine": "CI-080104-006-1401-4",
+     "home": "Gadié Péré 1401",
+     "remembered": "Gadié Péré · 14 01",
+     "written": "Gadié Péré 14 01 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2745818,
+     "lng": -4.0858194,
+     "number": 1616,
+     "machine": "CI-080104-006-1616-3",
+     "home": "Gadié Péré 1616",
+     "remembered": "Gadié Péré · 16 16",
+     "written": "Gadié Péré 16 16 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2746744,
+     "lng": -4.0850199,
+     "number": 1617,
+     "machine": "CI-080104-006-1617-4",
+     "home": "Gadié Péré 1617",
+     "remembered": "Gadié Péré · 16 17",
+     "written": "Gadié Péré 16 17 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2748709,
+     "lng": -4.0850013,
+     "number": 1500,
+     "machine": "CI-080104-006-1500-6",
+     "home": "Gadié Péré 1500",
+     "remembered": "Gadié Péré · 15 00",
+     "written": "Gadié Péré 15 00 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2743918,
+     "lng": -4.0852686,
+     "number": 1618,
+     "machine": "CI-080104-006-1618-2",
+     "home": "Gadié Péré 1618",
+     "remembered": "Gadié Péré · 16 18",
+     "written": "Gadié Péré 16 18 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2752177,
+     "lng": -4.0855443,
+     "number": 1619,
+     "machine": "CI-080104-006-1619-6",
+     "home": "Gadié Péré 1619",
+     "remembered": "Gadié Péré · 16 19",
+     "written": "Gadié Péré 16 19 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2747798,
+     "lng": -4.0859467,
+     "number": 1620,
+     "machine": "CI-080104-006-1620-7",
+     "home": "Gadié Péré 1620",
+     "remembered": "Gadié Péré · 16 20",
+     "written": "Gadié Péré 16 20 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2748779,
+     "lng": -4.0850556,
+     "number": 1550,
+     "machine": "CI-080104-006-1550-8",
+     "home": "Gadié Péré 1550",
+     "remembered": "Gadié Péré · 15 50",
+     "written": "Gadié Péré 15 50 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2753301,
+     "lng": -4.085535,
+     "number": 1621,
+     "machine": "CI-080104-006-1621-0",
+     "home": "Gadié Péré 1621",
+     "remembered": "Gadié Péré · 16 21",
+     "written": "Gadié Péré 16 21 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2751641,
+     "lng": -4.0850416,
+     "number": 1622,
+     "machine": "CI-080104-006-1622-9",
+     "home": "Gadié Péré 1622",
+     "remembered": "Gadié Péré · 16 22",
+     "written": "Gadié Péré 16 22 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.27484,
+     "lng": -4.0854838,
+     "number": 1575,
+     "machine": "CI-080104-006-1575-8",
+     "home": "Gadié Péré 1575",
+     "remembered": "Gadié Péré · 15 75",
+     "written": "Gadié Péré 15 75 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2749925,
+     "lng": -4.0855594,
+     "number": 1562,
+     "machine": "CI-080104-006-1562-9",
+     "home": "Gadié Péré 1562",
+     "remembered": "Gadié Péré · 15 62",
+     "written": "Gadié Péré 15 62 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2750374,
+     "lng": -4.0857202,
+     "number": 1623,
+     "machine": "CI-080104-006-1623-2",
+     "home": "Gadié Péré 1623",
+     "remembered": "Gadié Péré · 16 23",
+     "written": "Gadié Péré 16 23 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.2749635,
+     "lng": -4.0852678,
+     "number": 1450,
+     "machine": "CI-080104-006-1450-5",
+     "home": "Gadié Péré 1450",
+     "remembered": "Gadié Péré · 14 50",
+     "written": "Gadié Péré 14 50 (Parc National de Bona)"
+    }
+   ]
+  },
+  {
+   "zone": "080104-002",
+   "of": "CI-080104-002-1000-7",
+   "results": [
+    {
+     "lat": 9.5833405,
+     "lng": -3.5216824,
+     "number": 1066,
+     "machine": "CI-080104-002-1066-3",
+     "home": "Gangané 1066",
+     "remembered": "Gangané · 10 66",
+     "written": "Gangané 10 66 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5840777,
+     "lng": -3.5221995,
+     "number": 1067,
+     "machine": "CI-080104-002-1067-4",
+     "home": "Gangané 1067",
+     "remembered": "Gangané · 10 67",
+     "written": "Gangané 10 67 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834408,
+     "lng": -3.5224006,
+     "number": 1034,
+     "machine": "CI-080104-002-1034-5",
+     "home": "Gangané 1034",
+     "remembered": "Gangané · 10 34",
+     "written": "Gangané 10 34 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834402,
+     "lng": -3.5223943,
+     "number": 1050,
+     "machine": "CI-080104-002-1050-9",
+     "home": "Gangané 1050",
+     "remembered": "Gangané · 10 50",
+     "written": "Gangané 10 50 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837989,
+     "lng": -3.5222618,
+     "number": 1058,
+     "machine": "CI-080104-002-1058-0",
+     "home": "Gangané 1058",
+     "remembered": "Gangané · 10 58",
+     "written": "Gangané 10 58 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5833977,
+     "lng": -3.5216479,
+     "number": 1068,
+     "machine": "CI-080104-002-1068-2",
+     "home": "Gangané 1068",
+     "remembered": "Gangané · 10 68",
+     "written": "Gangané 10 68 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834623,
+     "lng": -3.522073,
+     "number": 1054,
+     "machine": "CI-080104-002-1054-6",
+     "home": "Gangané 1054",
+     "remembered": "Gangané · 10 54",
+     "written": "Gangané 10 54 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837611,
+     "lng": -3.5220183,
+     "number": 1069,
+     "machine": "CI-080104-002-1069-6",
+     "home": "Gangané 1069",
+     "remembered": "Gangané · 10 69",
+     "written": "Gangané 10 69 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835126,
+     "lng": -3.5215342,
+     "number": 1070,
+     "machine": "CI-080104-002-1070-6",
+     "home": "Gangané 1070",
+     "remembered": "Gangané · 10 70",
+     "written": "Gangané 10 70 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837065,
+     "lng": -3.5221235,
+     "number": 1056,
+     "machine": "CI-080104-002-1056-7",
+     "home": "Gangané 1056",
+     "remembered": "Gangané · 10 56",
+     "written": "Gangané 10 56 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837652,
+     "lng": -3.5220457,
+     "number": 1071,
+     "machine": "CI-080104-002-1071-1",
+     "home": "Gangané 1071",
+     "remembered": "Gangané · 10 71",
+     "written": "Gangané 10 71 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834799,
+     "lng": -3.5219242,
+     "number": 1072,
+     "machine": "CI-080104-002-1072-2",
+     "home": "Gangané 1072",
+     "remembered": "Gangané · 10 72",
+     "written": "Gangané 10 72 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837185,
+     "lng": -3.5223705,
+     "number": 1057,
+     "machine": "CI-080104-002-1057-2",
+     "home": "Gangané 1057",
+     "remembered": "Gangané · 10 57",
+     "written": "Gangané 10 57 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5839809,
+     "lng": -3.5215228,
+     "number": 1073,
+     "machine": "CI-080104-002-1073-3",
+     "home": "Gangané 1073",
+     "remembered": "Gangané · 10 73",
+     "written": "Gangané 10 73 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837633,
+     "lng": -3.5217295,
+     "number": 1036,
+     "machine": "CI-080104-002-1036-8",
+     "home": "Gangané 1036",
+     "remembered": "Gangané · 10 36",
+     "written": "Gangané 10 36 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835869,
+     "lng": -3.5223242,
+     "number": 1074,
+     "machine": "CI-080104-002-1074-0",
+     "home": "Gangané 1074",
+     "remembered": "Gangané · 10 74",
+     "written": "Gangané 10 74 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.583754,
+     "lng": -3.5220178,
+     "number": 1075,
+     "machine": "CI-080104-002-1075-4",
+     "home": "Gangané 1075",
+     "remembered": "Gangané · 10 75",
+     "written": "Gangané 10 75 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837307,
+     "lng": -3.5216257,
+     "number": 1053,
+     "machine": "CI-080104-002-1053-8",
+     "home": "Gangané 1053",
+     "remembered": "Gangané · 10 53",
+     "written": "Gangané 10 53 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836679,
+     "lng": -3.5216958,
+     "number": 1062,
+     "machine": "CI-080104-002-1062-5",
+     "home": "Gangané 1062",
+     "remembered": "Gangané · 10 62",
+     "written": "Gangané 10 62 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836216,
+     "lng": -3.5221818,
+     "number": 1065,
+     "machine": "CI-080104-002-1065-8",
+     "home": "Gangané 1065",
+     "remembered": "Gangané · 10 65",
+     "written": "Gangané 10 65 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5840633,
+     "lng": -3.52197,
+     "number": 1035,
+     "machine": "CI-080104-002-1035-9",
+     "home": "Gangané 1035",
+     "remembered": "Gangané · 10 35",
+     "written": "Gangané 10 35 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835089,
+     "lng": -3.5217273,
+     "number": 1064,
+     "machine": "CI-080104-002-1064-9",
+     "home": "Gangané 1064",
+     "remembered": "Gangané · 10 64",
+     "written": "Gangané 10 64 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836814,
+     "lng": -3.5222832,
+     "number": 1076,
+     "machine": "CI-080104-002-1076-5",
+     "home": "Gangané 1076",
+     "remembered": "Gangané · 10 76",
+     "written": "Gangané 10 76 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5833266,
+     "lng": -3.5217286,
+     "number": 1037,
+     "machine": "CI-080104-002-1037-6",
+     "home": "Gangané 1037",
+     "remembered": "Gangané · 10 37",
+     "written": "Gangané 10 37 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834265,
+     "lng": -3.5218489,
+     "number": 1077,
+     "machine": "CI-080104-002-1077-9",
+     "home": "Gangané 1077",
+     "remembered": "Gangané · 10 77",
+     "written": "Gangané 10 77 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835035,
+     "lng": -3.5219485,
+     "number": 1078,
+     "machine": "CI-080104-002-1078-7",
+     "home": "Gangané 1078",
+     "remembered": "Gangané · 10 78",
+     "written": "Gangané 10 78 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.583461,
+     "lng": -3.5223593,
+     "number": 1052,
+     "machine": "CI-080104-002-1052-3",
+     "home": "Gangané 1052",
+     "remembered": "Gangané · 10 52",
+     "written": "Gangané 10 52 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5839239,
+     "lng": -3.5216341,
+     "number": 1079,
+     "machine": "CI-080104-002-1079-8",
+     "home": "Gangané 1079",
+     "remembered": "Gangané · 10 79",
+     "written": "Gangané 10 79 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835474,
+     "lng": -3.5220467,
+     "number": 1055,
+     "machine": "CI-080104-002-1055-1",
+     "home": "Gangané 1055",
+     "remembered": "Gangané · 10 55",
+     "written": "Gangané 10 55 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5838055,
+     "lng": -3.5219159,
+     "number": 1080,
+     "machine": "CI-080104-002-1080-4",
+     "home": "Gangané 1080",
+     "remembered": "Gangané · 10 80",
+     "written": "Gangané 10 80 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836934,
+     "lng": -3.5216266,
+     "number": 1059,
+     "machine": "CI-080104-002-1059-5",
+     "home": "Gangané 1059",
+     "remembered": "Gangané · 10 59",
+     "written": "Gangané 10 59 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5840064,
+     "lng": -3.5221663,
+     "number": 1063,
+     "machine": "CI-080104-002-1063-0",
+     "home": "Gangané 1063",
+     "remembered": "Gangané · 10 63",
+     "written": "Gangané 10 63 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835299,
+     "lng": -3.5220537,
+     "number": 1081,
+     "machine": "CI-080104-002-1081-2",
+     "home": "Gangané 1081",
+     "remembered": "Gangané · 10 81",
+     "written": "Gangané 10 81 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835552,
+     "lng": -3.5217258,
+     "number": 1082,
+     "machine": "CI-080104-002-1082-0",
+     "home": "Gangané 1082",
+     "remembered": "Gangané · 10 82",
+     "written": "Gangané 10 82 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.583518,
+     "lng": -3.5217574,
+     "number": 1083,
+     "machine": "CI-080104-002-1083-6",
+     "home": "Gangané 1083",
+     "remembered": "Gangané · 10 83",
+     "written": "Gangané 10 83 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5840666,
+     "lng": -3.521799,
+     "number": 1060,
+     "machine": "CI-080104-002-1060-1",
+     "home": "Gangané 1060",
+     "remembered": "Gangané · 10 60",
+     "written": "Gangané 10 60 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836692,
+     "lng": -3.5216528,
+     "number": 1061,
+     "machine": "CI-080104-002-1061-7",
+     "home": "Gangané 1061",
+     "remembered": "Gangané · 10 61",
+     "written": "Gangané 10 61 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836145,
+     "lng": -3.5224708,
+     "number": 1084,
+     "machine": "CI-080104-002-1084-8",
+     "home": "Gangané 1084",
+     "remembered": "Gangané · 10 84",
+     "written": "Gangané 10 84 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835752,
+     "lng": -3.5221712,
+     "number": 1085,
+     "machine": "CI-080104-002-1085-7",
+     "home": "Gangané 1085",
+     "remembered": "Gangané · 10 85",
+     "written": "Gangané 10 85 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5838232,
+     "lng": -3.5220845,
+     "number": 1086,
+     "machine": "CI-080104-002-1086-1",
+     "home": "Gangané 1086",
+     "remembered": "Gangané · 10 86",
+     "written": "Gangané 10 86 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5839203,
+     "lng": -3.5221199,
+     "number": 1087,
+     "machine": "CI-080104-002-1087-3",
+     "home": "Gangané 1087",
+     "remembered": "Gangané · 10 87",
+     "written": "Gangané 10 87 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5832534,
+     "lng": -3.5217815,
+     "number": 1088,
+     "machine": "CI-080104-002-1088-5",
+     "home": "Gangané 1088",
+     "remembered": "Gangané · 10 88",
+     "written": "Gangané 10 88 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5832828,
+     "lng": -3.5219506,
+     "number": 1089,
+     "machine": "CI-080104-002-1089-9",
+     "home": "Gangané 1089",
+     "remembered": "Gangané · 10 89",
+     "written": "Gangané 10 89 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834816,
+     "lng": -3.5217521,
+     "number": 1090,
+     "machine": "CI-080104-002-1090-5",
+     "home": "Gangané 1090",
+     "remembered": "Gangané · 10 90",
+     "written": "Gangané 10 90 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836429,
+     "lng": -3.5217563,
+     "number": 1091,
+     "machine": "CI-080104-002-1091-8",
+     "home": "Gangané 1091",
+     "remembered": "Gangané · 10 91",
+     "written": "Gangané 10 91 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837353,
+     "lng": -3.5216972,
+     "number": 1044,
+     "machine": "CI-080104-002-1044-4",
+     "home": "Gangané 1044",
+     "remembered": "Gangané · 10 44",
+     "written": "Gangané 10 44 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834827,
+     "lng": -3.522011,
+     "number": 1092,
+     "machine": "CI-080104-002-1092-6",
+     "home": "Gangané 1092",
+     "remembered": "Gangané · 10 92",
+     "written": "Gangané 10 92 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5838139,
+     "lng": -3.5219444,
+     "number": 1093,
+     "machine": "CI-080104-002-1093-9",
+     "home": "Gangané 1093",
+     "remembered": "Gangané · 10 93",
+     "written": "Gangané 10 93 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5833179,
+     "lng": -3.521999,
+     "number": 1094,
+     "machine": "CI-080104-002-1094-7",
+     "home": "Gangané 1094",
+     "remembered": "Gangané · 10 94",
+     "written": "Gangané 10 94 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835377,
+     "lng": -3.5216279,
+     "number": 1095,
+     "machine": "CI-080104-002-1095-2",
+     "home": "Gangané 1095",
+     "remembered": "Gangané · 10 95",
+     "written": "Gangané 10 95 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5839455,
+     "lng": -3.5220879,
+     "number": 1096,
+     "machine": "CI-080104-002-1096-0",
+     "home": "Gangané 1096",
+     "remembered": "Gangané · 10 96",
+     "written": "Gangané 10 96 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5838239,
+     "lng": -3.5224221,
+     "number": 1097,
+     "machine": "CI-080104-002-1097-1",
+     "home": "Gangané 1097",
+     "remembered": "Gangané · 10 97",
+     "written": "Gangané 10 97 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5833056,
+     "lng": -3.5222457,
+     "number": 1098,
+     "machine": "CI-080104-002-1098-3",
+     "home": "Gangané 1098",
+     "remembered": "Gangané · 10 98",
+     "written": "Gangané 10 98 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.583519,
+     "lng": -3.5224435,
+     "number": 1099,
+     "machine": "CI-080104-002-1099-4",
+     "home": "Gangané 1099",
+     "remembered": "Gangané · 10 99",
+     "written": "Gangané 10 99 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5835451,
+     "lng": -3.5216359,
+     "number": 1100,
+     "machine": "CI-080104-002-1100-3",
+     "home": "Gangané 1100",
+     "remembered": "Gangané · 11 00",
+     "written": "Gangané 11 00 (Parc National de Bona)",
+     "newBlock": [
+      1100,
+      1299
+     ]
+    },
+    {
+     "lat": 9.5837746,
+     "lng": -3.5217449,
+     "number": 1233,
+     "machine": "CI-080104-002-1233-4",
+     "home": "Gangané 1233",
+     "remembered": "Gangané · 12 33",
+     "written": "Gangané 12 33 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836439,
+     "lng": -3.5216691,
+     "number": 1234,
+     "machine": "CI-080104-002-1234-2",
+     "home": "Gangané 1234",
+     "remembered": "Gangané · 12 34",
+     "written": "Gangané 12 34 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5840214,
+     "lng": -3.5222366,
+     "number": 1166,
+     "machine": "CI-080104-002-1166-8",
+     "home": "Gangané 1166",
+     "remembered": "Gangané · 11 66",
+     "written": "Gangané 11 66 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5841345,
+     "lng": -3.5220536,
+     "number": 1199,
+     "machine": "CI-080104-002-1199-8",
+     "home": "Gangané 1199",
+     "remembered": "Gangané · 11 99",
+     "written": "Gangané 11 99 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834625,
+     "lng": -3.5216067,
+     "number": 1167,
+     "machine": "CI-080104-002-1167-6",
+     "home": "Gangané 1167",
+     "remembered": "Gangané · 11 67",
+     "written": "Gangané 11 67 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5833729,
+     "lng": -3.5222865,
+     "number": 1132,
+     "machine": "CI-080104-002-1132-8",
+     "home": "Gangané 1132",
+     "remembered": "Gangané · 11 32",
+     "written": "Gangané 11 32 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5838092,
+     "lng": -3.5224517,
+     "number": 1149,
+     "machine": "CI-080104-002-1149-7",
+     "home": "Gangané 1149",
+     "remembered": "Gangané · 11 49",
+     "written": "Gangané 11 49 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5837576,
+     "lng": -3.5222857,
+     "number": 1157,
+     "machine": "CI-080104-002-1157-3",
+     "home": "Gangané 1157",
+     "remembered": "Gangané · 11 57",
+     "written": "Gangané 11 57 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5836437,
+     "lng": -3.5222794,
+     "number": 1140,
+     "machine": "CI-080104-002-1140-8",
+     "home": "Gangané 1140",
+     "remembered": "Gangané · 11 40",
+     "written": "Gangané 11 40 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5833994,
+     "lng": -3.5223287,
+     "number": 1115,
+     "machine": "CI-080104-002-1115-1",
+     "home": "Gangané 1115",
+     "remembered": "Gangané · 11 15",
+     "written": "Gangané 11 15 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5839982,
+     "lng": -3.5220561,
+     "number": 1216,
+     "machine": "CI-080104-002-1216-6",
+     "home": "Gangané 1216",
+     "remembered": "Gangané · 12 16",
+     "written": "Gangané 12 16 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5841754,
+     "lng": -3.521849,
+     "number": 1047,
+     "machine": "CI-080104-002-1047-7",
+     "home": "Gangané 1047",
+     "remembered": "Gangané · 10 47",
+     "written": "Gangané 10 47 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5840717,
+     "lng": -3.5220914,
+     "number": 1207,
+     "machine": "CI-080104-002-1207-2",
+     "home": "Gangané 1207",
+     "remembered": "Gangané · 12 07",
+     "written": "Gangané 12 07 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5838598,
+     "lng": -3.5214399,
+     "number": 1200,
+     "machine": "CI-080104-002-1200-9",
+     "home": "Gangané 1200",
+     "remembered": "Gangané · 12 00",
+     "written": "Gangané 12 00 (Parc National de Bona)"
+    },
+    {
+     "lat": 9.5834511,
+     "lng": -3.5224079,
+     "number": 1042,
+     "machine": "CI-080104-002-1042-8",
+     "home": "Gangané 1042",
+     "remembered": "Gangané · 10 42",
+     "written": "Gangané 10 42 (Parc National de Bona)"
+    }
+   ]
+  }
+ ]
+}

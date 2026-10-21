@@ -1,0 +1,107 @@
+{
+ "about": "Measured on the published registry by tools/paper-evaluation.py.",
+ "codes": 7956622,
+ "conformanceFailures": {},
+ "distinctMachineForms": 7956622,
+ "distinctRememberedForms": 7956622,
+ "numberDigits": {
+  "4": 5641970,
+  "5": 2314652
+ },
+ "rememberedFormLength": {
+  "min": 10,
+  "max": 34,
+  "mean": 16.38,
+  "histogram": {
+   "10": 6506,
+   "11": 52080,
+   "12": 250031,
+   "13": 561361,
+   "14": 951373,
+   "15": 1299636,
+   "16": 1329381,
+   "17": 1158414,
+   "18": 834365,
+   "19": 611728,
+   "20": 458938,
+   "21": 158849,
+   "22": 155438,
+   "23": 70120,
+   "24": 41695,
+   "25": 1620,
+   "26": 7708,
+   "27": 2557,
+   "28": 1363,
+   "29": 547,
+   "30": 1828,
+   "32": 478,
+   "34": 606
+  }
+ },
+ "plusCodeShortLength": {
+  "4": 26543,
+  "6": 1598989,
+  "8": 6330711,
+  "12": 379
+ },
+ "sample": {
+  "size": 100000,
+  "seed": 2026
+ },
+ "decoding": {
+  "machine ok": 100000,
+  "remembered ok": 100000,
+  "written ok": 100000
+ },
+ "plusCodeRecoveryMetres": {
+  "p50": 1.23,
+  "p99": 2.06,
+  "within3m": 100000,
+  "over1km": 0
+ },
+ "referenceNamesShared": [],
+ "referenceTownsWithDepartement": [
+  "Guézon (Duékoué)",
+  "Guézon (Facobly)",
+  "Lolobo (Attiégouakro)",
+  "Lolobo (Béoumi)",
+  "N'Guessankro (Bongouanou)",
+  "N'Guéssankro (Béoumi)",
+  "Nafana (Kong)",
+  "Nafana (Prikro)",
+  "Santa (Biankouma)",
+  "Santa (Ouaninou)"
+ ],
+ "plusCodesNamingTownWithDepartement": 79412,
+ "slips": {
+  "substitution": 3759209,
+  "substitution in a block, unissued": 387447,
+  "substitution lands on another home": 2699858,
+  "substitution not issued": 671904,
+  "transposition": 272996,
+  "transposition in a block, unissued": 38246,
+  "transposition lands on another home": 185202,
+  "transposition not issued": 49548
+ },
+ "perAreaNumberingAmbiguousCodes": 991213,
+ "consecutiveNumbersMetres": {
+  "hilbert": {
+   "median": 19.98,
+   "mean": 66.0,
+   "p90": 75.4,
+   "shareOver200m": 0.0543
+  },
+  "morton": {
+   "median": 22.4,
+   "mean": 85.6,
+   "p90": 112.37,
+   "shareOver200m": 0.0656
+  },
+  "rows": {
+   "median": 29.87,
+   "mean": 132.3,
+   "p90": 83.95,
+   "shareOver200m": 0.061
+  }
+ }
+}

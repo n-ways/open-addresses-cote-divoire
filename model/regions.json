@@ -1,0 +1,352 @@
+[
+  {
+    "key": "AB",
+    "iso": "CI-AB",
+    "name": "Abidjan",
+    "nameFr": "Abidjan",
+    "nameLocal": "Abidjan",
+    "wikidata": "Q4667612",
+    "areaKm2": 1954.1,
+    "box": [
+      -4.29408,
+      5.22087,
+      -3.71774,
+      5.63633
+    ],
+    "buildings": {
+      "openstreetmap": 403025,
+      "ml": 534285,
+      "total": 937310
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 5
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "BS",
+    "iso": "CI-BS",
+    "name": "Bas-Sassandra",
+    "nameFr": "Bas-Sassandra",
+    "nameLocal": "Bas-Sassandra",
+    "wikidata": "Q20980352",
+    "areaKm2": 27845.4,
+    "box": [
+      -7.59921,
+      4.36122,
+      -5.45369,
+      6.55835
+    ],
+    "buildings": {
+      "openstreetmap": 77637,
+      "ml": 961020,
+      "total": 1038657
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "CM",
+    "iso": "CI-CM",
+    "name": "Comoé",
+    "nameFr": "Comoé",
+    "nameLocal": "Comoé",
+    "wikidata": "Q16629374",
+    "areaKm2": 13960.1,
+    "box": [
+      -3.8548,
+      5.09047,
+      -2.72353,
+      7.35477
+    ],
+    "buildings": {
+      "openstreetmap": 34172,
+      "ml": 489561,
+      "total": 523733
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "DN",
+    "iso": "CI-DN",
+    "name": "Denguélé District",
+    "nameFr": "District du Denguélé",
+    "nameLocal": "Denguélé",
+    "wikidata": "Q20980374",
+    "areaKm2": 20867.7,
+    "box": [
+      -8.16391,
+      8.50859,
+      -6.57838,
+      10.46204
+    ],
+    "buildings": {
+      "openstreetmap": 21817,
+      "ml": 141841,
+      "total": 163658
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "GD",
+    "iso": "CI-GD",
+    "name": "Gôh-Djiboua",
+    "nameFr": "Gôh-Djiboua",
+    "nameLocal": "Gôh-Djiboua",
+    "wikidata": "Q21003640",
+    "areaKm2": 15725.1,
+    "box": [
+      -6.43593,
+      5.14742,
+      -4.93638,
+      6.65407
+    ],
+    "buildings": {
+      "openstreetmap": 84598,
+      "ml": 702735,
+      "total": 787333
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "LC",
+    "iso": "CI-LC",
+    "name": "Lacs",
+    "nameFr": "Lacs",
+    "nameLocal": "Lacs",
+    "wikidata": "Q20980363",
+    "areaKm2": 26308.4,
+    "box": [
+      -5.66957,
+      6.18146,
+      -3.5021,
+      8.05133
+    ],
+    "buildings": {
+      "openstreetmap": 26453,
+      "ml": 419296,
+      "total": 445749
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "LG",
+    "iso": "CI-LG",
+    "name": "Lagunes",
+    "nameFr": "Lagunes",
+    "nameLocal": "Lagunes",
+    "wikidata": "Q20980365",
+    "areaKm2": 20760.1,
+    "box": [
+      -5.45717,
+      5.09636,
+      -3.31735,
+      6.64954
+    ],
+    "buildings": {
+      "openstreetmap": 46930,
+      "ml": 666936,
+      "total": 713866
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "MG",
+    "iso": "CI-MG",
+    "name": "Montagnes",
+    "nameFr": "Montagnes",
+    "nameLocal": "Montagnes",
+    "wikidata": "Q20980366",
+    "areaKm2": 30576.1,
+    "box": [
+      -8.60147,
+      5.63921,
+      -6.97149,
+      8.15698
+    ],
+    "buildings": {
+      "openstreetmap": 45466,
+      "ml": 1235793,
+      "total": 1281259
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "SM",
+    "iso": "CI-SM",
+    "name": "Sassandra-Marahoué",
+    "nameFr": "Sassandra-Marahoué",
+    "nameLocal": "Sassandra-Marahoué",
+    "wikidata": "Q20365127",
+    "areaKm2": 24265.9,
+    "box": [
+      -7.09128,
+      6.24771,
+      -5.39829,
+      7.80606
+    ],
+    "buildings": {
+      "openstreetmap": 40248,
+      "ml": 1061690,
+      "total": 1101938
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "SV",
+    "iso": "CI-SV",
+    "name": "Savanes",
+    "nameFr": "Savanes",
+    "nameLocal": "Savanes",
+    "wikidata": "Q21002161",
+    "areaKm2": 40121.2,
+    "box": [
+      -6.95908,
+      8.5335,
+      -3.77761,
+      10.7402
+    ],
+    "buildings": {
+      "openstreetmap": 276002,
+      "ml": 657449,
+      "total": 933451
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "VB",
+    "iso": "CI-VB",
+    "name": "Vallée du Bandama",
+    "nameFr": "Vallée du Bandama",
+    "nameLocal": "Vallée du Bandama",
+    "wikidata": "Q21002356",
+    "areaKm2": 27715.5,
+    "box": [
+      -5.73733,
+      7.23342,
+      -3.90056,
+      9.42454
+    ],
+    "buildings": {
+      "openstreetmap": 179768,
+      "ml": 378556,
+      "total": 558324
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "WR",
+    "iso": "CI-WR",
+    "name": "Woroba",
+    "nameFr": "Woroba",
+    "nameLocal": "Woroba",
+    "wikidata": "Q20980371",
+    "areaKm2": 31505.6,
+    "box": [
+      -8.24375,
+      7.63626,
+      -5.33572,
+      9.21574
+    ],
+    "buildings": {
+      "openstreetmap": 9354,
+      "ml": 435792,
+      "total": 445146
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  },
+  {
+    "key": "YM",
+    "iso": "CI-YM",
+    "name": "Yamoussoukro",
+    "nameFr": "Yamoussoukro",
+    "nameLocal": "Yamoussoukro",
+    "wikidata": "Q8048095",
+    "areaKm2": 1914.9,
+    "box": [
+      -5.52813,
+      6.55423,
+      -5.00371,
+      7.09678
+    ],
+    "buildings": {
+      "openstreetmap": 76277,
+      "ml": 49377,
+      "total": 125654
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 5
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "ZZ",
+    "iso": "CI-ZZ",
+    "name": "Zanzan",
+    "nameFr": "Zanzan",
+    "nameLocal": "Zanzan",
+    "wikidata": "Q21003689",
+    "areaKm2": 38113.6,
+    "box": [
+      -4.31293,
+      7.05917,
+      -2.49294,
+      9.95848
+    ],
+    "buildings": {
+      "openstreetmap": 108753,
+      "ml": 314026,
+      "total": 422779
+    },
+    "codeLength": {
+      "spot": 8,
+      "building": 5
+    },
+    "needsSubdivision": true
+  }
+]

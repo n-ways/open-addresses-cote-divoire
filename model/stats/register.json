@@ -1,0 +1,24 @@
+{
+ "areas": 9834,
+ "areasWithCompounds": 9800,
+ "compounds": 7956622,
+ "nameKeys": 8618,
+ "sharedNames": 818,
+ "areasInSharedNames": 2034,
+ "namesByDigits": {
+  "4": 8295,
+  "5": 323
+ },
+ "compoundsByDigits": {
+  "4": 5641970,
+  "5": 2314652
+ },
+ "largestArea": {
+  "aid": "230103-015",
+  "plate": "Bouaflé",
+  "compounds": 23047
+ },
+ "needsCouncilChoice": 1197,
+ "qualified": [],
+ "aliases": 1070
+}

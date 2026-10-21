@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+
+# Databases and exports made by the server
+/data/
+*.sqlite
+*.sqlite-*
+*.sqlite.importing*
+*.db
+/exported/
+/backups/
+
+# Paper build output
+docs/paper/build/
+*.aux
+*.log
+*.out
+*.toc
+
+# System and editor files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

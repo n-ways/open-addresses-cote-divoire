@@ -1,0 +1,848 @@
+{
+ "country": "CI",
+ "name": "Adresse N-Ways Côte d'Ivoire",
+ "status": "issued",
+ "officialFirst": {
+  "text": "Where the State has already given a gate an address, that address is the address and comes first.",
+  "meaning": "Where an official door-level address exists, N-Ways shows it first, exactly as officially written, and puts no N-Ways plate on that gate. The compound keeps its N-Ways code beside the official address (said on the phone, and telling apart the households of a cour behind one gate), with the navigation aids (gate position, building profile, Plus Code). P.O. boxes and office codes are pointers, not addresses.",
+  "coverage": [
+   {
+    "area": "Abidjan, 13 communes, gates PADA numbered",
+    "official": "PADA street + metric number (MCLU/DARRU)",
+    "data": "street list with ID_VOIE public (MCLU PDF, Sep 2025); address points on the PADA partner geoportal under the 24 Jan 2023 data-sharing convention, not open: access requested",
+    "nways": "import and show PADA exactly; gate pin, profile, Plus Code; no N-Ways number or plate; registry key PADA:<ID_VOIE>:<number>"
+   },
+   {
+    "area": "Abidjan precarious quarters (excluded by PADA, ~20% of residents)",
+    "official": "none",
+    "data": "n/a",
+    "nways": "N-Ways code"
+   },
+   {
+    "area": "Abidjan gates PADA did not number (back compounds, new builds)",
+    "official": "none for that gate",
+    "data": "n/a",
+    "nways": "N-Ways code marked 'hors PADA'; alias if PADA numbers it later"
+   },
+   {
+    "area": "Yamoussoukro, Daloa, Korhogo (PAVI)",
+    "official": "coming (study validated Sep 2024)",
+    "data": "not yet",
+    "nways": "N-Ways codes in the app, no plates until PAVI delivers; then the official address is shown first and the N-Ways code stays beside it"
+   },
+   {
+    "area": "Rest of the country",
+    "official": "none",
+    "data": "n/a",
+    "nways": "N-Ways code"
+   },
+   {
+    "area": "Everywhere",
+    "official": "La Poste B.P. + 2-digit office code",
+    "data": "on request",
+    "nways": "pointer on business profiles only"
+   },
+   {
+    "area": "Everywhere",
+    "official": "PADA numeric code d'adresse (approved Feb 2025): five digits, département (3) + commune (2), written after the street",
+    "data": "format public; no open table of codes",
+    "nways": "mapping table unit -> official code"
+   }
+  ]
+ },
+ "issued": "2026-10-20",
+ "designCriteria": [
+  "1. Easy to remember and zero effort to get: a short plate name of a place people already use (at most 12 characters and 2 words) + a 4-digit number (5 for 311 names) read as two pairs. 'Name NNNN' is unique in the whole country on its own.",
+  "2. Beside official systems: PADA street address shown first in Abidjan; never a 'postal code'; never shaped like PADA's numeric code d'adresse.",
+  "3. The compound (cour, concession, parcelle) is the address; the gate is where the driver goes.",
+  "4. Stable: a number is never moved or reused; renames change aliases only.",
+  "5. Works offline; open method and data; codes describe places, never people."
+ ],
+ "forms": {
+  "remembered": {
+   "pattern": "<plate name> · <NN NN>",
+   "example": "Bonoumin · 55 52",
+   "rules": [
+    "the name is the area's plate name: at most 12 characters and 2 words (plateNames)",
+    "digits only after a place name",
+    "unique nationally on its own: never needs the commune or town after it",
+    "4 digits, or 5 for names whose national range needs them; the length is fixed per name",
+    "no check digit to remember",
+    "read in pairs like phone numbers"
+   ]
+  },
+  "written": {
+   "pattern": "<plate name> <number>-<check>[ (<commune or sous-préfecture>)]",
+   "example": "Bonoumin 5552-0 (Cocody)",
+   "label": "the commune in brackets is a display label only; it is never needed to decode, and a label that contradicts the decoded area makes the code invalid"
+  },
+  "machine": {
+   "pattern": "CI-<unit 6d>-<area 3d>-<number 4-5d>-<Damm>[.<structure>][/<entrance>]",
+   "example": "CI-010114-083-5552-0",
+   "regex": "^CI-(\\d{6})-(\\d{3})-(\\d{4,5})-(\\d)(?:\\.(\\d{1,3}))?(?:/(\\d{1,2}))?$"
+  },
+  "plate": {
+   "lines": [
+    "N-Ways",
+    "<PLATE NAME>",
+    "<NN NN>  -<check, small>",
+    "<official area name, small, context only>",
+    "<commune, small, label only>",
+    "QR: https://nways.ng/a/<machine form>",
+    "<machine form, small>"
+   ],
+   "pada": "No N-Ways plate on any gate PADA numbered: the State's plate is the plate. Plates only where no official address exists; none in PAVI towns before PAVI delivers (codes in the app there)."
+  },
+  "spoken": {
+   "language": "French",
+   "example": {
+    "1817": "dix-huit dix-sept",
+    "4817": "quarante-huit dix-sept",
+    "1071": "dix soixante-et-onze",
+    "1007": "dix zéro sept",
+    "48217": "quatre quatre-vingt-deux dix-sept"
+   },
+   "note": "Area names are said as locals say them (Baoulé, Dioula, Ébrié, Bété... place names); digits in French pairs, as Ivorian 10-digit phone numbers are read."
+  },
+  "official": {
+   "pattern": "<number>, <official street name>, <commune> exactly as PADA writes it",
+   "example": "115, Rue des Moineaux, Le Plateau (illustrative number)",
+   "source": "PADA"
+  }
+ },
+ "units": {
+  "level": "sous-préfecture (509 official; 510 polygons in the CNTIG/OCHA 2018 layer) + the 10 historical communes of Abidjan (inside the Abidjan sous-préfecture)",
+  "code": "6 digits. Sous-préfecture: digits of the OCHA/CNTIG pcode (CI010101 -> 010101 = district 01, département 01, SP 01). Abidjan communes: interim 010111-010120 (alphabetical: Abobo 010111 ... Yopougon 010120).",
+  "why": "PADA's code d'adresse is 'based on the codification of geographic circonscriptions ... identifiers of the Département and the Commune/Sous-Préfecture' (KOACI, 27 Feb 2025). Using the same level makes a 1:1 mapping table possible the day the official codes are published. Interim codes are replaced by a published alias table, never by changing issued codes.",
+  "files": [
+   "model/areas/admin-units.csv",
+   "model/units/sous-prefectures.geojson",
+   "model/units/abidjan-communes.geojson"
+  ],
+  "counts": {
+   "units": 520,
+   "largestByStructures": {
+    "Abidjan SP (10 communes)": 679808,
+    "Bouaké": 217580,
+    "Korhogo": 140145,
+    "Daloa": 140009,
+    "San-Pédro": 106125,
+    "Anyama": 102985,
+    "Gagnoa": 102913,
+    "Yamoussoukro": 100133
+   }
+  }
+ },
+ "codeAreas": {
+  "what": "A frozen polygon named after the quartier, village or campement people use, inside one unit. Its numbers come from its frozen block in the national range of its name, so a number is unique for that name in the whole country.",
+  "interim": "Nearest named OSM place (city, town, village, hamlet, suburb, quarter, neighbourhood, locality) inside the same unit; 9,834 areas in model/areas/areas.csv. The 'Abidjan' city node is excluded inside the communes.",
+  "frozenAt": "first issue of a code in the area; boundaries then change only for unissued land",
+  "index": "3 digits, rank inside the unit north to south then west to east at freezing; stored, never recomputed",
+  "split": "An area with compounds x 2 > 9,000 is split by quartier names (PADA quartier column, OSM, people) before any code is issued in it; where no names exist it keeps one large block in a 5-digit range and is flagged for splitting.",
+  "evidence": {
+   "abidjanAreas": {
+    "namedPlaces": 452,
+    "areas": 415,
+    "compoundsPerArea": {
+     "p10": 178,
+     "p50": 861,
+     "p90": 3028,
+     "max": 11514
+    },
+    "fit": {
+     "<=450": 119,
+     "<=4500 (4 digits)": 279,
+     "needs split": 17
+    },
+    "largest": [
+     "Adjouffou 11,514",
+     "Akeikoi 8,864",
+     "Avocatier 8,266",
+     "Gonzagueville 7,960",
+     "Cité Gestoci 7,050"
+    ]
+   },
+   "national": {
+    "placePoints": 10220,
+    "areas": 10128,
+    "estCompounds": 8046565,
+    "compoundsPerArea": {
+     "p50": 384,
+     "p90": 1851,
+     "p99": 6055,
+     "max": 23269
+    },
+    "areasByDigits": {
+     "3": 5576,
+     "4": 4336,
+     "5": 216
+    },
+    "compoundShare": {
+     "fits 4 digits now": 0.805,
+     "in areas to split": 0.195
+    },
+    "largestToSplit": [
+     "Bonon",
+     "Bouaflé",
+     "Soubré",
+     "Adzopé",
+     "Ferkessédougou",
+     "Odienné",
+     "Abengourou",
+     "Guiglo",
+     "Boundiali",
+     "Dabou",
+     "Bondoukou"
+    ]
+   },
+   "method": "10% building sample (OSM + Google/Microsoft footprints) assigned to nearest named place; compounds = structures x 0.834 (Abidjan ratio). tools/national_areas.py, model/stats/national-areas.json."
+  }
+ },
+ "number": {
+  "digits": "4, or 5 for names whose national range needs them; fixed per name",
+  "range": [
+   1000,
+   99999
+  ],
+  "noLeadingZero": true,
+  "capacityRule": "per area: block = max(100, 2 x compounds rounded up to 100) inside its name's national range (nationalNames)",
+  "order": "Hilbert curve, order 16, over the area's frozen frame (bounding box), on the compound's reference point (gate if known, else area-weighted centroid of its structures)",
+  "step": "s = floor(blockSize / (N x 1.5)), at least 1; compound i gets blockLo + i x s",
+  "tailReserve": "top third of each block",
+  "infill": "new compound: free number between the numbers of its Hilbert neighbours, closest to the midpoint; else the lowest free number of the block's tail reserve; else a new block from the name's spare",
+  "neverReused": true,
+  "uniqueness": "a number is unique for its name in the whole country"
+ },
+ "check": {
+  "algorithm": "Damm (order-10 quasigroup)",
+  "over": "name key as digits (a-z -> 10-35, 0-9 -> 00-09) + number; the area is bound by the frozen block table (the number decides the area; the machine form's unit+area must own the number's block)",
+  "detects": [
+   "every single wrong digit",
+   "every swap of two adjacent digits"
+  ],
+  "where": "written form, machine form, plates, forms, partner APIs; optional when a remembered code is typed (it then decodes to one area, shown before guiding)",
+  "example": {
+   "nameKey": "bonoumin",
+   "nameDigits": "1124232430221823",
+   "number": 5552,
+   "check": 0,
+   "plainDamm": {
+    "digits": "0101140834817",
+    "check": 8
+   }
+  },
+  "why": "hashing the area digits in would let a number typo that moves to another block change several input digits at once, which Damm does not guarantee to catch; binding by block keeps the guarantee"
+ },
+ "spot": {
+  "system": "Open Location Code (Plus Codes), implemented in engine/reference/ci_engine.py",
+  "length": 11,
+  "cell": "1/40000 deg x 1/32000 deg, about 2.8 m x 3.5 m",
+  "short": "OLC short code against the reference town of the unit: 'PWPQ+2J2 Bouaké' (= 6CVPPWPQ+2J2) (references in model/areas/references.csv)",
+  "why": "Open and free, offline, already printed by common map apps; La Poste CI promotes proprietary what3words - N-Ways offers the open alternative and never depends on w3w. Spots are shared as links (nways.ng/p/<code>), not memorised.",
+  "regionsFile": "model/regions.json shows 3 m spot codes would need 7-8 characters per district; OLC's 11 characters cover the country with no tables."
+ },
+ "compound": {
+  "unit": "plot / compound (cour, concession, parcelle, villa with its fence, immeuble with its plot)",
+  "detection": [
+   {
+    "rule": "enclosure",
+    "source": "closed OSM barrier=wall|fence|hedge ways; N-Ways compounds.geojsonseq (kind estate|government|military|police)",
+    "maxAreaM2": 6000,
+    "confidence": 0.85
+   },
+   {
+    "rule": "annex",
+    "what": "structure < 25 m2 joins the nearest structure >= 25 m2 whose footprint is within 5 m",
+    "confidence": 0.6
+   },
+   {
+    "rule": "cadastral parcel",
+    "source": "SIGFU / IDUFCI / ACD parcel where the compound's owner or a partner provides it",
+    "confidence": 0.9
+   },
+   {
+    "rule": "people",
+    "what": "'these buildings are one home', 'this is the gate', from residents, visitors and couriers; settled by agreement",
+    "confidence": "rises with each independent confirmation"
+   },
+   {
+    "rule": "single",
+    "what": "anything else is its own compound",
+    "confidence": 0.4
+   }
+  ],
+  "estates": "an enclosure > 6,000 m2 holding many compounds (cité SICOGI/SOGEFIHA, gated lotissement) is an ESTATE: it gets its gate(s) as entrances of type estate-gate; compounds inside keep their own codes; routing ends at the estate gate when the inside is private",
+  "regroupingNeverChangesCodes": "If later evidence merges two compounds, the older code survives and the other becomes an alias; if it splits one, the largest part keeps the code and the others get new numbers.",
+  "abidjanStats": {
+   "structures": 679808,
+   "compounds": 566892,
+   "structuresPerCompound": {
+    "1": 475971,
+    "2": 74889,
+    "3-5": 15545,
+    "6-10": 426,
+    "11+": 61
+   },
+   "byRule": {
+    "single": 475548,
+    "annex host": 45620,
+    "annex": 44228,
+    "enclosure": 1496
+   },
+   "class": {
+    "residential one household": 423551,
+    "residential multi household": 77597,
+    "unclassified (small structures only)": 34675,
+    "industrial": 13340,
+    "commercial": 10865,
+    "institutional": 5004,
+    "mixed": 991,
+    "residential multi-storey": 869
+   },
+   "mappedEnclosureM2": {
+    "p10": 326,
+    "p50": 1209,
+    "p90": 4186
+   },
+   "structuresInLargeEnclosures": 35151,
+   "osmContext": {
+    "gates": 1822,
+    "entrances": 55,
+    "wallFenceWays": 6493,
+    "closedEnclosures": 4806
+   }
+  },
+  "profile": {
+   "useClass": "residential-one-household | residential-multi-household (cour commune) | residential-multi-storey (immeuble) | mixed | commercial | institutional | industrial | agricultural (campement) | under-construction | unknown",
+   "plotAreaM2": "from enclosure, cadastral parcel or Add-my-home outline; else null",
+   "structures": "count",
+   "floorAreaM2": "sum over structures",
+   "gates": "list of entrance ids",
+   "households": "number declared by the resident in Add my home; kept by the N-Ways app, never in the registry",
+   "pada": "list of {idVoie, street, number} on its gates",
+   "parcelRefs": "IDUFCI / ACD / lotissement îlot+lot, only with the owner's consent; never in the registry"
+  }
+ },
+ "structure": {
+  "code": "<compound machine form>.<n>, n = 1 for the largest footprint, then by size at freezing; new structures get the next n",
+  "profile": {
+   "useClass": {
+    "values": {
+     "residential": [
+      "villa (basse, duplex)",
+      "maison en bande / logement de cité (SICOGI, SOGEFIHA)",
+      "immeuble R+n",
+      "cour commune (chambres autour d'une cour)",
+      "baraque (habitat précaire)",
+      "case (rural)",
+      "habitation de campement",
+      "maison de village (villages Ébrié, villages ruraux)"
+     ],
+     "commercial": [
+      "boutique",
+      "magasin",
+      "kiosque",
+      "maquis (restaurant)",
+      "marché",
+      "station-service",
+      "banque",
+      "pharmacie"
+     ],
+     "government": [
+      "mairie",
+      "préfecture / sous-préfecture",
+      "poste de police / gendarmerie",
+      "caserne"
+     ],
+     "education": [
+      "école",
+      "collège / lycée",
+      "université"
+     ],
+     "health": [
+      "CSU / centre de santé",
+      "hôpital / CHU",
+      "clinique"
+     ],
+     "religious": [
+      "église",
+      "mosquée",
+      "temple"
+     ],
+     "industrial": [
+      "usine",
+      "entrepôt",
+      "hangar"
+     ],
+     "hospitality": [
+      "hôtel",
+      "résidence meublée"
+     ],
+     "transport": [
+      "gare routière (gbaka, woro-woro, cars)",
+      "port",
+      "aéroport"
+     ],
+     "agricultural": [
+      "magasin agricole",
+      "séchoir",
+      "élevage"
+     ],
+     "other": [
+      "annexe (cuisine, douche, guérite)",
+      "en construction",
+      "ruine",
+      "inconnu"
+     ]
+    }
+   },
+   "useConfidence": "0-1; evidence: OSM building tag 0.85, OSM shop/amenity tag on the footprint 0.75, N-Ways place inside the footprint 0.65, OSM landuse 0.5, size prior 0.3-0.4, default residential 0.45/0.55; +0.05 per agreeing source; residential + commercial evidence = mixed 0.6; a confirmed door/owner statement 0.9",
+   "footprintM2": "geodesic area of the footprint",
+   "perimeterM": "geodesic perimeter",
+   "heightM": "OSM height, else ML parquet h (Google/Microsoft), else null",
+   "floors": "OSM building:levels, else max(1, round((h - 1.5) / 3)), else 1",
+   "floorAreaM2": "footprint x floors",
+   "status": "existing | under-construction | ruin | demolished (code retired)",
+   "name": "businesses and public buildings only, as the business, the institution or the public record gives it",
+   "sources": "per attribute: {source, value, observedAt, confirmedAt}; sources: osm, google-open-buildings, microsoft, nways-places, nways-people, partner, pada, resident",
+   "abidjanStats": {
+    "footprintM2": {
+     "p10": 16.7,
+     "p25": 28.5,
+     "p50": 66.7,
+     "p75": 155.2,
+     "p90": 273.8
+    },
+    "perimeterM": {
+     "p50": 34.9
+    },
+    "heightM": {
+     "p10": 3.9,
+     "p50": 5.3,
+     "p90": 6.7,
+     "share with height": 0.577
+    },
+    "floors": {
+     "1": 560066,
+     "2": 118494,
+     "3+": 1248
+    },
+    "footprintTotalKm2": 88.6,
+    "floorAreaTotalKm2": 101.8,
+    "classEvidence": {
+     "default": 631222,
+     "osm landuse": 25425,
+     "osm building tag": 10361,
+     "N-Ways place inside": 9334,
+     "size": 2573,
+     "agreement": 535,
+     "osm poi tag": 358
+    }
+   }
+  }
+ },
+ "entrances": {
+  "kinds": [
+   "gate (portail, primary)",
+   "door (porte de boutique dans le mur, entrée secondaire)",
+   "estate-gate (cité, résidence)",
+   "pedestrian",
+   "service",
+   "landing (lagoon village pier)"
+  ],
+  "code": "<compound machine form>/<n>; /1 = primary gate",
+  "fields": [
+   "position (lat, lon)",
+   "kind",
+   "bearing to street",
+   "street (OSM way id, name)",
+   "pada {idVoie, number}",
+   "photo (private, verification only)",
+   "confirmedAt",
+   "confirmations"
+  ],
+  "routing": "the driver is taken to the primary gate, never to a footprint centroid"
+ },
+ "addMyHome": {
+  "steps": [
+   "stand at the gate: GPS averaged 5-10 s + one gate photo",
+   "outline the plot: tap corners on imagery | walk the inside of the wall with AR world tracking (ARKit/ARCore), anchored by GPS averaged over the walk, checked against imagery and footprints | import a géomètre plan / SIGFU-IDUFCI parcel (beacon coordinates typed or photographed; datum stated: ITRF2014@2010.0 per Décret 2019-220, or legacy Abidjan 1987 / Clarke 1880 converted)",
+   "describe it: households (private), structures, floors, use",
+   "get a PROVISIONAL code at once: next reserved number of the area (infill rule)",
+   "CONFIRMED by deliveries/arrivals at the gate, no neighbour dispute, or new imagery/footprints"
+  ],
+  "checks": [
+   "gate lies on or within 3 m of the outline",
+   "plausible plot size 20-20,000 m2",
+   "closed loop",
+   "GPS vs AR outline agreement within 5 m",
+   "no overlap > 10% with an existing compound or parcel (overlap -> flagged, not issued)"
+  ],
+  "offline": "spot code (Plus Code) shown at once; compound code reserved from the downloaded area pack, confirmed on next connection",
+  "legal": "An N-Ways code is an address, not a land title, an ACD, a certificat foncier or a plan. Only a géomètre-expert agréé plan approved by the MCLU (urban) or an AFOR certificat foncier (rural) has legal value. The flow says so before the code is shown.",
+  "privacy": "kept: outline and gate photo; never: names, ID numbers, NNI, documents"
+ },
+ "gettingYourCode": {
+  "appSavedHome": "0 steps to see ('Votre adresse N-Ways' card on the home screen), 1 tap to share (WhatsApp/SMS link nways.ng/a/<code>)",
+  "atTheGate": "open the app -> 'Mon adresse ici' (1 tap) -> confirm 'this is my gate' (1 tap)",
+  "noSmartphone": "plate or sticker on the gate; a relative, courier or partner looks it up for them",
+  "partners": "API lookup by phone-free inputs: point, PADA address, area + number",
+  "notOffered": [
+   "USSD (not done)",
+   "SMS lookup service (possible later option, not planned)"
+  ]
+ },
+ "interop": {
+  "pada": "PADA is the address where it exists: entrance.pada {idVoie, street, number} imported from the MCLU street list and the PADA partner geoportal (access requested under the 2023 convention); until access, entered by people (plate photo / typed) and validated against the street list, never guessed; synced by ID_VOIE on each release; mismatches reported to the MCLU, not corrected by N-Ways",
+  "padaCodeAdresse": "mapping table unit -> official département + commune/SP code when published",
+  "laPoste": "B.P. text only for businesses that publish it; POLI couriers as partners",
+  "parcels": "IDUFCI / ACD / AFOR certificat foncier optional cross-references (private by default)",
+  "plusCodes": "every compound and gate also has its Plus Code"
+ },
+ "privacy": {
+  "law": "Loi n° 2013-450 du 19 juin 2013; authority ARTCI",
+  "obligations": [
+   "prior declaration (art. 5)",
+   "prior authorisation for phone-number processing and for any transfer abroad (art. 7, art. 26); silence = refusal",
+   "file through CERTINUM (certinumapdp.ci, since 2 Jul 2026)"
+  ],
+  "published": [
+   "code, area, unit",
+   "gate position",
+   "footprints (already public in OSM/Google/Microsoft)",
+   "number of structures, sizes, floors",
+   "use class (residential shown only as 'residential')",
+   "names of businesses and public buildings"
+  ],
+  "neverPublished": [
+   "who lives there",
+   "households",
+   "Add-my-home photos",
+   "parcel references",
+   "who confirmed what"
+  ],
+  "never": [
+   "NNI or any identity number",
+   "linking to the MaPoste NNI-linked box",
+   "occupant names"
+  ],
+  "precariousQuarters": "codes are addresses, not rights or eviction lists: the registry is the same in every quarter and holds nothing about people; requests about people are answered only under a legal order, logged and reported"
+ },
+ "governance": {
+  "partners": [
+   "MCLU / Direction de l'Adressage (PADA, PAVI)",
+   "District Autonome d'Abidjan and the 13 communes",
+   "UVICOCI (union of towns and communes)",
+   "La Poste de Côte d'Ivoire (incl. POLI)",
+   "CNTIG",
+   "BNETD (mapping)",
+   "ARTCI",
+   "GSPM 180, SAMU 185, police 110/111/170",
+   "couriers and banks"
+  ],
+  "handOver": "the repo can move to a national body if Côte d'Ivoire adopts the model"
+ },
+ "sources": "SOURCES.md",
+ "nationalNames": {
+  "why": "A code read on the phone or written on a parcel often travels without its commune, and place names repeat across the country: the remembered code must be unique nationally on its own; context (the app's position, a commune after a comma) is not allowed to decide.",
+  "replaces": "the alternative where same-named areas were told apart by the commune ('Sicogi 48 17, Yopougon') and parsing could return several candidates",
+  "nameKey": {
+   "function": "engine/reference/ci_engine.py name_key, applied to the plate name; engine/SPEC.md 4.1",
+   "steps": [
+    "first of several OSM names (A;B -> A)",
+    "NFKD, accents removed, lower case; oe/ae ligatures opened",
+    "words split on anything but a-z 0-9 (hyphens, apostrophes, dots, brackets, spaces)",
+    "drop le la les l de du des d et au aux",
+    "st->saint, ste->sainte, pk/kilometre->km, qt/qrt/qtier->quartier, Roman I-X -> digits",
+    "per word: final -s dropped (4+ letters); ou before a vowel -> w; y -> i; ph -> f; qu/q -> k; c before a/o/u -> k; doubled letters single",
+    "words joined"
+   ],
+   "languages": "French plus the spellings of Akan (Baoulé, Agni), Mandé (Dioula, Malinké), Krou and Gur place names",
+   "examples": {
+    "Koffikro = Kofikro": "kofikro",
+    "Adjouffou = Adjoufou": "adjoufou",
+    "Riviéra II = Riviera 2": "riviera2",
+    "Les Lauriers = Lauriers": "laurier",
+    "Kouassikro = Kwassikro": "kwasikro",
+    "Cocody = Kokody": "kokodi",
+    "PK 18 = Kilomètre 18": "km18"
+   },
+   "mergesOnly": true
+  },
+  "range": {
+   "perName": "every name key owns 1000-99999 nationally",
+   "fourDigits": "1000-9999 if blocks + spare <= 9,000",
+   "fiveDigits": "10000-99999 if blocks + spare <= 90,000; 1000-9999 then never issued for that name",
+   "spare": "max(500, 10% of the blocks)",
+   "maxDigits": 5,
+   "skippedStretches": "a name never uses the five-digit numbers d0000-d9999 when the same name followed by the digit d is also a name ('Koffikro' and 'Koffikro 1'), so 'Koffikro 1 12 00' reads one way only"
+  },
+  "blocks": {
+   "size": "max(100, 2 x compounds today rounded up to 100): infill gaps + tail reserve inside each block",
+   "order": "unit code, then area index; laid end to end from the bottom of the range",
+   "file": "model/areas/name-blocks.csv",
+   "tool": "tools/name_ranges.py"
+  },
+  "growth": "new area with an existing name, or an area whose block is full: next block from the name's spare (above every existing block); a 4-digit name whose 4-digit space is used up continues in its 5-digit space; earlier codes never change",
+  "frozen": "a block never moves, shrinks or is renumbered once a code is issued from it; renaming an area adds an alias and keeps its blocks",
+  "qualifier": {
+   "when": "a name whose blocks + spare exceed 90,000",
+   "rule": "each of its areas puts its unit (commune of Abidjan or sous-préfecture) in front, as people already say 'Yopougon Sicogi', 'Koumassi Remblais'; decided once per name, before its first issue, and listed",
+   "listed": []
+  },
+  "decode": "name_key(typed name) -> the plate key (directly, or through the official-name alias table) + number -> the one block containing the number -> one area, or 'not issued'. Never more than one candidate.",
+  "examples": [
+   {
+    "code": "Madina 15 00",
+    "area": "Madina, Touba (040301-008)",
+    "machine": "CI-040301-008-1500-7"
+   },
+   {
+    "code": "Madina 46 00",
+    "area": "Madina, Korhogo (280201-001)",
+    "machine": "CI-280201-001-4600-7"
+   },
+   {
+    "code": "Madina 58 00",
+    "area": "the other Madina of Korhogo (280201-002)",
+    "machine": "CI-280201-002-5800-7"
+   },
+   {
+    "code": "Belleville 3 12 00",
+    "area": "Belleville, Abobo (010111-001)",
+    "machine": "CI-010111-001-31200-2"
+   },
+   {
+    "code": "Belleville 4 50 00",
+    "area": "Belleville, Yamoussoukro (020201-041)",
+    "machine": "CI-020201-041-45000-0"
+   }
+  ],
+  "counts": {
+   "areas": 9834,
+   "nameKeys": 8618,
+   "repeatedNames": 818,
+   "areasWithRepeatedNames": 2034,
+   "compoundsInRepeatedNames": 1729777,
+   "repeatsByAreaCount": {
+    "2": 638,
+    "3": 105,
+    "4": 36,
+    "5": 11,
+    "6": 9,
+    "7": 6,
+    "8": 1,
+    "9": 4,
+    "10": 1,
+    "11": 1,
+    "12": 2,
+    "13": 1,
+    "14": 1,
+    "16": 2
+   },
+   "namesByDigits": {
+    "4": 8307,
+    "5": 311
+   },
+   "areasByDigits": {
+    "4": 9215,
+    "5": 619
+   },
+   "compoundShareByDigits": {
+    "4": 0.722,
+    "5": 0.278
+   }
+  },
+  "largestSharedRange": {
+   "name": "Belleville",
+   "areas": 7,
+   "compounds": 25979,
+   "allocated": 52400,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 17600,
+   "note": "10000-29999 skipped: Belleville 1 and Belleville 2 are names too; blocks 30000-82399"
+  },
+  "mostRepeated": {
+   "name": "Akakro",
+   "areas": 16,
+   "compounds": 8749,
+   "allocated": 18200,
+   "digits": 5
+  },
+  "fiveDigitNames": {
+   "total": 311,
+   "shared": 114,
+   "sharedOnlyBecauseShared": 46,
+   "singleArea": 197,
+   "singleAreaOver4500Compounds": 160
+  },
+  "sameUnitRepeats": 210,
+  "method": "compounds per area from the 10% building sample (out/ci/sample.csv, 964,816 points) given to the nearest area point, x 10 x 0.834; recomputed with full footprints and frozen polygons before first issue",
+  "statsFile": "model/stats/name-repeats.json",
+  "countsBeforePlateNames": {
+   "areas": 9834,
+   "nameKeys": 8903,
+   "repeatedNames": 636,
+   "areasWithRepeatedNames": 1567,
+   "compoundsInRepeatedNames": 1335748,
+   "repeatsByAreaCount": {
+    "2": 500,
+    "3": 86,
+    "4": 17,
+    "5": 10,
+    "6": 9,
+    "7": 6,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "12": 2,
+    "14": 2,
+    "16": 1
+   },
+   "namesByDigits": {
+    "4": 8598,
+    "5": 305
+   },
+   "areasByDigits": {
+    "4": 9284,
+    "5": 550
+   },
+   "compoundShareByDigits": {
+    "4": 0.732,
+    "5": 0.268
+   },
+   "largestSharedRange": {
+    "name": "Belleville",
+    "areas": 7,
+    "compounds": 25979,
+    "allocated": 52400,
+    "digits": 5
+   }
+  }
+ },
+ "plateNames": {
+  "why": "Names taken as they are from map data are often too long to say; each code area has a plate name of at most 12 characters and 2 words.",
+  "limit": {
+   "chars": 12,
+   "charsCount": "every character of the NFC form: letters (an accented letter is one), spaces, hyphens, apostrophes",
+   "words": 2,
+   "wordsCount": "parts between spaces or hyphens; linking words (de, du, des, d', la, le, les, l', et, sur, en, au, aux, à) do not count",
+   "numberWords": "one word holding digits allowed (\"Riviéra 2\", \"Zone 4\", \"PK 18\"), counted as a word and in the characters"
+  },
+  "fields": {
+   "name": "official / full area name (areas.csv name): small print on cards and plates, never required",
+   "plate": "plate name used in the code",
+   "plateRule": "as-is | cleaned | abbreviated | known | distinctive | council",
+   "needsCouncilChoice": "1 when the commune (or sous-préfecture) must choose before first issue",
+   "plateCandidates": "up to 3, the first used provisionally",
+   "plateReason": "why the area is flagged",
+   "plateSource": "source of a known short form"
+  },
+  "derivation": [
+   "known: documented short form people already say, with a source",
+   "clean: drop text in brackets or after a slash, generic words (Quartier, Cité, Lotissement, Zone, Secteur, Village de, Campement, Résidence(s)), linking words left at the ends",
+   "as-is or cleaned if it fits",
+   "abbreviated: Saint -> St, Sainte -> Ste (the name key expands them back)",
+   "distinctive: the rarest one or two whole words, preferring the end of the name; never cut inside a word",
+   "Ivorian check: an automatic short form may drop only generic or settlement words (Cité, Carrefour, Camp, Gare...) or the commune/sous-préfecture put in front of a quartier; any other word sends the area to the commune",
+   "council: everything else, with up to 3 candidates; a hyphenated village name over the limit offers its parts"
+  ],
+  "avoid": "a short form equal to a sous-préfecture seat, a département, an Abidjan commune or a large city of the region (Yamoussoukro, Bamako, Ouagadougou, Accra...) is not taken automatically: a plate reading like another city would mislead; the area's own unit is allowed",
+  "aliases": {
+   "file": "model/areas/plate-aliases.csv",
+   "rule": "the official name typed instead of the plate name decodes, but only to the areas that carry that official name; an alias claimed by two plate names, or equal to another area's plate name, is dropped",
+   "kept": 1070,
+   "dropped": 4
+  },
+  "known": [
+   {
+    "official": "Deux Plateaux",
+    "plate": "II Plateaux",
+    "source": "fr.wikipedia.org/wiki/Cocody (\"2 Plateaux\" in the sub-commune list); business addresses \"Cocody II Plateaux\", e.g. annuaireci.com/en/entreprises/cabinet-de-pediatrie-des-ii-plateaux-abidjan-cote-divoire/"
+   },
+   {
+    "official": "Gonzagueville",
+    "plate": "Gonzague",
+    "source": "fr.wikipedia.org/wiki/Port-Bouët (quartiers: \"Adjouffou, Derrière Wharf, Gonzague, Vridi\")"
+   }
+  ],
+  "counts": {
+   "areas": 9834,
+   "officialOverLimit": {
+    "chars": 1395,
+    "words": 192,
+    "either": 1414,
+    "numberWords": 9
+   },
+   "byRule": {
+    "abbreviated": 2,
+    "as-is": 8378,
+    "cleaned": 212,
+    "council": 1196,
+    "distinctive": 44,
+    "known": 2
+   },
+   "needsCouncilChoice": 1197,
+   "councilReasons": {
+    "the short form drops part of the name": 399,
+    "no run of whole words fits 12 characters and 2 words": 340,
+    "hyphenated name over the limit: one part to be chosen by the commune": 288,
+    "no clear choice": 68,
+    "every short form drops a qualifier": 61,
+    "too short to be a name on its own": 19,
+    "equals a well-known town elsewhere": 19,
+    "the generic word is part of the name": 3
+   },
+   "stillOverLimitProvisionally": 363,
+   "stillOverLimitNotFlagged": 0
+  },
+  "examples": [
+   {
+    "official": "Koumassi remblais",
+    "plate": "Remblais",
+    "rule": "distinctive (commune name in front dropped)"
+   },
+   {
+    "official": "Deux Plateaux",
+    "plate": "II Plateaux",
+    "rule": "known"
+   },
+   {
+    "official": "Gonzagueville",
+    "plate": "Gonzague",
+    "rule": "known"
+   },
+   {
+    "official": "Cité Gestoci",
+    "plate": "Gestoci",
+    "rule": "cleaned"
+   },
+   {
+    "official": "Campement Assouam",
+    "plate": "Assouam",
+    "rule": "cleaned"
+   },
+   {
+    "official": "Cité Angré Star 10",
+    "plate": "Star 10",
+    "rule": "council (candidates Star 10, Angré Star, Star)"
+   },
+   {
+    "official": "Amian Kouassikro",
+    "plate": "Amian",
+    "rule": "council (both words are the name)"
+   }
+  ],
+  "collisionAfterShortening": "Cité Sicogi (Cocody) and Sicogi (Yopougon) are both \"Sicogi\": one national range, Sicogi · 1 05 00 is Cocody, Sicogi · 1 88 17 is Yopougon",
+  "communeChoice": "the commune or sous-préfecture confirms every flagged plate name; codes carry the first candidate until then, and a later choice is added as an alias without changing any number",
+  "tools": [
+   "engine/reference/plate_names.py (the general rule)",
+   "tools/ci_plates.py (Ivorian configuration)",
+   "tools/name_ranges.py"
+  ]
+ }
+}

@@ -1,0 +1,2871 @@
+# N-Ways Addressing for Côte d'Ivoire: the registry API (OpenAPI 3.1).
+# docs/api.md shows every endpoint with a real request and response.
+openapi: "3.1.0"
+info:
+  title: "N-Ways Addressing for Côte d'Ivoire: registry API"
+  version: "1.0.0"
+  description: "The published registry of N-Ways codes for Côte d'Ivoire, served by server/ of https://github.com/n-ways/open-addresses-cote-divoire. Every response is JSON; every error is {\"error\": {\"code\", \"message\"}}. Examples are real responses from a server holding the full registry (long lists cut to their first two items). Issuing and changing codes is for the one deployment designated as the issuer."
+  license:
+    name: "Apache-2.0 (code); data ODbL-1.0"
+    identifier: "Apache-2.0"
+  contact:
+    name: "N-WAYS LIMITED"
+    url: "https://nways.ng"
+    email: "hello@nways.ng"
+servers:
+  - url: "http://localhost:8080"
+    description: "a local deployment"
+paths:
+  "/v1/health":
+    get:
+      summary: "Health"
+      operationId: "health"
+      responses:
+        "200":
+          description: "up"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Health"
+              examples:
+                health:
+                  value:
+                    status: "ok"
+                    country: "CI"
+                    codes: 7956622
+                    registryExported: "2026-10-20T14:50:41Z"
+                    issuing: true
+  "/v1/info":
+    get:
+      summary: "Country, counts, licences, credit"
+      operationId: "info"
+      responses:
+        "200":
+          description: "information"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Info"
+              examples:
+                info:
+                  value:
+                    country: "CI"
+                    name: "Côte d'Ivoire"
+                    zones: 520
+                    areas: 9834
+                    names: 8618
+                    codes:
+                      total: 7956622
+                      byStatus:
+                        provisional: 7956622
+                      byIssue:
+                        bulk: 7956622
+                    registryExported: "2026-10-20T14:50:41Z"
+                    imported: "2026-10-21T14:14:25Z"
+                    changedHere: null
+                    engine: "internal/addressing/ci (SPEC v1.0)"
+                    spec: "engine/SPEC.md"
+                    licences:
+                      data: "ODbL 1.0 (LICENSE-DATA)"
+                      code: "Apache-2.0 (LICENSE, NOTICE)"
+                      documents: "CC BY 4.0 (LICENSE-DOCS)"
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                    issuing:
+                      enabled: true
+                      perKeyPerDay: 5
+                    forms:
+                      remembered: "Bonoumin · 61 36"
+                      written: "Bonoumin 61 36 (Cocody)"
+                      machine: "CI-010114-083-6136-2"
+  "/v1/codes/{machine}":
+    get:
+      summary: "The full card of a code"
+      operationId: "getCode"
+      parameters:
+        - name: "machine"
+          in: "path"
+          required: true
+          description: "machine form, e.g. CI-010114-083-6136-2"
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "the card"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Card"
+              examples:
+                code:
+                  value:
+                    machine: "CI-010114-083-6136-2"
+                    home: "Bonoumin 6136"
+                    remembered: "Bonoumin · 61 36"
+                    written: "Bonoumin 61 36 (Cocody)"
+                    spoken: "Bonoumin, 61 36"
+                    number: 6136
+                    check: 2
+                    status: "provisional"
+                    issued: "bulk"
+                    issuedAt: "2026-10-20T14:18:24Z"
+                    entrance:
+                      lat: 5.3606529
+                      lng: -3.9705867
+                      kind: "centre"
+                    spot:
+                      plusCode: "6CQR926H+7Q7"
+                      short: "926H+7Q7 Cocody"
+                    officialAddress: null
+                    profile:
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: 1
+                      floorAreaM2: 77.7
+                      rule: "single"
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6136-2"
+                      home: "Bonoumin 6136"
+                      remembered: "Bonoumin · 61 36"
+                      written: "Bonoumin 61 36 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6136"
+                      check: "2"
+                      status: "provisional"
+                      issued: "bulk"
+                      issued_at: "2026-10-20T14:18:24Z"
+                      entrance_lat: "5.3606529"
+                      entrance_lng: "-3.9705867"
+                      entrance_kind: "centre"
+                      plus_code: "926H+7Q7 Cocody"
+                      official_address: ""
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: "1"
+                      floor_area_m2: "77.7"
+                      rule: "single"
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+        "400":
+          description: "not a machine form"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "404":
+          description: "unknown area, or a valid code no compound holds"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                code_notissued:
+                  value:
+                    error:
+                      code: "not_issued"
+                      message: "CI-010114-083-8399-5 is a valid code, but no compound has it yet."
+        "422":
+          description: "wrong check digit (refused, never corrected)"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                code_badcheck:
+                  value:
+                    error:
+                      code: "bad_check_digit"
+                      message: "The check digit does not match: a digit is wrong or two are swapped."
+    patch:
+      summary: "Confirm or retire a code, or move its entrance"
+      operationId: "changeCode"
+      security:
+        - issuerKey: []
+      parameters:
+        - name: "machine"
+          in: "path"
+          required: true
+          description: "machine form"
+          schema:
+            type: "string"
+      requestBody:
+        required: true
+        content:
+          "application/json":
+            schema:
+              "$ref": "#/components/schemas/ChangeRequest"
+            examples:
+              confirm:
+                value:
+                  status: "confirmed"
+              entrance:
+                value:
+                  entrance:
+                    lat: 5.3607
+                    lng: -3.9706
+      responses:
+        "200":
+          description: "the changed card"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Card"
+              examples:
+                patch_status:
+                  value:
+                    machine: "CI-010114-083-6136-2"
+                    home: "Bonoumin 6136"
+                    remembered: "Bonoumin · 61 36"
+                    written: "Bonoumin 61 36 (Cocody)"
+                    spoken: "Bonoumin, 61 36"
+                    number: 6136
+                    check: 2
+                    status: "confirmed"
+                    issued: "bulk"
+                    issuedAt: "2026-10-20T14:18:24Z"
+                    entrance:
+                      lat: 5.3606529
+                      lng: -3.9705867
+                      kind: "centre"
+                    spot:
+                      plusCode: "6CQR926H+7Q7"
+                      short: "926H+7Q7 Cocody"
+                    officialAddress: null
+                    profile:
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: 1
+                      floorAreaM2: 77.7
+                      rule: "single"
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6136-2"
+                      home: "Bonoumin 6136"
+                      remembered: "Bonoumin · 61 36"
+                      written: "Bonoumin 61 36 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6136"
+                      check: "2"
+                      status: "confirmed"
+                      issued: "bulk"
+                      issued_at: "2026-10-20T14:18:24Z"
+                      entrance_lat: "5.3606529"
+                      entrance_lng: "-3.9705867"
+                      entrance_kind: "centre"
+                      plus_code: "926H+7Q7 Cocody"
+                      official_address: ""
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: "1"
+                      floor_area_m2: "77.7"
+                      rule: "single"
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                patch_entrance:
+                  value:
+                    machine: "CI-010114-083-6136-2"
+                    home: "Bonoumin 6136"
+                    remembered: "Bonoumin · 61 36"
+                    written: "Bonoumin 61 36 (Cocody)"
+                    spoken: "Bonoumin, 61 36"
+                    number: 6136
+                    check: 2
+                    status: "confirmed"
+                    issued: "bulk"
+                    issuedAt: "2026-10-20T14:18:24Z"
+                    entrance:
+                      lat: 5.3607
+                      lng: -3.9706
+                      kind: "gate"
+                    spot:
+                      plusCode: "6CQR926H+7QJ"
+                      short: "926H+7QJ Cocody"
+                    officialAddress: null
+                    profile:
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: 1
+                      floorAreaM2: 77.7
+                      rule: "single"
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6136-2"
+                      home: "Bonoumin 6136"
+                      remembered: "Bonoumin · 61 36"
+                      written: "Bonoumin 61 36 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6136"
+                      check: "2"
+                      status: "confirmed"
+                      issued: "bulk"
+                      issued_at: "2026-10-20T14:18:24Z"
+                      entrance_lat: "5.3607000"
+                      entrance_lng: "-3.9706000"
+                      entrance_kind: "gate"
+                      plus_code: "926H+7QJ Cocody"
+                      official_address: ""
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: "1"
+                      floor_area_m2: "77.7"
+                      rule: "single"
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                patch_retire:
+                  value:
+                    machine: "CI-010114-083-6935-9"
+                    home: "Bonoumin 6935"
+                    remembered: "Bonoumin · 69 35"
+                    written: "Bonoumin 69 35 (Cocody)"
+                    spoken: "Bonoumin, 69 35"
+                    number: 6935
+                    check: 9
+                    status: "retired"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T14:25:26Z"
+                    entrance:
+                      lat: 5.3607
+                      lng: -3.9706
+                      kind: "door"
+                    spot:
+                      plusCode: "6CQR926H+7QJ"
+                      short: "926H+7QJ Cocody"
+                    officialAddress: null
+                    profile:
+                      class: null
+                      use: "residential"
+                      kind: "door"
+                      structures: 0
+                      floorAreaM2: 0.0
+                      rule: null
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6935-9"
+                      home: "Bonoumin 6935"
+                      remembered: "Bonoumin · 69 35"
+                      written: "Bonoumin 69 35 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6935"
+                      check: "9"
+                      status: "retired"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T14:25:26Z"
+                      entrance_lat: "5.3607000"
+                      entrance_lng: "-3.9706000"
+                      entrance_kind: "door"
+                      plus_code: "926H+7QJ Cocody"
+                      official_address: ""
+                      class: ""
+                      use: "residential"
+                      kind: "door"
+                      structures: "0"
+                      floor_area_m2: "0.0"
+                      rule: ""
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+        "400":
+          description: "bad body"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "401":
+          description: "no or wrong key"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "403":
+          description: "this deployment does not issue"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "404":
+          description: "no such code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "409":
+          description: "the code is retired"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                patch_retired:
+                  value:
+                    error:
+                      code: "retired"
+                      message: "CI-010114-083-6935-9 is retired; a retired code never comes back and its number is never reused."
+        "422":
+          description: "entrance more than 80 m away"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                patch_far:
+                  value:
+                    error:
+                      code: "too_far"
+                      message: "An entrance moves at most 80 m from the compound's position."
+  "/v1/codes":
+    post:
+      summary: "Issue a code (designated issuer only)"
+      operationId: "issueCode"
+      security:
+        - issuerKey: []
+      requestBody:
+        required: true
+        content:
+          "application/json":
+            schema:
+              "$ref": "#/components/schemas/IssueRequest"
+            examples:
+              new:
+                value:
+                  lat: 5.3610529
+                  lng: -3.9705867
+              outline:
+                value:
+                  lat: 5.36005
+                  lng: -3.9702
+                  outline:
+                    -
+                      - -3.97025
+                      - 5.36
+                    -
+                      - -3.97015
+                      - 5.36
+                    -
+                      - -3.97015
+                      - 5.3601
+                    -
+                      - -3.97025
+                      - 5.3601
+              door:
+                value:
+                  lat: 5.3607
+                  lng: -3.9706
+                  of: "CI-010114-083-6136-2"
+      responses:
+        "201":
+          description: "the new code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Card"
+              examples:
+                issue:
+                  value:
+                    machine: "CI-010114-083-6933-7"
+                    home: "Bonoumin 6933"
+                    remembered: "Bonoumin · 69 33"
+                    written: "Bonoumin 69 33 (Cocody)"
+                    spoken: "Bonoumin, 69 33"
+                    number: 6933
+                    check: 7
+                    status: "provisional"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T14:25:26Z"
+                    entrance:
+                      lat: 5.3610529
+                      lng: -3.9705867
+                      kind: "centre"
+                    spot:
+                      plusCode: "6CQR926H+CQF"
+                      short: "926H+CQF Cocody"
+                    officialAddress: null
+                    profile:
+                      class: null
+                      use: "residential"
+                      kind: "building"
+                      structures: 0
+                      floorAreaM2: 0.0
+                      rule: null
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6933-7"
+                      home: "Bonoumin 6933"
+                      remembered: "Bonoumin · 69 33"
+                      written: "Bonoumin 69 33 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6933"
+                      check: "7"
+                      status: "provisional"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T14:25:26Z"
+                      entrance_lat: "5.3610529"
+                      entrance_lng: "-3.9705867"
+                      entrance_kind: "centre"
+                      plus_code: "926H+CQF Cocody"
+                      official_address: ""
+                      class: ""
+                      use: "residential"
+                      kind: "building"
+                      structures: "0"
+                      floor_area_m2: "0.0"
+                      rule: ""
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                issue_outline:
+                  value:
+                    machine: "CI-010114-083-6934-5"
+                    home: "Bonoumin 6934"
+                    remembered: "Bonoumin · 69 34"
+                    written: "Bonoumin 69 34 (Cocody)"
+                    spoken: "Bonoumin, 69 34"
+                    number: 6934
+                    check: 5
+                    status: "provisional"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T14:25:26Z"
+                    entrance:
+                      lat: 5.36005
+                      lng: -3.9702
+                      kind: "centre"
+                    spot:
+                      plusCode: "6CQR926H+2WF"
+                      short: "926H+2WF Cocody"
+                    officialAddress: null
+                    profile:
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: 1
+                      floorAreaM2: 122.6
+                      rule: null
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6934-5"
+                      home: "Bonoumin 6934"
+                      remembered: "Bonoumin · 69 34"
+                      written: "Bonoumin 69 34 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6934"
+                      check: "5"
+                      status: "provisional"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T14:25:26Z"
+                      entrance_lat: "5.3600500"
+                      entrance_lng: "-3.9702000"
+                      entrance_kind: "centre"
+                      plus_code: "926H+2WF Cocody"
+                      official_address: ""
+                      class: "residential"
+                      use: "residential"
+                      kind: "building"
+                      structures: "1"
+                      floor_area_m2: "122.6"
+                      rule: ""
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                issue_door:
+                  value:
+                    machine: "CI-010114-083-6935-9"
+                    home: "Bonoumin 6935"
+                    remembered: "Bonoumin · 69 35"
+                    written: "Bonoumin 69 35 (Cocody)"
+                    spoken: "Bonoumin, 69 35"
+                    number: 6935
+                    check: 9
+                    status: "provisional"
+                    issued: "on-demand"
+                    issuedAt: "2026-10-21T14:25:26Z"
+                    entrance:
+                      lat: 5.3607
+                      lng: -3.9706
+                      kind: "door"
+                    spot:
+                      plusCode: "6CQR926H+7QJ"
+                      short: "926H+7QJ Cocody"
+                    officialAddress: null
+                    profile:
+                      class: null
+                      use: "residential"
+                      kind: "door"
+                      structures: 0
+                      floorAreaM2: 0.0
+                      rule: null
+                      estate: null
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    registry:
+                      machine: "CI-010114-083-6935-9"
+                      home: "Bonoumin 6935"
+                      remembered: "Bonoumin · 69 35"
+                      written: "Bonoumin 69 35 (Cocody)"
+                      zone: "010114-083"
+                      official_name: "Bonoumin"
+                      number: "6935"
+                      check: "9"
+                      status: "provisional"
+                      issued: "on-demand"
+                      issued_at: "2026-10-21T14:25:26Z"
+                      entrance_lat: "5.3607000"
+                      entrance_lng: "-3.9706000"
+                      entrance_kind: "door"
+                      plus_code: "926H+7QJ Cocody"
+                      official_address: ""
+                      class: ""
+                      use: "residential"
+                      kind: "door"
+                      structures: "0"
+                      floor_area_m2: "0.0"
+                      rule: ""
+                      estate: ""
+                    credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                    creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+        "400":
+          description: "bad body or point"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "401":
+          description: "no or wrong key"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                issue_nokey:
+                  value:
+                    error:
+                      code: "unauthorized"
+                      message: "Send an issuing key: Authorization: Bearer <key>."
+        "403":
+          description: "this deployment does not issue"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "404":
+          description: "\"of\" names no code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "409":
+          description: "the point or building already has a code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                issue_exists:
+                  value:
+                    error:
+                      code: "already_has_code"
+                      message: "This compound already has its code: Bonoumin 6136."
+                      existing:
+                        machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        spoken: "Bonoumin, 61 36"
+                        number: 6136
+                        check: 2
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:24Z"
+                        entrance:
+                          lat: 5.3606529
+                          lng: -3.9705867
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR926H+7Q7"
+                          short: "926H+7Q7 Cocody"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 77.7
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-083"
+                          plateName: "Bonoumin"
+                          officialName: "Bonoumin"
+                          nameKey: "bonoumin"
+                          nameId: 1481
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-083-6136-2"
+                          home: "Bonoumin 6136"
+                          remembered: "Bonoumin · 61 36"
+                          written: "Bonoumin 61 36 (Cocody)"
+                          zone: "010114-083"
+                          official_name: "Bonoumin"
+                          number: "6136"
+                          check: "2"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:24Z"
+                          entrance_lat: "5.3606529"
+                          entrance_lng: "-3.9705867"
+                          entrance_kind: "centre"
+                          plus_code: "926H+7Q7 Cocody"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "77.7"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+        "422":
+          description: "more than 300 m outside the national border (the border decides), outline out of bounds, or door too far"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                issue_badoutline:
+                  value:
+                    error:
+                      code: "bad_outline"
+                      message: "That outline is 1 m2; a compound's is between 6 m2 and 2 ha."
+                issue_far:
+                  value:
+                    error:
+                      code: "too_far"
+                      message: "That door is more than 80 m from Bonoumin 6136."
+        "429":
+          description: "the key's daily limit"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                issue_limit:
+                  value:
+                    error:
+                      code: "daily_limit"
+                      message: "This key has issued 5 codes in the last 24 hours, its daily limit."
+  "/v1/find":
+    get:
+      summary: "Find a code as people say or type it"
+      operationId: "find"
+      parameters:
+        - name: "q"
+          in: "query"
+          required: true
+          description: "remembered or written form, machine form, official address or spot code"
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "the match"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Found"
+              examples:
+                find_remembered:
+                  value:
+                    form: "remembered"
+                    count: 1
+                    results:
+                      - machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        spoken: "Bonoumin, 61 36"
+                        number: 6136
+                        check: 2
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:24Z"
+                        entrance:
+                          lat: 5.3606529
+                          lng: -3.9705867
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR926H+7Q7"
+                          short: "926H+7Q7 Cocody"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 77.7
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-083"
+                          plateName: "Bonoumin"
+                          officialName: "Bonoumin"
+                          nameKey: "bonoumin"
+                          nameId: 1481
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-083-6136-2"
+                          home: "Bonoumin 6136"
+                          remembered: "Bonoumin · 61 36"
+                          written: "Bonoumin 61 36 (Cocody)"
+                          zone: "010114-083"
+                          official_name: "Bonoumin"
+                          number: "6136"
+                          check: "2"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:24Z"
+                          entrance_lat: "5.3606529"
+                          entrance_lng: "-3.9705867"
+                          entrance_kind: "centre"
+                          plus_code: "926H+7Q7 Cocody"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "77.7"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                find_written:
+                  value:
+                    form: "remembered"
+                    count: 1
+                    results:
+                      - machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        spoken: "Bonoumin, 61 36"
+                        number: 6136
+                        check: 2
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:24Z"
+                        entrance:
+                          lat: 5.3606529
+                          lng: -3.9705867
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR926H+7Q7"
+                          short: "926H+7Q7 Cocody"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 77.7
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-083"
+                          plateName: "Bonoumin"
+                          officialName: "Bonoumin"
+                          nameKey: "bonoumin"
+                          nameId: 1481
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-083-6136-2"
+                          home: "Bonoumin 6136"
+                          remembered: "Bonoumin · 61 36"
+                          written: "Bonoumin 61 36 (Cocody)"
+                          zone: "010114-083"
+                          official_name: "Bonoumin"
+                          number: "6136"
+                          check: "2"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:24Z"
+                          entrance_lat: "5.3606529"
+                          entrance_lng: "-3.9705867"
+                          entrance_kind: "centre"
+                          plus_code: "926H+7Q7 Cocody"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "77.7"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                find_alias:
+                  value:
+                    form: "remembered"
+                    count: 1
+                    results:
+                      - machine: "CI-010115-005-2966-3"
+                        home: "Remblais 2966"
+                        remembered: "Remblais · 29 66"
+                        written: "Remblais 29 66 (Koumassi)"
+                        spoken: "Remblais, 29 66"
+                        number: 2966
+                        check: 3
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:29Z"
+                        entrance:
+                          lat: 5.3003922
+                          lng: -3.9643765
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR822P+565"
+                          short: "2P+565 Koumassi"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 114.4
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010115-005"
+                          plateName: "Remblais"
+                          officialName: "Koumassi remblais"
+                          nameKey: "remblai"
+                          nameId: 6797
+                          provisionalName: false
+                        zone:
+                          key: "010115"
+                          name: "Koumassi"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010115-005-2966-3"
+                          home: "Remblais 2966"
+                          remembered: "Remblais · 29 66"
+                          written: "Remblais 29 66 (Koumassi)"
+                          zone: "010115-005"
+                          official_name: "Koumassi remblais"
+                          number: "2966"
+                          check: "3"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:29Z"
+                          entrance_lat: "5.3003922"
+                          entrance_lng: "-3.9643765"
+                          entrance_kind: "centre"
+                          plus_code: "2P+565 Koumassi"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "114.4"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                    typedOfficialName: true
+                find_spot:
+                  value:
+                    form: "spot"
+                    count: 1
+                    results:
+                      - machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        spoken: "Bonoumin, 61 36"
+                        number: 6136
+                        check: 2
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:24Z"
+                        entrance:
+                          lat: 5.3606529
+                          lng: -3.9705867
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR926H+7Q7"
+                          short: "926H+7Q7 Cocody"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 77.7
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-083"
+                          plateName: "Bonoumin"
+                          officialName: "Bonoumin"
+                          nameKey: "bonoumin"
+                          nameId: 1481
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-083-6136-2"
+                          home: "Bonoumin 6136"
+                          remembered: "Bonoumin · 61 36"
+                          written: "Bonoumin 61 36 (Cocody)"
+                          zone: "010114-083"
+                          official_name: "Bonoumin"
+                          number: "6136"
+                          check: "2"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:24Z"
+                          entrance_lat: "5.3606529"
+                          entrance_lng: "-3.9705867"
+                          entrance_kind: "centre"
+                          plus_code: "926H+7Q7 Cocody"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "77.7"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                        distanceM: 1.4
+        "400":
+          description: "no query"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                find_missing:
+                  value:
+                    error:
+                      code: "missing_query"
+                      message: "Give q: a remembered or written code, a machine form, an official address or a spot code."
+        "404":
+          description: "nothing reads so, or not issued"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                find_label:
+                  value:
+                    error:
+                      code: "not_found"
+                      message: "No code in Côte d'Ivoire reads \"Bonoumin 6136 (Yopougon)\": Bonoumin 6136 is in Cocody, not Yopougon."
+        "410":
+          description: "retired"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                find_retired:
+                  value:
+                    error:
+                      code: "retired"
+                      message: "Bonoumin 6935 was retired: there is no compound there any more."
+        "422":
+          description: "wrong check digit"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                find_badcheck:
+                  value:
+                    error:
+                      code: "bad_check_digit"
+                      message: "The check digit does not match: a digit is wrong or two are swapped."
+  "/v1/at":
+    get:
+      summary: "The code of the compound at a point"
+      operationId: "at"
+      parameters:
+        - name: "lat"
+          in: "query"
+          required: true
+          description: "latitude, WGS 84"
+          schema:
+            type: "number"
+        - name: "lng"
+          in: "query"
+          required: true
+          description: "longitude, WGS 84"
+          schema:
+            type: "number"
+      responses:
+        "200":
+          description: "found, or none with the area"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/At"
+              examples:
+                at_found:
+                  value:
+                    status: "found"
+                    distanceM: 0.0
+                    code:
+                      machine: "CI-010114-083-6136-2"
+                      home: "Bonoumin 6136"
+                      remembered: "Bonoumin · 61 36"
+                      written: "Bonoumin 61 36 (Cocody)"
+                      spoken: "Bonoumin, 61 36"
+                      number: 6136
+                      check: 2
+                      status: "provisional"
+                      issued: "bulk"
+                      issuedAt: "2026-10-20T14:18:24Z"
+                      entrance:
+                        lat: 5.3606529
+                        lng: -3.9705867
+                        kind: "centre"
+                      spot:
+                        plusCode: "6CQR926H+7Q7"
+                        short: "926H+7Q7 Cocody"
+                      officialAddress: null
+                      profile:
+                        class: "residential"
+                        use: "residential"
+                        kind: "building"
+                        structures: 1
+                        floorAreaM2: 77.7
+                        rule: "single"
+                        estate: null
+                      area:
+                        id: "010114-083"
+                        plateName: "Bonoumin"
+                        officialName: "Bonoumin"
+                        nameKey: "bonoumin"
+                        nameId: 1481
+                        provisionalName: false
+                      zone:
+                        key: "010114"
+                        name: "Cocody"
+                        kind: "commune-abidjan"
+                        departement: "Abidjan"
+                        region: "Abidjan"
+                      registry:
+                        machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        zone: "010114-083"
+                        official_name: "Bonoumin"
+                        number: "6136"
+                        check: "2"
+                        status: "provisional"
+                        issued: "bulk"
+                        issued_at: "2026-10-20T14:18:24Z"
+                        entrance_lat: "5.3606529"
+                        entrance_lng: "-3.9705867"
+                        entrance_kind: "centre"
+                        plus_code: "926H+7Q7 Cocody"
+                        official_address: ""
+                        class: "residential"
+                        use: "residential"
+                        kind: "building"
+                        structures: "1"
+                        floor_area_m2: "77.7"
+                        rule: "single"
+                        estate: ""
+                      credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                      creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                      zone:
+                        key: "010114"
+                        name: "Cocody"
+                        kind: "commune-abidjan"
+                        departement: "Abidjan"
+                        region: "Abidjan"
+                at_none:
+                  value:
+                    status: "none"
+                    canIssue: true
+                    area:
+                      id: "010114-083"
+                      plateName: "Bonoumin"
+                      officialName: "Bonoumin"
+                      nameKey: "bonoumin"
+                      nameId: 1481
+                      provisionalName: false
+                      zone:
+                        key: "010114"
+                        name: "Cocody"
+                        kind: "commune-abidjan"
+                        departement: "Abidjan"
+                        region: "Abidjan"
+        "400":
+          description: "bad point"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "422":
+          description: "outside Côte d'Ivoire"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                at_outside:
+                  value:
+                    error:
+                      code: "outside_country"
+                      message: "That point is outside Côte d'Ivoire."
+  "/v1/near":
+    get:
+      summary: "Codes near a point"
+      operationId: "near"
+      parameters:
+        - name: "lat"
+          in: "query"
+          required: true
+          description: "latitude, WGS 84"
+          schema:
+            type: "number"
+        - name: "lng"
+          in: "query"
+          required: true
+          description: "longitude, WGS 84"
+          schema:
+            type: "number"
+        - name: "radius"
+          in: "query"
+          required: false
+          description: "metres, at most 500 (default 100)"
+          schema:
+            type: "number"
+        - name: "limit"
+          in: "query"
+          required: false
+          description: "1 to 100 (default 20)"
+          schema:
+            type: "integer"
+      responses:
+        "200":
+          description: "nearest first"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Near"
+              examples:
+                near:
+                  value:
+                    point:
+                      lat: 5.3606529
+                      lng: -3.9705867
+                    radiusM: 40.0
+                    count: 3
+                    more: true
+                    results:
+                      - machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        spoken: "Bonoumin, 61 36"
+                        number: 6136
+                        check: 2
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:24Z"
+                        entrance:
+                          lat: 5.3606529
+                          lng: -3.9705867
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR926H+7Q7"
+                          short: "926H+7Q7 Cocody"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 77.7
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-083"
+                          plateName: "Bonoumin"
+                          officialName: "Bonoumin"
+                          nameKey: "bonoumin"
+                          nameId: 1481
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-083-6136-2"
+                          home: "Bonoumin 6136"
+                          remembered: "Bonoumin · 61 36"
+                          written: "Bonoumin 61 36 (Cocody)"
+                          zone: "010114-083"
+                          official_name: "Bonoumin"
+                          number: "6136"
+                          check: "2"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:24Z"
+                          entrance_lat: "5.3606529"
+                          entrance_lng: "-3.9705867"
+                          entrance_kind: "centre"
+                          plus_code: "926H+7Q7 Cocody"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "77.7"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                        distanceM: 0.0
+                      - machine: "CI-010114-083-6135-6"
+                        home: "Bonoumin 6135"
+                        remembered: "Bonoumin · 61 35"
+                        written: "Bonoumin 61 35 (Cocody)"
+                        spoken: "Bonoumin, 61 35"
+                        number: 6135
+                        check: 6
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:24Z"
+                        entrance:
+                          lat: 5.3606736
+                          lng: -3.9706832
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQR926H+7P8"
+                          short: "926H+7P8 Cocody"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 89.1
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-083"
+                          plateName: "Bonoumin"
+                          officialName: "Bonoumin"
+                          nameKey: "bonoumin"
+                          nameId: 1481
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-083-6135-6"
+                          home: "Bonoumin 6135"
+                          remembered: "Bonoumin · 61 35"
+                          written: "Bonoumin 61 35 (Cocody)"
+                          zone: "010114-083"
+                          official_name: "Bonoumin"
+                          number: "6135"
+                          check: "6"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:24Z"
+                          entrance_lat: "5.3606736"
+                          entrance_lng: "-3.9706832"
+                          entrance_kind: "centre"
+                          plus_code: "926H+7P8 Cocody"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "89.1"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                        distanceM: 10.9
+        "400":
+          description: "bad radius, limit or point"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                near_bad:
+                  value:
+                    error:
+                      code: "bad_radius"
+                      message: "radius is in metres, more than 0 and at most 500."
+  "/v1/verify":
+    get:
+      summary: "Every check of a machine form"
+      operationId: "verify"
+      parameters:
+        - name: "code"
+          in: "query"
+          required: true
+          description: "machine form"
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "the checks"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Verify"
+              examples:
+                verify_ok:
+                  value:
+                    code: "CI-010114-083-6136-2"
+                    syntax: true
+                    area: true
+                    inBlock: true
+                    check: true
+                    issued: true
+                    status: "provisional"
+                    valid: true
+                    reason: null
+                    machine: "CI-010114-083-6136-2"
+                verify_badcheck:
+                  value:
+                    code: "CI-010114-083-6163-2"
+                    syntax: true
+                    area: true
+                    inBlock: true
+                    check: false
+                    issued: false
+                    status: null
+                    valid: false
+                    reason: "the check digit does not match: a digit is wrong or two are swapped"
+        "400":
+          description: "no code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+  "/v1/spot":
+    get:
+      summary: "The spot code (Plus Code) of a point"
+      operationId: "spot"
+      parameters:
+        - name: "lat"
+          in: "query"
+          required: true
+          description: "latitude, WGS 84"
+          schema:
+            type: "number"
+        - name: "lng"
+          in: "query"
+          required: true
+          description: "longitude, WGS 84"
+          schema:
+            type: "number"
+      responses:
+        "200":
+          description: "spot code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Spot"
+              examples:
+                spot:
+                  value:
+                    plusCode: "6CQR926H+7Q7"
+                    short: "926H+7Q7 Cocody"
+                    reference: "Cocody"
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    point:
+                      lat: 5.3606529
+                      lng: -3.9705867
+        "400":
+          description: "bad point"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+  "/v1/spot/decode":
+    get:
+      summary: "Decode a spot code"
+      operationId: "spotDecode"
+      parameters:
+        - name: "code"
+          in: "query"
+          required: true
+          description: "full, or short with its town as the registry writes it (a town two units share carries its département: \"QHW6+44J Lolobo (Béoumi)\"); the bare town is accepted only when one reading is possible"
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "the point, and the code there if any"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/SpotDecoded"
+              examples:
+                spot_decode:
+                  value:
+                    plusCode: "6CQR926H+7Q7"
+                    lat: 5.3606625
+                    lng: -3.970578125
+                    reference: "Cocody"
+                    code:
+                      machine: "CI-010114-083-6136-2"
+                      home: "Bonoumin 6136"
+                      remembered: "Bonoumin · 61 36"
+                      written: "Bonoumin 61 36 (Cocody)"
+                      spoken: "Bonoumin, 61 36"
+                      number: 6136
+                      check: 2
+                      status: "provisional"
+                      issued: "bulk"
+                      issuedAt: "2026-10-20T14:18:24Z"
+                      entrance:
+                        lat: 5.3606529
+                        lng: -3.9705867
+                        kind: "centre"
+                      spot:
+                        plusCode: "6CQR926H+7Q7"
+                        short: "926H+7Q7 Cocody"
+                      officialAddress: null
+                      profile:
+                        class: "residential"
+                        use: "residential"
+                        kind: "building"
+                        structures: 1
+                        floorAreaM2: 77.7
+                        rule: "single"
+                        estate: null
+                      area:
+                        id: "010114-083"
+                        plateName: "Bonoumin"
+                        officialName: "Bonoumin"
+                        nameKey: "bonoumin"
+                        nameId: 1481
+                        provisionalName: false
+                      zone:
+                        key: "010114"
+                        name: "Cocody"
+                        kind: "commune-abidjan"
+                        departement: "Abidjan"
+                        region: "Abidjan"
+                      registry:
+                        machine: "CI-010114-083-6136-2"
+                        home: "Bonoumin 6136"
+                        remembered: "Bonoumin · 61 36"
+                        written: "Bonoumin 61 36 (Cocody)"
+                        zone: "010114-083"
+                        official_name: "Bonoumin"
+                        number: "6136"
+                        check: "2"
+                        status: "provisional"
+                        issued: "bulk"
+                        issued_at: "2026-10-20T14:18:24Z"
+                        entrance_lat: "5.3606529"
+                        entrance_lng: "-3.9705867"
+                        entrance_kind: "centre"
+                        plus_code: "926H+7Q7 Cocody"
+                        official_address: ""
+                        class: "residential"
+                        use: "residential"
+                        kind: "building"
+                        structures: "1"
+                        floor_area_m2: "77.7"
+                        rule: "single"
+                        estate: ""
+                      credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                      creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                      distanceM: 1.4
+        "400":
+          description: "no code"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "422":
+          description: "not a spot code, unknown town, or a bare town that two units share and that could be either"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                spot_decode_bad:
+                  value:
+                    error:
+                      code: "bad_spot"
+                      message: "Unknown reference town 'Atlantis'."
+  "/v1/zones":
+    get:
+      summary: "The zones (sous-préfectures and communes of Abidjan)"
+      operationId: "zones"
+      responses:
+        "200":
+          description: "every zone"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Zones"
+              examples:
+                zones:
+                  value:
+                    count: 520
+                    zones:
+                      - key: "010101"
+                        name: "Abidjan"
+                        kind: "sous-prefecture"
+                        departement: "Abidjan"
+                        region: "District Autonome D'Abidjan"
+                        areas: 6
+                        codes: 8805
+                      - key: "010102"
+                        name: "Anyama"
+                        kind: "sous-prefecture"
+                        departement: "Abidjan"
+                        region: "District Autonome D'Abidjan"
+                        areas: 22
+                        codes: 67622
+  "/v1/zones/{key}":
+    get:
+      summary: "A zone with its areas"
+      operationId: "zone"
+      parameters:
+        - name: "key"
+          in: "path"
+          required: true
+          description: "6 digits"
+          schema:
+            type: "string"
+            pattern: "^[0-9]{6}$"
+      responses:
+        "200":
+          description: "the zone"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/ZoneDetail"
+              examples:
+                zone:
+                  value:
+                    key: "010114"
+                    name: "Cocody"
+                    kind: "commune-abidjan"
+                    departement: "Abidjan"
+                    region: "Abidjan"
+                    codes: 140412
+                    referenceTown: "Cocody"
+                    areas:
+                      - id: "010114-001"
+                        plateName: "Kofakoua"
+                        officialName: "Kofakoua"
+                        nameKey: "kofakwa"
+                        nameId: 4390
+                        provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        index: "001"
+                        digits: 4
+                        blocks:
+                          - lo: 1000
+                            hi: 1999
+                            tailReserveFrom: 1666
+                        place:
+                          lat: 5.427509
+                          lng: -3.926063
+                        frame:
+                          west: -3.955226
+                          south: 5.408084
+                          east: -3.916078
+                          north: 5.443538
+                        codes: 458
+                      - id: "010114-002"
+                        plateName: "Djibi"
+                        officialName: "Djibi"
+                        nameKey: "djibi"
+                        nameId: 2230
+                        provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        index: "002"
+                        digits: 5
+                        blocks:
+                          - lo: 16800
+                            hi: 28499
+                            tailReserveFrom: 24600
+                        place:
+                          lat: 5.422022
+                          lng: -3.981929
+                        frame:
+                          west: -3.99007
+                          south: 5.414048
+                          east: -3.956571
+                          north: 5.441758
+                        codes: 5844
+        "404":
+          description: "no such zone"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                zone_bad:
+                  value:
+                    error:
+                      code: "unknown_zone"
+                      message: "No zone '999999': a zone is a sous-préfecture or a commune of Abidjan, 6 digits (010114 is Cocody)."
+  "/v1/zones/{key}/codes":
+    get:
+      summary: "Every code of a zone, paged"
+      operationId: "zoneCodes"
+      parameters:
+        - name: "key"
+          in: "path"
+          required: true
+          description: "6 digits"
+          schema:
+            type: "string"
+            pattern: "^[0-9]{6}$"
+        - name: "after"
+          in: "query"
+          required: false
+          description: "the \"next\" of the previous page"
+          schema:
+            type: "string"
+        - name: "limit"
+          in: "query"
+          required: false
+          description: "1 to 1000 (default 100)"
+          schema:
+            type: "integer"
+      responses:
+        "200":
+          description: "one page"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/CodePage"
+              examples:
+                zone_codes:
+                  value:
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    count: 2
+                    next: "CI-010114-001-1001-4"
+                    results:
+                      - machine: "CI-010114-001-1000-9"
+                        home: "Kofakoua 1000"
+                        remembered: "Kofakoua · 10 00"
+                        written: "Kofakoua 10 00 (Cocody)"
+                        spoken: "Kofakoua, 10 00"
+                        number: 1000
+                        check: 9
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:18Z"
+                        entrance:
+                          lat: 5.4110146
+                          lng: -3.9375042
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQRC366+CX5"
+                          short: "C366+CX5 Bingerville"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 16.3
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-001"
+                          plateName: "Kofakoua"
+                          officialName: "Kofakoua"
+                          nameKey: "kofakwa"
+                          nameId: 4390
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-001-1000-9"
+                          home: "Kofakoua 1000"
+                          remembered: "Kofakoua · 10 00"
+                          written: "Kofakoua 10 00 (Cocody)"
+                          zone: "010114-001"
+                          official_name: "Kofakoua"
+                          number: "1000"
+                          check: "9"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:18Z"
+                          entrance_lat: "5.4110146"
+                          entrance_lng: "-3.9375042"
+                          entrance_kind: "centre"
+                          plus_code: "C366+CX5 Bingerville"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "16.3"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+                      - machine: "CI-010114-001-1001-4"
+                        home: "Kofakoua 1001"
+                        remembered: "Kofakoua · 10 01"
+                        written: "Kofakoua 10 01 (Cocody)"
+                        spoken: "Kofakoua, 10 01"
+                        number: 1001
+                        check: 4
+                        status: "provisional"
+                        issued: "bulk"
+                        issuedAt: "2026-10-20T14:18:18Z"
+                        entrance:
+                          lat: 5.4112165
+                          lng: -3.9374812
+                          kind: "centre"
+                        spot:
+                          plusCode: "6CQRC367+F2J"
+                          short: "C367+F2J Bingerville"
+                        officialAddress: null
+                        profile:
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: 1
+                          floorAreaM2: 153.3
+                          rule: "single"
+                          estate: null
+                        area:
+                          id: "010114-001"
+                          plateName: "Kofakoua"
+                          officialName: "Kofakoua"
+                          nameKey: "kofakwa"
+                          nameId: 4390
+                          provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        registry:
+                          machine: "CI-010114-001-1001-4"
+                          home: "Kofakoua 1001"
+                          remembered: "Kofakoua · 10 01"
+                          written: "Kofakoua 10 01 (Cocody)"
+                          zone: "010114-001"
+                          official_name: "Kofakoua"
+                          number: "1001"
+                          check: "4"
+                          status: "provisional"
+                          issued: "bulk"
+                          issued_at: "2026-10-20T14:18:18Z"
+                          entrance_lat: "5.4112165"
+                          entrance_lng: "-3.9374812"
+                          entrance_kind: "centre"
+                          plus_code: "C367+F2J Bingerville"
+                          official_address: ""
+                          class: "residential"
+                          use: "residential"
+                          kind: "building"
+                          structures: "1"
+                          floor_area_m2: "153.3"
+                          rule: "single"
+                          estate: ""
+                        credit: "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)"
+                        creditUrl: "https://github.com/n-ways/open-addresses-cote-divoire"
+        "400":
+          description: "bad limit"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "404":
+          description: "no such zone"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+  "/v1/areas":
+    get:
+      summary: "Areas by plate or official name"
+      operationId: "areasByName"
+      parameters:
+        - name: "name"
+          in: "query"
+          required: true
+          description: "plate or official name"
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "the areas"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/AreasByName"
+              examples:
+                areas_name:
+                  value:
+                    name: "Sicogi"
+                    nameKey: "sikogi"
+                    count: 6
+                    areas:
+                      - id: "010114-019"
+                        plateName: "Sicogi"
+                        officialName: "Cité Sicogi"
+                        nameKey: "sikogi"
+                        nameId: 7222
+                        provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        index: "019"
+                        digits: 5
+                        blocks:
+                          - lo: 10000
+                            hi: 10599
+                            tailReserveFrom: 10400
+                        place:
+                          lat: 5.400974
+                          lng: -3.988313
+                        frame:
+                          west: -3.991333
+                          south: 5.398279
+                          east: -3.985131
+                          north: 5.403424
+                        matchedBy: "plate"
+                      - id: "010114-071"
+                        plateName: "Sicogi"
+                        officialName: "Cité Sicogi"
+                        nameKey: "sikogi"
+                        nameId: 7222
+                        provisionalName: false
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        index: "071"
+                        digits: 5
+                        blocks:
+                          - lo: 10600
+                            hi: 14899
+                            tailReserveFrom: 13466
+                        place:
+                          lat: 5.376957
+                          lng: -3.91799
+                        frame:
+                          west: -3.922462
+                          south: 5.368935
+                          east: -3.91328
+                          north: 5.391795
+                        matchedBy: "plate"
+                areas_official:
+                  value:
+                    name: "Koumassi remblais"
+                    nameKey: "koumasiremblai"
+                    count: 1
+                    areas:
+                      - id: "010115-005"
+                        plateName: "Remblais"
+                        officialName: "Koumassi remblais"
+                        nameKey: "remblai"
+                        nameId: 6797
+                        provisionalName: false
+                        zone:
+                          key: "010115"
+                          name: "Koumassi"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        index: "005"
+                        digits: 4
+                        blocks:
+                          - lo: 1000
+                            hi: 8599
+                            tailReserveFrom: 6066
+                        place:
+                          lat: 5.300383
+                          lng: -3.964435
+                        frame:
+                          west: -3.971559
+                          south: 5.292951
+                          east: -3.957061
+                          north: 5.306132
+                        matchedBy: "alias"
+        "400":
+          description: "no name"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+        "404":
+          description: "no area of that name"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples: {}
+  "/v1/areas/{id}":
+    get:
+      summary: "An area: blocks, counts, names"
+      operationId: "area"
+      parameters:
+        - name: "id"
+          in: "path"
+          required: true
+          description: "zone and index, e.g. 010114-083"
+          schema:
+            type: "string"
+            pattern: "^[0-9]{6}-[0-9]{3}$"
+      responses:
+        "200":
+          description: "the area"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Area"
+              examples:
+                area:
+                  value:
+                    id: "010114-083"
+                    plateName: "Bonoumin"
+                    officialName: "Bonoumin"
+                    nameKey: "bonoumin"
+                    nameId: 1481
+                    provisionalName: false
+                    zone:
+                      key: "010114"
+                      name: "Cocody"
+                      kind: "commune-abidjan"
+                      departement: "Abidjan"
+                      region: "Abidjan"
+                    index: "083"
+                    digits: 4
+                    blocks:
+                      - lo: 4000
+                        hi: 8399
+                        tailReserveFrom: 6933
+                    place:
+                      lat: 5.364714
+                      lng: -3.972579
+                    frame:
+                      west: -3.977501
+                      south: 5.358897
+                      east: -3.963872
+                      north: 5.37201
+                    codes:
+                      total: 2193
+                      provisional: 2193
+                      confirmed: 0
+                      retired: 0
+                      lowest: 4000
+                      highest: 6192
+                    sameName:
+                      - id: "010114-067"
+                        zone:
+                          key: "010114"
+                          name: "Cocody"
+                          kind: "commune-abidjan"
+                          departement: "Abidjan"
+                          region: "Abidjan"
+                        blocks:
+                          - lo: 1000
+                            hi: 3999
+        "404":
+          description: "no such area"
+          content:
+            "application/json":
+              schema:
+                "$ref": "#/components/schemas/Error"
+              examples:
+                area_bad:
+                  value:
+                    error:
+                      code: "unknown_area"
+                      message: "No area '010114-999': an area id is the zone and a 3-digit index, as 010114-083."
+components:
+  schemas:
+    Error:
+      type: "object"
+      properties:
+        error:
+          type: "object"
+          properties:
+            code:
+              type: "string"
+              description: "stable code for programs"
+            message:
+              type: "string"
+              description: "a sentence for people"
+            existing:
+              "$ref": "#/components/schemas/Card"
+              description: "409 already_has_code: the code the point already has"
+            point:
+              "$ref": "#/components/schemas/Point"
+          required:
+            - "code"
+            - "message"
+      required:
+        - "error"
+    Point:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+      required:
+        - "lat"
+        - "lng"
+    Zone:
+      type: "object"
+      properties:
+        key:
+          type: "string"
+          pattern: "^[0-9]{6}$"
+        name:
+          type: "string"
+        kind:
+          type: "string"
+          enum:
+            - "sous-prefecture"
+            - "commune-abidjan"
+        departement:
+          type: "string"
+        region:
+          type: "string"
+      required:
+        - "key"
+        - "name"
+    AreaBrief:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+          pattern: "^[0-9]{6}-[0-9]{3}$"
+        plateName:
+          type: "string"
+        officialName:
+          type: "string"
+        nameKey:
+          type: "string"
+        nameId:
+          type: "integer"
+        provisionalName:
+          type: "boolean"
+          description: "the commune has still to choose the short name"
+      required:
+        - "id"
+        - "plateName"
+    Block:
+      type: "object"
+      properties:
+        lo:
+          type: "integer"
+        hi:
+          type: "integer"
+        tailReserveFrom:
+          type: "integer"
+    Area:
+      allOf:
+        - "$ref": "#/components/schemas/AreaBrief"
+        - type: "object"
+          properties:
+            zone:
+              "$ref": "#/components/schemas/Zone"
+            index:
+              type: "string"
+            digits:
+              type: "integer"
+              enum:
+                - 4
+                - 5
+            blocks:
+              type: "array"
+              items:
+                "$ref": "#/components/schemas/Block"
+            place:
+              "$ref": "#/components/schemas/Point"
+            frame:
+              type: "object"
+              properties:
+                west:
+                  type: "number"
+                south:
+                  type: "number"
+                east:
+                  type: "number"
+                north:
+                  type: "number"
+            codes:
+              description: "in a zone listing: the number of codes; in GET /v1/areas/{id}: counts by status"
+              oneOf:
+                - type: "integer"
+                - type: "object"
+                  properties:
+                    total:
+                      type: "integer"
+                    provisional:
+                      type: "integer"
+                    confirmed:
+                      type: "integer"
+                    retired:
+                      type: "integer"
+                    lowest:
+                      type:
+                        - "integer"
+                        - "null"
+                    highest:
+                      type:
+                        - "integer"
+                        - "null"
+            sameName:
+              type: "array"
+              items:
+                type: "object"
+                properties:
+                  id:
+                    type: "string"
+                  zone:
+                    "$ref": "#/components/schemas/Zone"
+                  blocks:
+                    type: "array"
+                    items:
+                      "$ref": "#/components/schemas/Block"
+            matchedBy:
+              type: "string"
+              enum:
+                - "plate"
+                - "alias"
+                - "official"
+    RegistryRow:
+      type: "object"
+      properties:
+        machine:
+          type: "string"
+        home:
+          type: "string"
+        remembered:
+          type: "string"
+        written:
+          type: "string"
+        zone:
+          type: "string"
+        official_name:
+          type: "string"
+        number:
+          type: "string"
+        check:
+          type: "string"
+        status:
+          type: "string"
+        issued:
+          type: "string"
+        issued_at:
+          type: "string"
+        entrance_lat:
+          type: "string"
+        entrance_lng:
+          type: "string"
+        entrance_kind:
+          type: "string"
+        plus_code:
+          type: "string"
+        official_address:
+          type: "string"
+        class:
+          type: "string"
+        use:
+          type: "string"
+        kind:
+          type: "string"
+        structures:
+          type: "string"
+        floor_area_m2:
+          type: "string"
+        rule:
+          type: "string"
+        estate:
+          type: "string"
+      description: "the registry row exactly as published (every value a string, as in the CSV)"
+    Card:
+      type: "object"
+      properties:
+        machine:
+          type: "string"
+          pattern: "^CI-[0-9]{6}-[0-9]{3}-[0-9]{4,5}-[0-9]$"
+        home:
+          type: "string"
+        remembered:
+          type: "string"
+        written:
+          type: "string"
+        spoken:
+          type: "string"
+        number:
+          type: "integer"
+        check:
+          type: "integer"
+        status:
+          type: "string"
+          enum:
+            - "provisional"
+            - "confirmed"
+            - "retired"
+        issued:
+          type: "string"
+          enum:
+            - "bulk"
+            - "on-demand"
+        issuedAt:
+          type: "string"
+          format: "date-time"
+        entrance:
+          type: "object"
+          properties:
+            lat:
+              type: "number"
+            lng:
+              type: "number"
+            kind:
+              type: "string"
+              enum:
+                - "centre"
+                - "gate"
+                - "door"
+        spot:
+          type: "object"
+          properties:
+            plusCode:
+              type: "string"
+            short:
+              type: "string"
+        officialAddress:
+          type:
+            - "string"
+            - "null"
+        profile:
+          type: "object"
+          properties:
+            class:
+              type:
+                - "string"
+                - "null"
+            use:
+              type: "string"
+            kind:
+              type: "string"
+            structures:
+              type: "integer"
+            floorAreaM2:
+              type: "number"
+            rule:
+              type:
+                - "string"
+                - "null"
+            estate:
+              type:
+                - "string"
+                - "null"
+        area:
+          "$ref": "#/components/schemas/AreaBrief"
+        zone:
+          "$ref": "#/components/schemas/Zone"
+        registry:
+          "$ref": "#/components/schemas/RegistryRow"
+        credit:
+          type: "string"
+        creditUrl:
+          type: "string"
+        distanceM:
+          type: "number"
+          description: "on lookups by point"
+      required:
+        - "machine"
+        - "home"
+        - "remembered"
+        - "written"
+        - "number"
+        - "status"
+        - "registry"
+    Found:
+      type: "object"
+      properties:
+        form:
+          type: "string"
+          enum:
+            - "remembered"
+            - "written"
+            - "machine"
+            - "official"
+            - "spot"
+        count:
+          type: "integer"
+        results:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Card"
+        typedOfficialName:
+          type: "boolean"
+      required:
+        - "form"
+        - "count"
+        - "results"
+    At:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+          enum:
+            - "found"
+            - "none"
+        distanceM:
+          type: "number"
+        code:
+          "$ref": "#/components/schemas/Card"
+        canIssue:
+          type: "boolean"
+        area:
+          allOf:
+            - "$ref": "#/components/schemas/AreaBrief"
+            - type: "object"
+              properties:
+                zone:
+                  "$ref": "#/components/schemas/Zone"
+      required:
+        - "status"
+        - "area"
+    Near:
+      type: "object"
+      properties:
+        point:
+          "$ref": "#/components/schemas/Point"
+        radiusM:
+          type: "number"
+        count:
+          type: "integer"
+        more:
+          type: "boolean"
+        results:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Card"
+    Verify:
+      type: "object"
+      properties:
+        code:
+          type: "string"
+        syntax:
+          type: "boolean"
+        area:
+          type: "boolean"
+        inBlock:
+          type: "boolean"
+        check:
+          type: "boolean"
+        issued:
+          type: "boolean"
+        status:
+          type:
+            - "string"
+            - "null"
+        valid:
+          type: "boolean"
+        reason:
+          type:
+            - "string"
+            - "null"
+        machine:
+          type: "string"
+      required:
+        - "code"
+        - "valid"
+    Spot:
+      type: "object"
+      properties:
+        plusCode:
+          type: "string"
+        short:
+          type: "string"
+        reference:
+          type:
+            - "string"
+            - "null"
+        zone:
+          oneOf:
+            - "$ref": "#/components/schemas/Zone"
+            - type: "null"
+        point:
+          "$ref": "#/components/schemas/Point"
+    SpotDecoded:
+      type: "object"
+      properties:
+        plusCode:
+          type: "string"
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        reference:
+          type:
+            - "string"
+            - "null"
+        code:
+          oneOf:
+            - "$ref": "#/components/schemas/Card"
+            - type: "null"
+    Zones:
+      type: "object"
+      properties:
+        count:
+          type: "integer"
+        zones:
+          type: "array"
+          items:
+            allOf:
+              - "$ref": "#/components/schemas/Zone"
+              - type: "object"
+                properties:
+                  areas:
+                    type: "integer"
+                  codes:
+                    type: "integer"
+    ZoneDetail:
+      allOf:
+        - "$ref": "#/components/schemas/Zone"
+        - type: "object"
+          properties:
+            codes:
+              type: "integer"
+            referenceTown:
+              type:
+                - "string"
+                - "null"
+            areas:
+              type: "array"
+              items:
+                "$ref": "#/components/schemas/Area"
+    CodePage:
+      type: "object"
+      properties:
+        zone:
+          "$ref": "#/components/schemas/Zone"
+        count:
+          type: "integer"
+        next:
+          type:
+            - "string"
+            - "null"
+          description: "pass as after for the next page; null on the last"
+        results:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Card"
+    AreasByName:
+      type: "object"
+      properties:
+        name:
+          type: "string"
+        nameKey:
+          type: "string"
+        count:
+          type: "integer"
+        areas:
+          type: "array"
+          items:
+            "$ref": "#/components/schemas/Area"
+    Health:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        country:
+          type: "string"
+        codes:
+          type: "integer"
+        registryExported:
+          type: "string"
+        issuing:
+          type: "boolean"
+    Info:
+      type: "object"
+      properties:
+        country:
+          type: "string"
+        name:
+          type: "string"
+        zones:
+          type: "integer"
+        areas:
+          type: "integer"
+        names:
+          type: "integer"
+        codes:
+          type: "object"
+          properties:
+            total:
+              type: "integer"
+            byStatus:
+              type: "object"
+            byIssue:
+              type: "object"
+        registryExported:
+          type: "string"
+        imported:
+          type: "string"
+        changedHere:
+          type:
+            - "string"
+            - "null"
+        engine:
+          type: "string"
+        spec:
+          type: "string"
+        licences:
+          type: "object"
+        credit:
+          type: "string"
+        creditUrl:
+          type: "string"
+        issuing:
+          type: "object"
+          properties:
+            enabled:
+              type: "boolean"
+            perKeyPerDay:
+              type: "integer"
+        forms:
+          type: "object"
+    IssueRequest:
+      type: "object"
+      properties:
+        lat:
+          type: "number"
+        lng:
+          type: "number"
+        outline:
+          type: "array"
+          maxItems: 500
+          items:
+            type: "array"
+            items:
+              type: "number"
+            minItems: 2
+            maxItems: 2
+          description: "3 to 500 [lng, lat] points of the building; an empty list means no outline"
+        of:
+          type: "string"
+          description: "machine form of the compound this is another door of (within 80 m of its entrance)"
+      required:
+        - "lat"
+        - "lng"
+    ChangeRequest:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+          enum:
+            - "confirmed"
+            - "provisional"
+            - "retired"
+        entrance:
+          "$ref": "#/components/schemas/Point"
+  securitySchemes:
+    issuerKey:
+      type: "http"
+      scheme: "bearer"
+      description: "one of the keys in ISSUE_KEYS; a deployment without ISSUE_KEYS is read-only"

@@ -1,0 +1,59 @@
+{
+ "placeKinds": [
+  "suburb",
+  "quarter",
+  "neighbourhood",
+  "village",
+  "hamlet",
+  "locality"
+ ],
+ "places": 452,
+ "areasUsed": 415,
+ "compoundRatio": 0.834,
+ "compoundsPerArea": {
+  "p10": 178,
+  "p50": 861,
+  "p90": 3028,
+  "max": 11514
+ },
+ "areasFitting": {
+  "3 digits (<=450)": 119,
+  "4 digits (<=4500)": 279,
+  "5 digits (<=45000)": 17,
+  "over": 0
+ },
+ "largest": [
+  [
+   "Adjouffou",
+   11514
+  ],
+  [
+   "Akeikoi",
+   8864
+  ],
+  [
+   "Avocatier",
+   8266
+  ],
+  [
+   "Gonzagueville",
+   7960
+  ],
+  [
+   "Cité Gestoci",
+   7050
+  ],
+  [
+   "Adjoufou",
+   6782
+  ],
+  [
+   "Colombie",
+   6734
+  ],
+  [
+   "Campement",
+   6730
+  ]
+ ]
+}

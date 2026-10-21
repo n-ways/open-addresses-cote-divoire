@@ -1,0 +1,817 @@
+{
+ "about": "A remembered code \"Name NNNN\" is unique nationally on its own, and its name is a plate name of at most 12 characters and 2 words. Computed by tools/name_ranges.py from model/areas/areas.csv and the compounds of every area (tools/issue_registry.py group).",
+ "normalisation": "engine/SPEC.md 4.1 (ci_engine.name_key), applied to the plate name",
+ "blockRule": "block = max(100, 2 x compounds rounded up to 100); range 1000-9999 (4 digits) if blocks + spare fit, else 10000-99999 (5 digits); spare = max(500, 10% of the blocks)",
+ "areas": 9834,
+ "nameKeys": 8618,
+ "repeatedNames": 818,
+ "areasWithRepeatedNames": 2034,
+ "compoundsInRepeatedNames": 1727474,
+ "repeatsByAreaCount": {
+  "2": 638,
+  "3": 105,
+  "4": 36,
+  "5": 11,
+  "6": 9,
+  "7": 6,
+  "8": 1,
+  "9": 4,
+  "10": 1,
+  "11": 1,
+  "12": 2,
+  "13": 1,
+  "14": 1,
+  "16": 2
+ },
+ "namesByDigits": {
+  "4": 8295,
+  "5": 323
+ },
+ "areasByDigits": {
+  "4": 9195,
+  "5": 639
+ },
+ "compoundShareByDigits": {
+  "4": 0.709,
+  "5": 0.291
+ },
+ "largestSharedRange": {
+  "name": "Belleville",
+  "areas": 7,
+  "compounds": 31339,
+  "allocated": 63000,
+  "digits": 5
+ },
+ "qualifiedNames": [],
+ "plateNames": {
+  "rule": "plate name: at most 12 characters (letters, spaces, hyphens, apostrophes; an accented letter is one) and 2 words (linking words do not count; a hyphen separates words; one number word allowed). tools/ci_plates.py, engine/reference/plate_names.py",
+  "officialOverLimit": {
+   "chars": 1395,
+   "words": 192,
+   "either": 1414,
+   "numberWords": 9
+  },
+  "byRule": {
+   "abbreviated": 2,
+   "as-is": 8378,
+   "cleaned": 212,
+   "council": 1196,
+   "distinctive": 44,
+   "known": 2
+  },
+  "needsCouncilChoice": 1197,
+  "councilReasons": {
+   "the short form drops part of the name": 399,
+   "no run of whole words fits 12 characters and 2 words": 340,
+   "hyphenated name over the limit: one part to be chosen by the commune": 288,
+   "no clear choice": 68,
+   "every short form drops a qualifier": 61,
+   "too short to be a name on its own": 19,
+   "equals a well-known town elsewhere": 19,
+   "the generic word is part of the name": 3
+  },
+  "stillOverLimit": 363,
+  "stillOverLimitNotFlagged": 0,
+  "aliases": {
+   "kept": 1070,
+   "dropped": 4
+  },
+  "droppedAliases": [
+   {
+    "alias": "Abole Kouassikro",
+    "key": "abolekwasikro",
+    "why": "equals the plate name of another area"
+   },
+   {
+    "alias": "Ya Kouakoukro",
+    "key": "iakwakoukro",
+    "why": "equals the plate name of another area"
+   },
+   {
+    "alias": "Konan koffikro",
+    "key": "konankofikro",
+    "why": "equals the plate name of another area"
+   },
+   {
+    "alias": "Kouami-Kofikro",
+    "key": "kwamikofikro",
+    "why": "equals the plate name of another area"
+   }
+  ],
+  "ambiguousWithoutSeparator": [],
+  "longestRemembered": {
+   "code": "Industriele de Treichville · 10 00",
+   "length": 34,
+   "official": "Zone Industriele de Treichville",
+   "flagged": true
+  },
+  "longestRememberedNotFlagged": {
+   "code": "Soungalovogo · 1 00 00",
+   "length": 22,
+   "official": "Soungalovogo"
+  },
+  "known": [
+   {
+    "official": "Deux Plateaux",
+    "plate": "II Plateaux",
+    "source": "fr.wikipedia.org/wiki/Cocody (\"2 Plateaux\" in the sub-commune list); business addresses \"Cocody II Plateaux\", e.g. annuaireci.com/en/entreprises/cabinet-de-pediatrie-des-ii-plateaux-abidjan-cote-divoire/"
+   },
+   {
+    "official": "Gonzagueville",
+    "plate": "Gonzague",
+    "source": "fr.wikipedia.org/wiki/Port-Bouët (quartiers: \"Adjouffou, Derrière Wharf, Gonzague, Vridi\")"
+   }
+  ]
+ },
+ "beforePlateNames": {
+  "areas": 9834,
+  "nameKeys": 8903,
+  "repeatedNames": 636,
+  "areasWithRepeatedNames": 1567,
+  "compoundsInRepeatedNames": 1338878,
+  "repeatsByAreaCount": {
+   "2": 500,
+   "3": 86,
+   "4": 17,
+   "5": 10,
+   "6": 9,
+   "7": 6,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "12": 2,
+   "14": 2,
+   "16": 1
+  },
+  "namesByDigits": {
+   "4": 8589,
+   "5": 314
+  },
+  "areasByDigits": {
+   "4": 9270,
+   "5": 564
+  },
+  "compoundShareByDigits": {
+   "4": 0.72,
+   "5": 0.28
+  },
+  "largestSharedRange": {
+   "name": "Belleville",
+   "areas": 7,
+   "compounds": 31339,
+   "allocated": 63000,
+   "digits": 5
+  }
+ },
+ "largestSharedRanges": [
+  {
+   "key": "belevile",
+   "name": "Belleville",
+   "areas": 7,
+   "compounds": 31339,
+   "allocated": 63000,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 7000,
+   "officialNames": [
+    "Belleville"
+   ]
+  },
+  {
+   "key": "adjoufou",
+   "name": "Adjoufou",
+   "areas": 3,
+   "compounds": 22174,
+   "allocated": 44400,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 45600,
+   "officialNames": [
+    "Adjouffou",
+    "Adjoufou"
+   ]
+  },
+  {
+   "key": "soubre",
+   "name": "Soubré",
+   "areas": 2,
+   "compounds": 21691,
+   "allocated": 43500,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 46500,
+   "officialNames": [
+    "Soubré"
+   ]
+  },
+  {
+   "key": "koko",
+   "name": "Koko",
+   "areas": 10,
+   "compounds": 20863,
+   "allocated": 42300,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 47700,
+   "officialNames": [
+    "Koko",
+    "Koko Konankro",
+    "Kôkô",
+    "Quartier Côcô"
+   ]
+  },
+  {
+   "key": "kenedi",
+   "name": "Kennedy",
+   "areas": 4,
+   "compounds": 20194,
+   "allocated": 40600,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 49400,
+   "officialNames": [
+    "Kennedy",
+    "Quartier Kennedy"
+   ]
+  },
+  {
+   "key": "gbapleu",
+   "name": "Gbapleu",
+   "areas": 4,
+   "compounds": 16856,
+   "allocated": 33900,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 56100,
+   "officialNames": [
+    "Gbapleu"
+   ]
+  },
+  {
+   "key": "bondoukou",
+   "name": "Bondoukou",
+   "areas": 2,
+   "compounds": 16390,
+   "allocated": 32900,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 57100,
+   "officialNames": [
+    "Bondoukou"
+   ]
+  },
+  {
+   "key": "katiola",
+   "name": "Katiola",
+   "areas": 2,
+   "compounds": 15238,
+   "allocated": 30600,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 59400,
+   "officialNames": [
+    "Katiola"
+   ]
+  },
+  {
+   "key": "orli",
+   "name": "Orly",
+   "areas": 3,
+   "compounds": 13018,
+   "allocated": 26300,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 63700,
+   "officialNames": [
+    "Orly",
+    "Orly Extension 1",
+    "Orly Extension 3"
+   ]
+  },
+  {
+   "key": "iobwekro",
+   "name": "Yobouékro",
+   "areas": 6,
+   "compounds": 12277,
+   "allocated": 24900,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 65100,
+   "officialNames": [
+    "Yobouekro",
+    "Yobouékro"
+   ]
+  },
+  {
+   "key": "dioulabougou",
+   "name": "Dioulabougou",
+   "areas": 6,
+   "compounds": 11806,
+   "allocated": 24000,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 66000,
+   "officialNames": [
+    "Dioulabougou",
+    "Palmci Dioulabougou"
+   ]
+  },
+  {
+   "key": "akoupe",
+   "name": "Akoupé",
+   "areas": 2,
+   "compounds": 11551,
+   "allocated": 23200,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 66800,
+   "officialNames": [
+    "Akoupé"
+   ]
+  },
+  {
+   "key": "aniamaadjame",
+   "name": "Anyama Adjamé",
+   "areas": 2,
+   "compounds": 11476,
+   "allocated": 23100,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 66900,
+   "officialNames": [
+    "Anyama Adjamé"
+   ]
+  },
+  {
+   "key": "sokoura",
+   "name": "Sokoura",
+   "areas": 8,
+   "compounds": 10801,
+   "allocated": 21900,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 48100,
+   "officialNames": [
+    "Fadiadougou Sokoura",
+    "Sokoura"
+   ]
+  },
+  {
+   "key": "guezon",
+   "name": "Guézon",
+   "areas": 4,
+   "compounds": 10752,
+   "allocated": 21700,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 68300,
+   "officialNames": [
+    "Guézon"
+   ]
+  }
+ ],
+ "mostRepeated": [
+  {
+   "key": "akakro",
+   "name": "Akakro",
+   "areas": 16,
+   "compounds": 8840,
+   "allocated": 18500,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 71500,
+   "officialNames": [
+    "AKAKRO",
+    "Akakro"
+   ]
+  },
+  {
+   "key": "kofikro",
+   "name": "Koffikro",
+   "areas": 16,
+   "compounds": 6166,
+   "allocated": 13300,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 56700,
+   "officialNames": [
+    "Koffikro",
+    "Kofikro",
+    "Konan koffikro",
+    "Séguéla-Koffikro"
+   ]
+  },
+  {
+   "key": "kwadiokro",
+   "name": "Kouadiokro",
+   "areas": 14,
+   "compounds": 6656,
+   "allocated": 14100,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 75900,
+   "officialNames": [
+    "KOUADIOKRO",
+    "Kouadiokro"
+   ]
+  },
+  {
+   "key": "nguesankro",
+   "name": "N'Guessankro",
+   "areas": 13,
+   "compounds": 6758,
+   "allocated": 14000,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 76000,
+   "officialNames": [
+    "N'Guessankro",
+    "N'Guessankro (garrage)",
+    "N'guessankro",
+    "Nguessankro",
+    "Nguéssankro",
+    "N’Guessankro"
+   ]
+  },
+  {
+   "key": "iaokro",
+   "name": "Yaokro",
+   "areas": 12,
+   "compounds": 9115,
+   "allocated": 18800,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 71200,
+   "officialNames": [
+    "Yaokro"
+   ]
+  },
+  {
+   "key": "kwamekro",
+   "name": "Kouamékro",
+   "areas": 12,
+   "compounds": 8065,
+   "allocated": 16600,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 73400,
+   "officialNames": [
+    "Kouamekro",
+    "Kouamékro",
+    "Kouassi Kouamékro",
+    "Kouassi-Kouamékro"
+   ]
+  },
+  {
+   "key": "konankro",
+   "name": "Konankro",
+   "areas": 11,
+   "compounds": 7402,
+   "allocated": 15400,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 74600,
+   "officialNames": [
+    "KONANKRO",
+    "Konankro",
+    "Konankro (assandre)",
+    "Kouadio Konankro",
+    "Kouadio-Konankro",
+    "ZEGO Konankro"
+   ]
+  },
+  {
+   "key": "koko",
+   "name": "Koko",
+   "areas": 10,
+   "compounds": 20863,
+   "allocated": 42300,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 47700,
+   "officialNames": [
+    "Koko",
+    "Koko Konankro",
+    "Kôkô",
+    "Quartier Côcô"
+   ]
+  },
+  {
+   "key": "ngatakro",
+   "name": "N'Gattakro",
+   "areas": 9,
+   "compounds": 7545,
+   "allocated": 15500,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 74500,
+   "officialNames": [
+    "N'Gattakro",
+    "NGattakro",
+    "Ngatakro",
+    "Ngattakro",
+    "N’Gattakro"
+   ]
+  },
+  {
+   "key": "golikro",
+   "name": "Golikro",
+   "areas": 9,
+   "compounds": 6292,
+   "allocated": 13200,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 76800,
+   "officialNames": [
+    "Golikro",
+    "Golykro",
+    "Kouassi Golikro"
+   ]
+  },
+  {
+   "key": "kwasikro",
+   "name": "Kouassikro",
+   "areas": 9,
+   "compounds": 6289,
+   "allocated": 13100,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 76900,
+   "officialNames": [
+    "Aboudé Kouassikro",
+    "Ananda Kouassikro",
+    "Kouassikro",
+    "Kouassikro (Tiagba 2)"
+   ]
+  },
+  {
+   "key": "asekro",
+   "name": "Assékro",
+   "areas": 9,
+   "compounds": 5500,
+   "allocated": 11300,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 78700,
+   "officialNames": [
+    "Assekro",
+    "Assékro",
+    "Kouadio-Assèkro",
+    "Kouamé Assekro",
+    "Kouamé Assèkro"
+   ]
+  },
+  {
+   "key": "sokoura",
+   "name": "Sokoura",
+   "areas": 8,
+   "compounds": 10801,
+   "allocated": 21900,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 48100,
+   "officialNames": [
+    "Fadiadougou Sokoura",
+    "Sokoura"
+   ]
+  },
+  {
+   "key": "belevile",
+   "name": "Belleville",
+   "areas": 7,
+   "compounds": 31339,
+   "allocated": 63000,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 7000,
+   "officialNames": [
+    "Belleville"
+   ]
+  },
+  {
+   "key": "kwakro",
+   "name": "Kouakro",
+   "areas": 7,
+   "compounds": 7334,
+   "allocated": 14900,
+   "digits": 5,
+   "range": [
+    10000,
+    99999
+   ],
+   "spare": 75100,
+   "officialNames": [
+    "Kouakro"
+   ]
+  }
+ ],
+ "repeatedNamesWith5Digits": [
+  "Belleville",
+  "Adjoufou",
+  "Soubré",
+  "Koko",
+  "Kennedy",
+  "Gbapleu",
+  "Bondoukou",
+  "Katiola",
+  "Orly",
+  "Yobouékro",
+  "Dioulabougou",
+  "Akoupé",
+  "Anyama Adjamé",
+  "Sokoura",
+  "Guézon",
+  "Touba",
+  "Yaou",
+  "Ouattaradougou",
+  "Ananguié",
+  "Dianra",
+  "Zouan",
+  "Anonkoua",
+  "Taobli",
+  "Es Salam",
+  "Yaokro",
+  "Akakro",
+  "Djibi",
+  "Adaou",
+  "Soba",
+  "Air France",
+  "Dimbokro",
+  "Adjamé",
+  "Zone",
+  "Kouamékro",
+  "Aféri",
+  "Hiré",
+  "Béoué",
+  "Bada",
+  "N'Gattakro",
+  "Éléphant",
+  "Konankro",
+  "Banco",
+  "Kouakro",
+  "Banoufla",
+  "Gbepleu",
+  "Douane",
+  "Sopim",
+  "Attinguié",
+  "Kouadiokro",
+  "Yanantifla",
+  "N'Guessankro",
+  "Millionnaire",
+  "Broukro",
+  "Dikodougou",
+  "Grace",
+  "Koffikro",
+  "Niablé",
+  "Gbagba",
+  "Golikro",
+  "Sicogi",
+  "Le Corridor",
+  "Kouassikro",
+  "Guéya",
+  "Tahouaké",
+  "Petit-Guiglo",
+  "Para",
+  "Pinhou",
+  "Barrage",
+  "L’habitat",
+  "Mankono",
+  "Moussadougou",
+  "Toumodi",
+  "Vaafla",
+  "Logements",
+  "Les Pays-Bas",
+  "Yadio",
+  "Abongoua",
+  "Yakassé",
+  "Luéhouan",
+  "Assékro",
+  "Le Plateau",
+  "N'Zikro",
+  "Ahouanou",
+  "Nizahon",
+  "Ouele",
+  "Anoumabo",
+  "Azaguié",
+  "Karakoro",
+  "Bonikro",
+  "Doka",
+  "Blapleu",
+  "Ahougnansou",
+  "Diangobo",
+  "Gningleu",
+  "Korokaha",
+  "Andé",
+  "Mendeké",
+  "Neka",
+  "Sebia Yao",
+  "Agbaou",
+  "Liberté",
+  "Kouté",
+  "Mafia",
+  "Bouafla",
+  "Divo",
+  "Sakassou",
+  "Santa",
+  "Tapéguhé",
+  "Konédougou",
+  "Sahoua",
+  "Kakou",
+  "Lac",
+  "Bétié",
+  "Garo",
+  "Katogo",
+  "Tiémé",
+  "Dahiri",
+  "Keibli",
+  "Soko",
+  "Toulépleu"
+ ]
+}

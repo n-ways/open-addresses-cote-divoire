@@ -1,0 +1,136 @@
+{
+  "country": "CI",
+  "name": "Côte d'Ivoire",
+  "languages": [
+    "fr"
+  ],
+  "alphabet": "23456789CFGHJMPQRVWX",
+  "cellMetres": 3.0,
+  "buildingHeadroom": 2.0,
+  "regionLevel": "first-level division (ISO 3166-2), as in the N-Ways regions table",
+  "regions": 14,
+  "buildings": 9478857,
+  "spotCodeLengths": [
+    7,
+    8
+  ],
+  "buildingCodeLengths": [
+    5
+  ],
+  "regionsToSubdivide": [
+    "CI-BS",
+    "CI-CM",
+    "CI-DN",
+    "CI-GD",
+    "CI-LC",
+    "CI-LG",
+    "CI-MG",
+    "CI-SM",
+    "CI-SV",
+    "CI-VB",
+    "CI-WR",
+    "CI-ZZ"
+  ],
+  "spoken": {
+    "fr": {
+      "2": "deux",
+      "3": "trois",
+      "4": "quatre",
+      "5": "cinq",
+      "6": "six",
+      "7": "sept",
+      "8": "huit",
+      "9": "neuf",
+      "C": "cé",
+      "F": "effe",
+      "G": "gé",
+      "H": "ache",
+      "J": "ji",
+      "M": "emme",
+      "P": "pé",
+      "Q": "ku",
+      "R": "erre",
+      "V": "vé",
+      "W": "double vé",
+      "X": "ixe"
+    }
+  },
+  "existing": {
+    "system": "No national postcode in practical use. La Poste de Côte d'Ivoire delivers to P.O. boxes written 'office code + B.P. + number + locality + office code', e.g. '06 B.P. 37 Abidjan 06' or '17 B.P. 105 Abidjan 17' (UPU sheet; home delivery codes '1xx' were only tested). La Poste also sells a 'Boîte Postale Digitale' with a postal address card and promotes what3words on its website.",
+    "status": "Abidjan street addressing (Projet d'adressage du District d'Abidjan, PADA, Ministry of Construction, Housing and Urban Planning) has named and signposted most streets: 12,000 of 14,279 roads (plus 35 boulevards and 211 avenues) by May 2025, with blue/white metric building numbers painted by the State (BNETD) and street-name plates; the first address certificates were issued in Koumassi/Marcory on 16 Dec 2021; completion was announced for 31 Dec 2025 (not confirmed). An address is described as 'street + number + postal code', and the project director said an international-standard postal code was introduced, but no format, lookup site, API or open data was found. Other cities are to follow.",
+    "openData": "No open national address register found. OSM street names (ODbL) are the only reusable source; PADA street names not confirmed as imported into OSM.",
+    "openAlgorithm": "Open Location Code (Plus Codes) is an open, free algorithm (Apache-2.0) and works offline; what3words (promoted by La Poste CI) is proprietary and licensed.",
+    "terms": "what3words requires a licence for commercial use; Plus Codes have no licence fee. No PADA data licence published.",
+    "recommendation": "Superseded by the issued model (docs/model.md, engine/SPEC.md): official addresses (PADA, later PAVI) first; every compound has an N-Ways code, a plate name and a 4- or 5-digit number; Plus Codes for any point. No dependence on what3words or on a postcode (none in use).",
+    "lastChecked": "2026-10-17",
+    "findings": [
+      {
+        "name": "PADA – Abidjan street addressing",
+        "state": "streets mostly named/signposted (May 2025); completion target 31 Dec 2025",
+        "format": "street name + metric building number (+ postal code announced, format unknown)",
+        "openData": "none found",
+        "inOSM": "not verified"
+      },
+      {
+        "name": "La Poste de Côte d'Ivoire",
+        "state": "P.O. boxes; digital P.O. box (adresse-postale.maposte.ci)",
+        "format": "'06 B.P. 37 Abidjan 06'",
+        "openData": "none",
+        "inOSM": false
+      },
+      {
+        "name": "what3words via La Poste CI",
+        "state": "promoted on laposte.ci.post",
+        "format": "3 words",
+        "openData": "no (proprietary)",
+        "inOSM": false
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/civEn.pdf",
+        "kind": "official",
+        "note": "UPU addressing sheet for Côte d'Ivoire (2004/2005)"
+      },
+      {
+        "url": "https://laposte.ci.post/adresse-what3words",
+        "kind": "official",
+        "note": "La Poste CI what3words page"
+      },
+      {
+        "url": "https://adresse-postale.maposte.ci/",
+        "kind": "official",
+        "note": "La Poste digital P.O. box"
+      },
+      {
+        "url": "https://afrique.le360.ma/societe/abidjan-12000-voies-et-rues-renommees-et-clairement-indiquees-sur-14000-retrouver-une-adresse-nest_HPTCMDFTOZBVBCCBKBFTESQHCE/",
+        "kind": "press",
+        "note": "Le360, 18 May 2025"
+      },
+      {
+        "url": "https://fr.allafrica.com/stories/202510020568.html",
+        "kind": "press",
+        "note": "Oct 2025: addressing of Abidjan roads to end 31 Dec 2025"
+      },
+      {
+        "url": "https://www.fratmat.info/article/217164/politique/bruno-nabagne-kone/district-dabidjan-le-gouvernement-ivoirien-octroie-les-premiers-certificats-dadresse",
+        "kind": "press",
+        "note": "First address certificates, 16 Dec 2021"
+      },
+      {
+        "url": "https://github.com/google/open-location-code",
+        "kind": "other",
+        "note": "Open Location Code, Apache-2.0"
+      }
+    ],
+    "osm": {
+      "checked": null,
+      "note": "Overpass counts of addr:* tags could not be obtained (the service was unreachable on 17 October 2026)."
+    }
+  },
+  "sources": {
+    "regions": "N-Ways regions (OpenStreetMap administrative boundaries, ODbL)",
+    "buildings": "OpenStreetMap (ODbL); Google Open Buildings (CC BY 4.0) and Microsoft building footprints (ODbL) via Overture Maps",
+    "existing": "N-Ways country research (docs/existing-systems.md, SOURCES.md)"
+  }
+}

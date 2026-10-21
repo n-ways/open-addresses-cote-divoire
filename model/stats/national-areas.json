@@ -1,0 +1,95 @@
+{
+ "placeKinds": [
+  "village",
+  "hamlet",
+  "quarter",
+  "neighbourhood",
+  "suburb",
+  "town",
+  "city",
+  "locality"
+ ],
+ "placePoints": 10220,
+ "areasWithBuildings": 10128,
+ "compoundRatio": 0.834,
+ "estCompounds": 8046565,
+ "compoundsPerArea": {
+  "p10": 75,
+  "p50": 384,
+  "p90": 1851,
+  "p99": 6055,
+  "max": 23269
+ },
+ "areasByDigits": {
+  "3": 5576,
+  "4": 4336,
+  "5": 216
+ },
+ "compoundShareByDigits": {
+  "3": 0.138,
+  "4": 0.667,
+  "5": 0.195
+ },
+ "largest": [
+  [
+   "Bonon",
+   "town",
+   23269
+  ],
+  [
+   "Bouaflé",
+   "city",
+   22777
+  ],
+  [
+   "Soubré",
+   "city",
+   21184
+  ],
+  [
+   "Adzopé",
+   "city",
+   20942
+  ],
+  [
+   "Zimbabwe",
+   "neighbourhood",
+   19382
+  ],
+  [
+   "Ferkéssédougou",
+   "city",
+   18999
+  ],
+  [
+   "Odienné",
+   "town",
+   18823
+  ],
+  [
+   "Abengourou",
+   "city",
+   18348
+  ],
+  [
+   "Guiglo",
+   "city",
+   18215
+  ],
+  [
+   "Boundiali",
+   "town",
+   17606
+  ],
+  [
+   "Dabou",
+   "city",
+   15479
+  ],
+  [
+   "Bondoukou",
+   "city",
+   15237
+  ]
+ ]
+}

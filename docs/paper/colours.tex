@@ -1,0 +1,11 @@
+% Côte d'Ivoire: orange, white and green, the national flag's stripes in order.
+\definecolor{flagA}{HTML}{F77F00}
+\definecolor{flagB}{HTML}{FFFFFF}
+\definecolor{flagC}{HTML}{009E60}
+\definecolor{paperink}{HTML}{9A4A00}
+\newcommand{\flagband}{\begin{tikzpicture}[remember picture,overlay]
+  \fill[flagA] (0,0) rectangle (\paperwidth,-2.2mm);
+  \fill[flagB] (0,-2.2mm) rectangle (\paperwidth,-4.4mm);
+  \fill[flagC] (0,-4.4mm) rectangle (\paperwidth,-6.6mm);
+\end{tikzpicture}}
+\providecommand{\papershort}{N-Ways Addressing for Côte d'Ivoire}

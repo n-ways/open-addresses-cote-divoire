@@ -1,0 +1,19 @@
+% French labels; written by tools/paper-figures.py from plate-lengths.tex.
+% Characters of the official name and of the plate name of each of the 9,834 code areas (data: plate-lengths.dat).
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{pgfplots}\pgfplotsset{compat=1.18,/pgf/number format/.cd,use comma,1000 sep={\,}}
+\definecolor{ink}{HTML}{9A4A00}\definecolor{orange}{HTML}{F77F00}\definecolor{green}{HTML}{009E60}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=12cm,height=6.2cm,ymin=0,xmin=0.5,xmax=40.5,
+  xlabel={caractères (40 = 40 ou plus)},ylabel={zones},
+  tick label style={font=\small},label style={font=\small},axis lines*=left,
+  ymajorgrids,grid style={black!10},legend style={font=\small,draw=none,at={(0.98,0.95)},anchor=north east},legend cell align=left]
+\addplot[const plot mark mid,fill=orange!35,draw=orange,line width=0.5pt] table[x=chars,y=official] {plate-lengths.dat} \closedcycle;
+\addplot[const plot mark mid,draw=green!70!black,line width=1.2pt] table[x=chars,y=plate] {plate-lengths.dat};
+\draw[ink,dashed,thick] (axis cs:12.5,0) -- (axis cs:12.5,1450) node[above right,font=\scriptsize,text=ink] {limite : 12};
+\legend{nom officiel,nom de plaque}
+\end{axis}
+\end{tikzpicture}
+\end{document}

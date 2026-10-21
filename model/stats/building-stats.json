@@ -1,0 +1,5260 @@
+{
+ "computed": "2026-10-20",
+ "note": "From the codes issued on 20 October 2026 (tools/issue_registry.py) and N-Ways map data.",
+ "rules": {
+  "annexBelowM2": 25.0,
+  "attachM": 5.0,
+  "enclosureMaxM2": 6000.0
+ },
+ "country": {
+  "compounds": 7956622,
+  "structures": 9478857,
+  "fromOpenStreetMap": 1430500,
+  "structuresPerCompound": 1.191,
+  "shareStructuresInMultiStructureCompounds": 0.296,
+  "compoundSizeMix": {
+   "1": 6671864,
+   "2": 1089065,
+   "3": 164804,
+   "4": 24290,
+   "5": 4583,
+   "6": 1203,
+   "7+": 813
+  },
+  "rules": {
+   "single": 6670716,
+   "annex": 1282106,
+   "enclosure": 3800
+  },
+  "coverage": {
+   "nways": 7956622
+  },
+  "useTop": {
+   "residential": 9381124,
+   "under_construction": 40626,
+   "commercial": 23223,
+   "annex": 14607,
+   "religious": 3617,
+   "education": 3408,
+   "office": 3153,
+   "health": 2832,
+   "industrial": 2174,
+   "hospitality": 1923,
+   "mixed": 868,
+   "transport": 459,
+   "agricultural": 412,
+   "government": 354,
+   "ruin": 77
+  },
+  "useDetail": {
+   "residential": 9381124,
+   "under_construction": 40626,
+   "commercial": 23223,
+   "annex": 14607,
+   "religious": 3617,
+   "education": 3408,
+   "office": 3153,
+   "health": 2832,
+   "industrial": 2174,
+   "hospitality": 1923,
+   "mixed": 868,
+   "transport": 459,
+   "agricultural": 412,
+   "government": 354,
+   "ruin": 77
+  },
+  "floorsFrom": {
+   "none": 9474822,
+   "osm:building:levels": 4006,
+   "osm:height": 29
+  },
+  "floors": {
+   "1": 1852,
+   "2": 757,
+   "3": 513,
+   "4": 913
+  },
+  "compoundsByDigits": {
+   "4": 5641970,
+   "5": 2314652
+  },
+  "annexCompounds": 1282106,
+  "footprintAreaM2": {
+   "p10": 16.2,
+   "p25": 24.8,
+   "p50": 45.5,
+   "p75": 94.4,
+   "p90": 182.4
+  }
+ },
+ "abidjan": {
+  "compounds": 797421,
+  "structures": 941937,
+  "fromOpenStreetMap": 405730,
+  "structuresPerCompound": 1.181,
+  "shareStructuresInMultiStructureCompounds": 0.279,
+  "compoundSizeMix": {
+   "1": 679198,
+   "2": 98434,
+   "3": 15765,
+   "4": 2842,
+   "5": 684,
+   "6": 236,
+   "7+": 262
+  },
+  "rules": {
+   "single": 678657,
+   "annex": 117069,
+   "enclosure": 1695
+  },
+  "coverage": {
+   "nways": 797421
+  },
+  "useTop": {
+   "residential": 905176,
+   "commercial": 15349,
+   "under_construction": 8038,
+   "annex": 2944,
+   "office": 2598,
+   "religious": 1787,
+   "education": 1778,
+   "health": 1241,
+   "industrial": 1212,
+   "mixed": 831,
+   "hospitality": 639,
+   "transport": 190,
+   "government": 114,
+   "agricultural": 37,
+   "ruin": 3
+  },
+  "useDetail": {
+   "residential": 905176,
+   "commercial": 15349,
+   "under_construction": 8038,
+   "annex": 2944,
+   "office": 2598,
+   "religious": 1787,
+   "education": 1778,
+   "health": 1241,
+   "industrial": 1212,
+   "mixed": 831,
+   "hospitality": 639,
+   "transport": 190,
+   "government": 114,
+   "agricultural": 37,
+   "ruin": 3
+  },
+  "floorsFrom": {
+   "none": 938795,
+   "osm:building:levels": 3136,
+   "osm:height": 6
+  },
+  "floors": {
+   "1": 1220,
+   "2": 628,
+   "3": 451,
+   "4": 843
+  },
+  "compoundsByDigits": {
+   "4": 490194,
+   "5": 307227
+  },
+  "annexCompounds": 117069,
+  "footprintAreaM2": {
+   "p10": 16.4,
+   "p25": 28.0,
+   "p50": 69.5,
+   "p75": 155.2,
+   "p90": 250.9
+  }
+ },
+ "regions": {
+  "Abidjan": {
+   "compounds": 596128,
+   "structures": 711803,
+   "fromOpenStreetMap": 297284,
+   "structuresPerCompound": 1.194,
+   "shareStructuresInMultiStructureCompounds": 0.294,
+   "compoundSizeMix": {
+    "1": 502566,
+    "2": 77248,
+    "3": 12825,
+    "4": 2415,
+    "5": 608,
+    "6": 218,
+    "7+": 248
+   },
+   "rules": {
+    "single": 502087,
+    "annex": 92487,
+    "enclosure": 1554
+   },
+   "coverage": {
+    "nways": 596128
+   },
+   "useTop": {
+    "residential": 682550,
+    "commercial": 14836,
+    "annex": 2700,
+    "office": 2442,
+    "under_construction": 1928,
+    "education": 1716,
+    "religious": 1688,
+    "health": 1185,
+    "industrial": 1035,
+    "mixed": 825,
+    "hospitality": 605,
+    "transport": 180,
+    "government": 110,
+    "ruin": 3
+   },
+   "useDetail": {
+    "residential": 682550,
+    "commercial": 14836,
+    "annex": 2700,
+    "office": 2442,
+    "under_construction": 1928,
+    "education": 1716,
+    "religious": 1688,
+    "health": 1185,
+    "industrial": 1035,
+    "mixed": 825,
+    "hospitality": 605,
+    "transport": 180,
+    "government": 110,
+    "ruin": 3
+   },
+   "floorsFrom": {
+    "none": 708754,
+    "osm:building:levels": 3043,
+    "osm:height": 6
+   },
+   "floors": {
+    "1": 1192,
+    "2": 607,
+    "3": 445,
+    "4": 805
+   },
+   "compoundsByDigits": {
+    "4": 373800,
+    "5": 222328
+   },
+   "annexCompounds": 92487,
+   "footprintAreaM2": {
+    "p10": 16.3,
+    "p25": 27.8,
+    "p50": 67.0,
+    "p75": 159.5,
+    "p90": 272.7
+   }
+  },
+  "Agneby-Tiassa": {
+   "compounds": 250539,
+   "structures": 295275,
+   "fromOpenStreetMap": 5739,
+   "structuresPerCompound": 1.179,
+   "shareStructuresInMultiStructureCompounds": 0.283,
+   "compoundSizeMix": {
+    "1": 211729,
+    "2": 33592,
+    "3": 4602,
+    "4": 543,
+    "5": 56,
+    "6": 15,
+    "7+": 2
+   },
+   "rules": {
+    "single": 211727,
+    "annex": 38808,
+    "enclosure": 4
+   },
+   "coverage": {
+    "nways": 250539
+   },
+   "useTop": {
+    "residential": 294907,
+    "commercial": 83,
+    "health": 64,
+    "education": 45,
+    "religious": 37,
+    "industrial": 36,
+    "hospitality": 29,
+    "annex": 27,
+    "office": 26,
+    "government": 11,
+    "transport": 4,
+    "under_construction": 4,
+    "ruin": 2
+   },
+   "useDetail": {
+    "residential": 294907,
+    "commercial": 83,
+    "health": 64,
+    "education": 45,
+    "religious": 37,
+    "industrial": 36,
+    "hospitality": 29,
+    "annex": 27,
+    "office": 26,
+    "government": 11,
+    "transport": 4,
+    "under_construction": 4,
+    "ruin": 2
+   },
+   "floorsFrom": {
+    "none": 295262,
+    "osm:building:levels": 13
+   },
+   "floors": {
+    "1": 11,
+    "2": 1,
+    "3": 1
+   },
+   "compoundsByDigits": {
+    "4": 176627,
+    "5": 73912
+   },
+   "annexCompounds": 38808,
+   "footprintAreaM2": {
+    "p10": 18.0,
+    "p25": 26.4,
+    "p50": 44.1,
+    "p75": 77.0,
+    "p90": 135.9
+   }
+  },
+  "Bafing": {
+   "compounds": 86369,
+   "structures": 105260,
+   "fromOpenStreetMap": 6159,
+   "structuresPerCompound": 1.219,
+   "shareStructuresInMultiStructureCompounds": 0.329,
+   "compoundSizeMix": {
+    "1": 70644,
+    "2": 13074,
+    "3": 2245,
+    "4": 334,
+    "5": 56,
+    "6": 12,
+    "7+": 4
+   },
+   "rules": {
+    "single": 70642,
+    "annex": 15716,
+    "enclosure": 11
+   },
+   "coverage": {
+    "nways": 86369
+   },
+   "useTop": {
+    "residential": 105069,
+    "annex": 129,
+    "under_construction": 30,
+    "industrial": 6,
+    "education": 6,
+    "religious": 4,
+    "commercial": 4,
+    "government": 4,
+    "office": 3,
+    "hospitality": 3,
+    "health": 2
+   },
+   "useDetail": {
+    "residential": 105069,
+    "annex": 129,
+    "under_construction": 30,
+    "industrial": 6,
+    "education": 6,
+    "religious": 4,
+    "commercial": 4,
+    "government": 4,
+    "office": 3,
+    "hospitality": 3,
+    "health": 2
+   },
+   "floorsFrom": {
+    "none": 105260
+   },
+   "floors": {},
+   "compoundsByDigits": {
+    "4": 75504,
+    "5": 10865
+   },
+   "annexCompounds": 15716,
+   "footprintAreaM2": {
+    "p10": 15.3,
+    "p25": 21.3,
+    "p50": 32.0,
+    "p75": 54.2,
+    "p90": 100.2
+   }
+  },
+  "Bagoue": {
+   "compounds": 169701,
+   "structures": 207544,
+   "fromOpenStreetMap": 21811,
+   "structuresPerCompound": 1.223,
+   "shareStructuresInMultiStructureCompounds": 0.332,
+   "compoundSizeMix": {
+    "1": 138623,
+    "2": 25521,
+    "3": 4613,
+    "4": 750,
+    "5": 150,
+    "6": 30,
+    "7+": 14
+   },
+   "rules": {
+    "single": 138615,
+    "annex": 31057,
+    "enclosure": 29
+   },
+   "coverage": {
+    "nways": 169701
+   },
+   "useTop": {
+    "residential": 206594,
+    "under_construction": 745,
+    "annex": 86,
+    "religious": 35,
+    "commercial": 35,
+    "health": 23,
+    "education": 8,
+    "hospitality": 7,
+    "government": 4,
+    "industrial": 4,
+    "office": 3
+   },
+   "useDetail": {
+    "residential": 206594,
+    "under_construction": 745,
+    "annex": 86,
+    "religious": 35,
+    "commercial": 35,
+    "health": 23,
+    "education": 8,
+    "hospitality": 7,
+    "government": 4,
+    "industrial": 4,
+    "office": 3
+   },
+   "floorsFrom": {
+    "none": 207541,
+    "osm:building:levels": 2,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 1,
+    "2": 2
+   },
+   "compoundsByDigits": {
+    "4": 129311,
+    "5": 40390
+   },
+   "annexCompounds": 31057,
+   "footprintAreaM2": {
+    "p10": 14.3,
+    "p25": 20.4,
+    "p50": 33.6,
+    "p75": 69.5,
+    "p90": 130.2
+   }
+  },
+  "Belier": {
+   "compounds": 100021,
+   "structures": 116549,
+   "fromOpenStreetMap": 9421,
+   "structuresPerCompound": 1.165,
+   "shareStructuresInMultiStructureCompounds": 0.264,
+   "compoundSizeMix": {
+    "1": 85758,
+    "2": 12286,
+    "3": 1739,
+    "4": 201,
+    "5": 26,
+    "6": 9,
+    "7+": 2
+   },
+   "rules": {
+    "single": 85754,
+    "annex": 14255,
+    "enclosure": 12
+   },
+   "coverage": {
+    "nways": 100021
+   },
+   "useTop": {
+    "residential": 116174,
+    "under_construction": 216,
+    "commercial": 36,
+    "annex": 22,
+    "health": 21,
+    "education": 21,
+    "religious": 17,
+    "industrial": 16,
+    "hospitality": 12,
+    "government": 7,
+    "office": 6,
+    "transport": 1
+   },
+   "useDetail": {
+    "residential": 116174,
+    "under_construction": 216,
+    "commercial": 36,
+    "annex": 22,
+    "health": 21,
+    "education": 21,
+    "religious": 17,
+    "industrial": 16,
+    "hospitality": 12,
+    "government": 7,
+    "office": 6,
+    "transport": 1
+   },
+   "floorsFrom": {
+    "none": 116546,
+    "osm:building:levels": 3
+   },
+   "floors": {
+    "1": 3
+   },
+   "compoundsByDigits": {
+    "4": 85162,
+    "5": 14859
+   },
+   "annexCompounds": 14255,
+   "footprintAreaM2": {
+    "p10": 17.4,
+    "p25": 26.2,
+    "p50": 49.0,
+    "p75": 102.5,
+    "p90": 177.8
+   }
+  },
+  "Bere": {
+   "compounds": 170887,
+   "structures": 206418,
+   "fromOpenStreetMap": 1800,
+   "structuresPerCompound": 1.208,
+   "shareStructuresInMultiStructureCompounds": 0.318,
+   "compoundSizeMix": {
+    "1": 140683,
+    "2": 25570,
+    "3": 4029,
+    "4": 528,
+    "5": 68,
+    "6": 7,
+    "7+": 2
+   },
+   "rules": {
+    "single": 140681,
+    "annex": 30198,
+    "enclosure": 8
+   },
+   "coverage": {
+    "nways": 170887
+   },
+   "useTop": {
+    "residential": 206303,
+    "education": 27,
+    "under_construction": 23,
+    "health": 18,
+    "religious": 17,
+    "commercial": 17,
+    "annex": 6,
+    "hospitality": 4,
+    "government": 2,
+    "industrial": 1
+   },
+   "useDetail": {
+    "residential": 206303,
+    "education": 27,
+    "under_construction": 23,
+    "health": 18,
+    "religious": 17,
+    "commercial": 17,
+    "annex": 6,
+    "hospitality": 4,
+    "government": 2,
+    "industrial": 1
+   },
+   "floorsFrom": {
+    "none": 206418
+   },
+   "floors": {},
+   "compoundsByDigits": {
+    "4": 151835,
+    "5": 19052
+   },
+   "annexCompounds": 30198,
+   "footprintAreaM2": {
+    "p10": 15.8,
+    "p25": 22.0,
+    "p50": 33.3,
+    "p75": 57.2,
+    "p90": 105.8
+   }
+  },
+  "Bounkani": {
+   "compounds": 163113,
+   "structures": 196669,
+   "fromOpenStreetMap": 91109,
+   "structuresPerCompound": 1.206,
+   "shareStructuresInMultiStructureCompounds": 0.304,
+   "compoundSizeMix": {
+    "1": 136871,
+    "2": 20450,
+    "3": 4649,
+    "4": 875,
+    "5": 191,
+    "6": 56,
+    "7+": 21
+   },
+   "rules": {
+    "single": 136864,
+    "annex": 26228,
+    "enclosure": 21
+   },
+   "coverage": {
+    "nways": 163113
+   },
+   "useTop": {
+    "residential": 194465,
+    "annex": 2070,
+    "under_construction": 79,
+    "commercial": 15,
+    "religious": 12,
+    "education": 10,
+    "hospitality": 6,
+    "health": 4,
+    "office": 3,
+    "industrial": 3,
+    "government": 2
+   },
+   "useDetail": {
+    "residential": 194465,
+    "annex": 2070,
+    "under_construction": 79,
+    "commercial": 15,
+    "religious": 12,
+    "education": 10,
+    "hospitality": 6,
+    "health": 4,
+    "office": 3,
+    "industrial": 3,
+    "government": 2
+   },
+   "floorsFrom": {
+    "none": 196635,
+    "osm:building:levels": 34
+   },
+   "floors": {
+    "1": 34
+   },
+   "compoundsByDigits": {
+    "4": 144271,
+    "5": 18842
+   },
+   "annexCompounds": 26228,
+   "footprintAreaM2": {
+    "p10": 12.1,
+    "p25": 17.0,
+    "p50": 24.4,
+    "p75": 37.5,
+    "p90": 66.2
+   }
+  },
+  "Cavally": {
+   "compounds": 226313,
+   "structures": 262776,
+   "fromOpenStreetMap": 2722,
+   "structuresPerCompound": 1.161,
+   "shareStructuresInMultiStructureCompounds": 0.263,
+   "compoundSizeMix": {
+    "1": 193624,
+    "2": 29278,
+    "3": 3089,
+    "4": 287,
+    "5": 30,
+    "6": 4,
+    "7+": 1
+   },
+   "rules": {
+    "single": 193623,
+    "annex": 32684,
+    "enclosure": 6
+   },
+   "coverage": {
+    "nways": 226313
+   },
+   "useTop": {
+    "residential": 262503,
+    "commercial": 102,
+    "government": 38,
+    "health": 32,
+    "religious": 20,
+    "education": 19,
+    "hospitality": 15,
+    "industrial": 15,
+    "under_construction": 10,
+    "office": 9,
+    "annex": 8,
+    "transport": 5
+   },
+   "useDetail": {
+    "residential": 262503,
+    "commercial": 102,
+    "government": 38,
+    "health": 32,
+    "religious": 20,
+    "education": 19,
+    "hospitality": 15,
+    "industrial": 15,
+    "under_construction": 10,
+    "office": 9,
+    "annex": 8,
+    "transport": 5
+   },
+   "floorsFrom": {
+    "none": 262773,
+    "osm:building:levels": 3
+   },
+   "floors": {
+    "1": 2,
+    "3": 1
+   },
+   "compoundsByDigits": {
+    "4": 143484,
+    "5": 82829
+   },
+   "annexCompounds": 32684,
+   "footprintAreaM2": {
+    "p10": 18.4,
+    "p25": 27.8,
+    "p50": 43.8,
+    "p75": 64.7,
+    "p90": 96.6
+   }
+  },
+  "District Autonome D'Abidjan": {
+   "compounds": 201293,
+   "structures": 230134,
+   "fromOpenStreetMap": 108446,
+   "structuresPerCompound": 1.143,
+   "shareStructuresInMultiStructureCompounds": 0.232,
+   "compoundSizeMix": {
+    "1": 176632,
+    "2": 21186,
+    "3": 2940,
+    "4": 427,
+    "5": 76,
+    "6": 18,
+    "7+": 14
+   },
+   "rules": {
+    "single": 176570,
+    "annex": 24582,
+    "enclosure": 141
+   },
+   "coverage": {
+    "nways": 201293
+   },
+   "useTop": {
+    "residential": 222626,
+    "under_construction": 6110,
+    "commercial": 513,
+    "annex": 244,
+    "industrial": 177,
+    "office": 156,
+    "religious": 99,
+    "education": 62,
+    "health": 56,
+    "agricultural": 37,
+    "hospitality": 34,
+    "transport": 10,
+    "mixed": 6,
+    "government": 4
+   },
+   "useDetail": {
+    "residential": 222626,
+    "under_construction": 6110,
+    "commercial": 513,
+    "annex": 244,
+    "industrial": 177,
+    "office": 156,
+    "religious": 99,
+    "education": 62,
+    "health": 56,
+    "agricultural": 37,
+    "hospitality": 34,
+    "transport": 10,
+    "mixed": 6,
+    "government": 4
+   },
+   "floorsFrom": {
+    "none": 230041,
+    "osm:building:levels": 93
+   },
+   "floors": {
+    "1": 28,
+    "2": 21,
+    "3": 6,
+    "4": 38
+   },
+   "compoundsByDigits": {
+    "4": 116394,
+    "5": 84899
+   },
+   "annexCompounds": 24582,
+   "footprintAreaM2": {
+    "p10": 16.5,
+    "p25": 27.9,
+    "p50": 68.3,
+    "p75": 149.2,
+    "p90": 242.7
+   }
+  },
+  "District Autonome De Yamoussoukro": {
+   "compounds": 107529,
+   "structures": 129340,
+   "fromOpenStreetMap": 76462,
+   "structuresPerCompound": 1.203,
+   "shareStructuresInMultiStructureCompounds": 0.302,
+   "compoundSizeMix": {
+    "1": 90304,
+    "2": 13882,
+    "3": 2575,
+    "4": 518,
+    "5": 143,
+    "6": 59,
+    "7+": 48
+   },
+   "rules": {
+    "single": 90182,
+    "annex": 17065,
+    "enclosure": 282
+   },
+   "coverage": {
+    "nways": 107529
+   },
+   "useTop": {
+    "residential": 121500,
+    "under_construction": 4886,
+    "annex": 1141,
+    "commercial": 866,
+    "agricultural": 269,
+    "industrial": 200,
+    "hospitality": 165,
+    "education": 94,
+    "religious": 80,
+    "office": 71,
+    "health": 52,
+    "government": 7,
+    "mixed": 5,
+    "transport": 4
+   },
+   "useDetail": {
+    "residential": 121500,
+    "under_construction": 4886,
+    "annex": 1141,
+    "commercial": 866,
+    "agricultural": 269,
+    "industrial": 200,
+    "hospitality": 165,
+    "education": 94,
+    "religious": 80,
+    "office": 71,
+    "health": 52,
+    "government": 7,
+    "mixed": 5,
+    "transport": 4
+   },
+   "floorsFrom": {
+    "none": 128940,
+    "osm:building:levels": 397,
+    "osm:height": 3
+   },
+   "floors": {
+    "1": 294,
+    "2": 56,
+    "3": 38,
+    "4": 12
+   },
+   "compoundsByDigits": {
+    "4": 71202,
+    "5": 36327
+   },
+   "annexCompounds": 17065,
+   "footprintAreaM2": {
+    "p10": 15.5,
+    "p25": 25.1,
+    "p50": 53.0,
+    "p75": 135.3,
+    "p90": 233.9
+   }
+  },
+  "Folon": {
+   "compounds": 47249,
+   "structures": 59054,
+   "fromOpenStreetMap": 6385,
+   "structuresPerCompound": 1.25,
+   "shareStructuresInMultiStructureCompounds": 0.348,
+   "compoundSizeMix": {
+    "1": 38505,
+    "2": 6520,
+    "3": 1630,
+    "4": 422,
+    "5": 122,
+    "6": 34,
+    "7+": 16
+   },
+   "rules": {
+    "single": 38505,
+    "annex": 8744
+   },
+   "coverage": {
+    "nways": 47249
+   },
+   "useTop": {
+    "residential": 59018,
+    "annex": 9,
+    "under_construction": 9,
+    "religious": 5,
+    "health": 4,
+    "government": 3,
+    "commercial": 3,
+    "education": 2,
+    "hospitality": 1
+   },
+   "useDetail": {
+    "residential": 59018,
+    "annex": 9,
+    "under_construction": 9,
+    "religious": 5,
+    "health": 4,
+    "government": 3,
+    "commercial": 3,
+    "education": 2,
+    "hospitality": 1
+   },
+   "floorsFrom": {
+    "none": 59052,
+    "osm:building:levels": 2
+   },
+   "floors": {
+    "1": 2
+   },
+   "compoundsByDigits": {
+    "4": 44753,
+    "5": 2496
+   },
+   "annexCompounds": 8744,
+   "footprintAreaM2": {
+    "p10": 12.8,
+    "p25": 16.7,
+    "p50": 26.1,
+    "p75": 47.5,
+    "p90": 95.7
+   }
+  },
+  "Gbeke": {
+   "compounds": 306189,
+   "structures": 370186,
+   "fromOpenStreetMap": 154157,
+   "structuresPerCompound": 1.209,
+   "shareStructuresInMultiStructureCompounds": 0.309,
+   "compoundSizeMix": {
+    "1": 255743,
+    "2": 41006,
+    "3": 7170,
+    "4": 1441,
+    "5": 465,
+    "6": 200,
+    "7+": 164
+   },
+   "rules": {
+    "single": 255551,
+    "annex": 49901,
+    "enclosure": 737
+   },
+   "coverage": {
+    "nways": 306189
+   },
+   "useTop": {
+    "residential": 350253,
+    "under_construction": 16250,
+    "annex": 1184,
+    "commercial": 927,
+    "religious": 480,
+    "education": 442,
+    "health": 211,
+    "hospitality": 115,
+    "industrial": 112,
+    "office": 79,
+    "ruin": 67,
+    "transport": 29,
+    "government": 18,
+    "mixed": 10,
+    "agricultural": 9
+   },
+   "useDetail": {
+    "residential": 350253,
+    "under_construction": 16250,
+    "annex": 1184,
+    "commercial": 927,
+    "religious": 480,
+    "education": 442,
+    "health": 211,
+    "hospitality": 115,
+    "industrial": 112,
+    "office": 79,
+    "ruin": 67,
+    "transport": 29,
+    "government": 18,
+    "mixed": 10,
+    "agricultural": 9
+   },
+   "floorsFrom": {
+    "none": 370020,
+    "osm:building:levels": 165,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 75,
+    "2": 42,
+    "3": 14,
+    "4": 35
+   },
+   "compoundsByDigits": {
+    "4": 182133,
+    "5": 124056
+   },
+   "annexCompounds": 49901,
+   "footprintAreaM2": {
+    "p10": 15.3,
+    "p25": 24.1,
+    "p50": 50.8,
+    "p75": 114.2,
+    "p90": 187.3
+   }
+  },
+  "Gbokle": {
+   "compounds": 186515,
+   "structures": 222844,
+   "fromOpenStreetMap": 1513,
+   "structuresPerCompound": 1.195,
+   "shareStructuresInMultiStructureCompounds": 0.306,
+   "compoundSizeMix": {
+    "1": 154604,
+    "2": 27966,
+    "3": 3525,
+    "4": 375,
+    "5": 40,
+    "6": 3,
+    "7+": 2
+   },
+   "rules": {
+    "single": 154603,
+    "annex": 31900,
+    "enclosure": 12
+   },
+   "coverage": {
+    "nways": 186515
+   },
+   "useTop": {
+    "residential": 222747,
+    "commercial": 42,
+    "health": 13,
+    "hospitality": 12,
+    "education": 10,
+    "religious": 8,
+    "office": 4,
+    "annex": 4,
+    "government": 2,
+    "industrial": 2
+   },
+   "useDetail": {
+    "residential": 222747,
+    "commercial": 42,
+    "health": 13,
+    "hospitality": 12,
+    "education": 10,
+    "religious": 8,
+    "office": 4,
+    "annex": 4,
+    "government": 2,
+    "industrial": 2
+   },
+   "floorsFrom": {
+    "none": 222826,
+    "osm:building:levels": 18
+   },
+   "floors": {
+    "1": 15,
+    "2": 2,
+    "3": 1
+   },
+   "compoundsByDigits": {
+    "4": 140306,
+    "5": 46209
+   },
+   "annexCompounds": 31900,
+   "footprintAreaM2": {
+    "p10": 18.0,
+    "p25": 26.1,
+    "p50": 42.1,
+    "p75": 63.5,
+    "p90": 86.7
+   }
+  },
+  "Goh": {
+   "compounds": 325587,
+   "structures": 385936,
+   "fromOpenStreetMap": 75896,
+   "structuresPerCompound": 1.185,
+   "shareStructuresInMultiStructureCompounds": 0.291,
+   "compoundSizeMix": {
+    "1": 273768,
+    "2": 44778,
+    "3": 6023,
+    "4": 784,
+    "5": 145,
+    "6": 39,
+    "7+": 50
+   },
+   "rules": {
+    "single": 273706,
+    "annex": 51668,
+    "enclosure": 213
+   },
+   "coverage": {
+    "nways": 325587
+   },
+   "useTop": {
+    "residential": 379876,
+    "under_construction": 4097,
+    "annex": 913,
+    "commercial": 618,
+    "agricultural": 94,
+    "hospitality": 79,
+    "religious": 51,
+    "health": 41,
+    "education": 41,
+    "office": 36,
+    "industrial": 36,
+    "government": 28,
+    "transport": 22,
+    "mixed": 4
+   },
+   "useDetail": {
+    "residential": 379876,
+    "under_construction": 4097,
+    "annex": 913,
+    "commercial": 618,
+    "agricultural": 94,
+    "hospitality": 79,
+    "religious": 51,
+    "health": 41,
+    "education": 41,
+    "office": 36,
+    "industrial": 36,
+    "government": 28,
+    "transport": 22,
+    "mixed": 4
+   },
+   "floorsFrom": {
+    "none": 385919,
+    "osm:building:levels": 17
+   },
+   "floors": {
+    "1": 16,
+    "2": 1
+   },
+   "compoundsByDigits": {
+    "4": 261344,
+    "5": 64243
+   },
+   "annexCompounds": 51668,
+   "footprintAreaM2": {
+    "p10": 17.2,
+    "p25": 27.0,
+    "p50": 46.5,
+    "p75": 77.5,
+    "p90": 133.4
+   }
+  },
+  "Gontougo": {
+   "compounds": 191814,
+   "structures": 227329,
+   "fromOpenStreetMap": 17639,
+   "structuresPerCompound": 1.185,
+   "shareStructuresInMultiStructureCompounds": 0.287,
+   "compoundSizeMix": {
+    "1": 162071,
+    "2": 24975,
+    "3": 4003,
+    "4": 608,
+    "5": 107,
+    "6": 32,
+    "7+": 18
+   },
+   "rules": {
+    "single": 162065,
+    "annex": 29720,
+    "enclosure": 29
+   },
+   "coverage": {
+    "nways": 191814
+   },
+   "useTop": {
+    "residential": 227023,
+    "under_construction": 65,
+    "health": 45,
+    "commercial": 44,
+    "industrial": 39,
+    "education": 33,
+    "religious": 31,
+    "annex": 17,
+    "hospitality": 12,
+    "office": 8,
+    "transport": 8,
+    "government": 4
+   },
+   "useDetail": {
+    "residential": 227023,
+    "under_construction": 65,
+    "health": 45,
+    "commercial": 44,
+    "industrial": 39,
+    "education": 33,
+    "religious": 31,
+    "annex": 17,
+    "hospitality": 12,
+    "office": 8,
+    "transport": 8,
+    "government": 4
+   },
+   "floorsFrom": {
+    "none": 227323,
+    "osm:building:levels": 6
+   },
+   "floors": {
+    "1": 4,
+    "2": 2
+   },
+   "compoundsByDigits": {
+    "4": 171294,
+    "5": 20520
+   },
+   "annexCompounds": 29720,
+   "footprintAreaM2": {
+    "p10": 15.6,
+    "p25": 23.0,
+    "p50": 43.2,
+    "p75": 89.2,
+    "p90": 163.1
+   }
+  },
+  "Grands Ponts": {
+   "compounds": 138530,
+   "structures": 160611,
+   "fromOpenStreetMap": 5915,
+   "structuresPerCompound": 1.159,
+   "shareStructuresInMultiStructureCompounds": 0.257,
+   "compoundSizeMix": {
+    "1": 119313,
+    "2": 16724,
+    "3": 2189,
+    "4": 256,
+    "5": 35,
+    "6": 9,
+    "7+": 4
+   },
+   "rules": {
+    "single": 119309,
+    "annex": 19214,
+    "enclosure": 7
+   },
+   "coverage": {
+    "nways": 138530
+   },
+   "useTop": {
+    "residential": 160091,
+    "commercial": 193,
+    "under_construction": 103,
+    "religious": 56,
+    "hospitality": 49,
+    "health": 34,
+    "industrial": 25,
+    "education": 25,
+    "office": 20,
+    "annex": 8,
+    "government": 5,
+    "transport": 2
+   },
+   "useDetail": {
+    "residential": 160091,
+    "commercial": 193,
+    "under_construction": 103,
+    "religious": 56,
+    "hospitality": 49,
+    "health": 34,
+    "industrial": 25,
+    "education": 25,
+    "office": 20,
+    "annex": 8,
+    "government": 5,
+    "transport": 2
+   },
+   "floorsFrom": {
+    "none": 160592,
+    "osm:height": 15,
+    "osm:building:levels": 4
+   },
+   "floors": {
+    "1": 14,
+    "2": 4,
+    "3": 1
+   },
+   "compoundsByDigits": {
+    "4": 94610,
+    "5": 43920
+   },
+   "annexCompounds": 19214,
+   "footprintAreaM2": {
+    "p10": 18.4,
+    "p25": 27.7,
+    "p50": 47.5,
+    "p75": 86.1,
+    "p90": 161.8
+   }
+  },
+  "Guemon": {
+   "compounds": 359247,
+   "structures": 429479,
+   "fromOpenStreetMap": 6031,
+   "structuresPerCompound": 1.195,
+   "shareStructuresInMultiStructureCompounds": 0.306,
+   "compoundSizeMix": {
+    "1": 297881,
+    "2": 53482,
+    "3": 7020,
+    "4": 768,
+    "5": 80,
+    "6": 12,
+    "7+": 4
+   },
+   "rules": {
+    "single": 297879,
+    "annex": 61360,
+    "enclosure": 8
+   },
+   "coverage": {
+    "nways": 359247
+   },
+   "useTop": {
+    "residential": 429305,
+    "health": 44,
+    "education": 34,
+    "commercial": 31,
+    "religious": 15,
+    "office": 14,
+    "hospitality": 14,
+    "annex": 7,
+    "transport": 7,
+    "industrial": 5,
+    "government": 2,
+    "under_construction": 1
+   },
+   "useDetail": {
+    "residential": 429305,
+    "health": 44,
+    "education": 34,
+    "commercial": 31,
+    "religious": 15,
+    "office": 14,
+    "hospitality": 14,
+    "annex": 7,
+    "transport": 7,
+    "industrial": 5,
+    "government": 2,
+    "under_construction": 1
+   },
+   "floorsFrom": {
+    "none": 429479
+   },
+   "floors": {},
+   "compoundsByDigits": {
+    "4": 225592,
+    "5": 133655
+   },
+   "annexCompounds": 61360,
+   "footprintAreaM2": {
+    "p10": 17.7,
+    "p25": 25.5,
+    "p50": 40.4,
+    "p75": 61.5,
+    "p90": 90.9
+   }
+  },
+  "Hambol": {
+   "compounds": 166062,
+   "structures": 192924,
+   "fromOpenStreetMap": 25666,
+   "structuresPerCompound": 1.162,
+   "shareStructuresInMultiStructureCompounds": 0.26,
+   "compoundSizeMix": {
+    "1": 142822,
+    "2": 20114,
+    "3": 2706,
+    "4": 351,
+    "5": 62,
+    "6": 7
+   },
+   "rules": {
+    "single": 142822,
+    "annex": 23237,
+    "enclosure": 3
+   },
+   "coverage": {
+    "nways": 166062
+   },
+   "useTop": {
+    "residential": 192666,
+    "annex": 62,
+    "commercial": 40,
+    "under_construction": 30,
+    "health": 28,
+    "religious": 28,
+    "education": 24,
+    "hospitality": 16,
+    "industrial": 13,
+    "transport": 13,
+    "government": 3,
+    "agricultural": 1
+   },
+   "useDetail": {
+    "residential": 192666,
+    "annex": 62,
+    "commercial": 40,
+    "under_construction": 30,
+    "health": 28,
+    "religious": 28,
+    "education": 24,
+    "hospitality": 16,
+    "industrial": 13,
+    "transport": 13,
+    "government": 3,
+    "agricultural": 1
+   },
+   "floorsFrom": {
+    "none": 192909,
+    "osm:building:levels": 15
+   },
+   "floors": {
+    "1": 15
+   },
+   "compoundsByDigits": {
+    "4": 123962,
+    "5": 42100
+   },
+   "annexCompounds": 23237,
+   "footprintAreaM2": {
+    "p10": 16.7,
+    "p25": 23.6,
+    "p50": 35.1,
+    "p75": 63.3,
+    "p90": 119.6
+   }
+  },
+  "Haut-Sassandra": {
+   "compounds": 600157,
+   "structures": 709615,
+   "fromOpenStreetMap": 32293,
+   "structuresPerCompound": 1.182,
+   "shareStructuresInMultiStructureCompounds": 0.289,
+   "compoundSizeMix": {
+    "1": 504614,
+    "2": 83288,
+    "3": 10853,
+    "4": 1201,
+    "5": 164,
+    "6": 24,
+    "7+": 13
+   },
+   "rules": {
+    "single": 504608,
+    "annex": 95519,
+    "enclosure": 30
+   },
+   "coverage": {
+    "nways": 600157
+   },
+   "useTop": {
+    "residential": 707651,
+    "under_construction": 630,
+    "commercial": 579,
+    "religious": 242,
+    "annex": 139,
+    "education": 136,
+    "health": 100,
+    "hospitality": 69,
+    "office": 29,
+    "transport": 17,
+    "industrial": 13,
+    "government": 10
+   },
+   "useDetail": {
+    "residential": 707651,
+    "under_construction": 630,
+    "commercial": 579,
+    "religious": 242,
+    "annex": 139,
+    "education": 136,
+    "health": 100,
+    "hospitality": 69,
+    "office": 29,
+    "transport": 17,
+    "industrial": 13,
+    "government": 10
+   },
+   "floorsFrom": {
+    "none": 709608,
+    "osm:building:levels": 7
+   },
+   "floors": {
+    "1": 3,
+    "2": 2,
+    "3": 2
+   },
+   "compoundsByDigits": {
+    "4": 363836,
+    "5": 236321
+   },
+   "annexCompounds": 95519,
+   "footprintAreaM2": {
+    "p10": 17.1,
+    "p25": 25.8,
+    "p50": 43.2,
+    "p75": 72.3,
+    "p90": 132.8
+   }
+  },
+  "Iffou": {
+   "compounds": 93828,
+   "structures": 114198,
+   "fromOpenStreetMap": 5259,
+   "structuresPerCompound": 1.217,
+   "shareStructuresInMultiStructureCompounds": 0.327,
+   "compoundSizeMix": {
+    "1": 76875,
+    "2": 14114,
+    "3": 2354,
+    "4": 412,
+    "5": 62,
+    "6": 8,
+    "7+": 3
+   },
+   "rules": {
+    "single": 76871,
+    "annex": 16939,
+    "enclosure": 18
+   },
+   "coverage": {
+    "nways": 93828
+   },
+   "useTop": {
+    "residential": 114040,
+    "commercial": 47,
+    "education": 23,
+    "hospitality": 20,
+    "annex": 16,
+    "health": 15,
+    "religious": 15,
+    "government": 6,
+    "office": 5,
+    "under_construction": 4,
+    "industrial": 4,
+    "transport": 3
+   },
+   "useDetail": {
+    "residential": 114040,
+    "commercial": 47,
+    "education": 23,
+    "hospitality": 20,
+    "annex": 16,
+    "health": 15,
+    "religious": 15,
+    "government": 6,
+    "office": 5,
+    "under_construction": 4,
+    "industrial": 4,
+    "transport": 3
+   },
+   "floorsFrom": {
+    "none": 114185,
+    "osm:building:levels": 13
+   },
+   "floors": {
+    "1": 13
+   },
+   "compoundsByDigits": {
+    "4": 74721,
+    "5": 19107
+   },
+   "annexCompounds": 16939,
+   "footprintAreaM2": {
+    "p10": 15.7,
+    "p25": 22.9,
+    "p50": 39.3,
+    "p75": 73.4,
+    "p90": 135.1
+   }
+  },
+  "Indenie-Djuablin": {
+   "compounds": 191527,
+   "structures": 225507,
+   "fromOpenStreetMap": 5210,
+   "structuresPerCompound": 1.177,
+   "shareStructuresInMultiStructureCompounds": 0.28,
+   "compoundSizeMix": {
+    "1": 162352,
+    "2": 25046,
+    "3": 3564,
+    "4": 480,
+    "5": 69,
+    "6": 10,
+    "7+": 6
+   },
+   "rules": {
+    "single": 162347,
+    "annex": 29162,
+    "enclosure": 18
+   },
+   "coverage": {
+    "nways": 191527
+   },
+   "useTop": {
+    "residential": 225044,
+    "under_construction": 140,
+    "commercial": 111,
+    "health": 47,
+    "hospitality": 41,
+    "industrial": 38,
+    "religious": 30,
+    "office": 16,
+    "education": 15,
+    "annex": 11,
+    "government": 10,
+    "transport": 4
+   },
+   "useDetail": {
+    "residential": 225044,
+    "under_construction": 140,
+    "commercial": 111,
+    "health": 47,
+    "hospitality": 41,
+    "industrial": 38,
+    "religious": 30,
+    "office": 16,
+    "education": 15,
+    "annex": 11,
+    "government": 10,
+    "transport": 4
+   },
+   "floorsFrom": {
+    "none": 225507
+   },
+   "floors": {},
+   "compoundsByDigits": {
+    "4": 132418,
+    "5": 59109
+   },
+   "annexCompounds": 29162,
+   "footprintAreaM2": {
+    "p10": 16.1,
+    "p25": 25.3,
+    "p50": 46.8,
+    "p75": 88.0,
+    "p90": 155.9
+   }
+  },
+  "Kabadougou": {
+   "compounds": 84647,
+   "structures": 104365,
+   "fromOpenStreetMap": 15322,
+   "structuresPerCompound": 1.233,
+   "shareStructuresInMultiStructureCompounds": 0.328,
+   "compoundSizeMix": {
+    "1": 70175,
+    "2": 10639,
+    "3": 2795,
+    "4": 754,
+    "5": 215,
+    "6": 53,
+    "7+": 16
+   },
+   "rules": {
+    "single": 70173,
+    "annex": 14453,
+    "enclosure": 21
+   },
+   "coverage": {
+    "nways": 84647
+   },
+   "useTop": {
+    "residential": 104234,
+    "religious": 24,
+    "annex": 19,
+    "commercial": 19,
+    "under_construction": 17,
+    "education": 15,
+    "hospitality": 11,
+    "health": 9,
+    "office": 7,
+    "industrial": 5,
+    "government": 3,
+    "transport": 2
+   },
+   "useDetail": {
+    "residential": 104234,
+    "religious": 24,
+    "annex": 19,
+    "commercial": 19,
+    "under_construction": 17,
+    "education": 15,
+    "hospitality": 11,
+    "health": 9,
+    "office": 7,
+    "industrial": 5,
+    "government": 3,
+    "transport": 2
+   },
+   "floorsFrom": {
+    "none": 104364,
+    "osm:building:levels": 1
+   },
+   "floors": {
+    "1": 1
+   },
+   "compoundsByDigits": {
+    "4": 63278,
+    "5": 21369
+   },
+   "annexCompounds": 14453,
+   "footprintAreaM2": {
+    "p10": 13.2,
+    "p25": 17.6,
+    "p50": 26.3,
+    "p75": 65.0,
+    "p90": 141.7
+   }
+  },
+  "Loh-Djiboua": {
+   "compounds": 339912,
+   "structures": 401988,
+   "fromOpenStreetMap": 8691,
+   "structuresPerCompound": 1.183,
+   "shareStructuresInMultiStructureCompounds": 0.289,
+   "compoundSizeMix": {
+    "1": 285747,
+    "2": 47218,
+    "3": 6152,
+    "4": 676,
+    "5": 98,
+    "6": 11,
+    "7+": 10
+   },
+   "rules": {
+    "single": 285741,
+    "annex": 54142,
+    "enclosure": 29
+   },
+   "coverage": {
+    "nways": 339912
+   },
+   "useTop": {
+    "residential": 401734,
+    "commercial": 75,
+    "hospitality": 33,
+    "religious": 31,
+    "health": 22,
+    "under_construction": 21,
+    "office": 18,
+    "annex": 14,
+    "education": 14,
+    "transport": 11,
+    "industrial": 10,
+    "government": 5
+   },
+   "useDetail": {
+    "residential": 401734,
+    "commercial": 75,
+    "hospitality": 33,
+    "religious": 31,
+    "health": 22,
+    "under_construction": 21,
+    "office": 18,
+    "annex": 14,
+    "education": 14,
+    "transport": 11,
+    "industrial": 10,
+    "government": 5
+   },
+   "floorsFrom": {
+    "none": 401969,
+    "osm:building:levels": 19
+   },
+   "floors": {
+    "1": 19
+   },
+   "compoundsByDigits": {
+    "4": 253698,
+    "5": 86214
+   },
+   "annexCompounds": 54142,
+   "footprintAreaM2": {
+    "p10": 18.0,
+    "p25": 26.8,
+    "p50": 44.8,
+    "p75": 72.8,
+    "p90": 120.0
+   }
+  },
+  "Marahoue": {
+   "compounds": 320723,
+   "structures": 384226,
+   "fromOpenStreetMap": 7939,
+   "structuresPerCompound": 1.198,
+   "shareStructuresInMultiStructureCompounds": 0.308,
+   "compoundSizeMix": {
+    "1": 265860,
+    "2": 47328,
+    "3": 6584,
+    "4": 833,
+    "5": 96,
+    "6": 16,
+    "7+": 6
+   },
+   "rules": {
+    "single": 265858,
+    "annex": 54840,
+    "enclosure": 25
+   },
+   "coverage": {
+    "nways": 320723
+   },
+   "useTop": {
+    "residential": 383881,
+    "commercial": 84,
+    "under_construction": 67,
+    "annex": 43,
+    "health": 43,
+    "education": 27,
+    "hospitality": 24,
+    "religious": 23,
+    "industrial": 13,
+    "office": 12,
+    "government": 6,
+    "transport": 3
+   },
+   "useDetail": {
+    "residential": 383881,
+    "commercial": 84,
+    "under_construction": 67,
+    "annex": 43,
+    "health": 43,
+    "education": 27,
+    "hospitality": 24,
+    "religious": 23,
+    "industrial": 13,
+    "office": 12,
+    "government": 6,
+    "transport": 3
+   },
+   "floorsFrom": {
+    "none": 384212,
+    "osm:building:levels": 14
+   },
+   "floors": {
+    "1": 14
+   },
+   "compoundsByDigits": {
+    "4": 226754,
+    "5": 93969
+   },
+   "annexCompounds": 54840,
+   "footprintAreaM2": {
+    "p10": 16.7,
+    "p25": 24.0,
+    "p50": 38.4,
+    "p75": 65.4,
+    "p90": 120.2
+   }
+  },
+  "Me": {
+   "compounds": 215469,
+   "structures": 253672,
+   "fromOpenStreetMap": 32529,
+   "structuresPerCompound": 1.177,
+   "shareStructuresInMultiStructureCompounds": 0.282,
+   "compoundSizeMix": {
+    "1": 182121,
+    "2": 29110,
+    "3": 3704,
+    "4": 470,
+    "5": 48,
+    "6": 15,
+    "7+": 1
+   },
+   "rules": {
+    "single": 182120,
+    "annex": 33340,
+    "enclosure": 9
+   },
+   "coverage": {
+    "nways": 215469
+   },
+   "useTop": {
+    "residential": 253267,
+    "under_construction": 165,
+    "health": 65,
+    "annex": 51,
+    "commercial": 42,
+    "industrial": 22,
+    "religious": 21,
+    "hospitality": 15,
+    "office": 9,
+    "government": 9,
+    "education": 5,
+    "transport": 1
+   },
+   "useDetail": {
+    "residential": 253267,
+    "under_construction": 165,
+    "health": 65,
+    "annex": 51,
+    "commercial": 42,
+    "industrial": 22,
+    "religious": 21,
+    "hospitality": 15,
+    "office": 9,
+    "government": 9,
+    "education": 5,
+    "transport": 1
+   },
+   "floorsFrom": {
+    "none": 253672
+   },
+   "floors": {},
+   "compoundsByDigits": {
+    "4": 133334,
+    "5": 82135
+   },
+   "annexCompounds": 33340,
+   "footprintAreaM2": {
+    "p10": 17.1,
+    "p25": 26.3,
+    "p50": 47.3,
+    "p75": 82.6,
+    "p90": 147.0
+   }
+  },
+  "Moronou": {
+   "compounds": 115785,
+   "structures": 138038,
+   "fromOpenStreetMap": 4940,
+   "structuresPerCompound": 1.192,
+   "shareStructuresInMultiStructureCompounds": 0.299,
+   "compoundSizeMix": {
+    "1": 96812,
+    "2": 16156,
+    "3": 2423,
+    "4": 341,
+    "5": 43,
+    "6": 7,
+    "7+": 3
+   },
+   "rules": {
+    "single": 96812,
+    "annex": 18964,
+    "enclosure": 9
+   },
+   "coverage": {
+    "nways": 115785
+   },
+   "useTop": {
+    "residential": 137936,
+    "under_construction": 25,
+    "religious": 17,
+    "commercial": 17,
+    "annex": 16,
+    "health": 8,
+    "hospitality": 6,
+    "education": 4,
+    "industrial": 4,
+    "office": 2,
+    "transport": 2,
+    "government": 1
+   },
+   "useDetail": {
+    "residential": 137936,
+    "under_construction": 25,
+    "religious": 17,
+    "commercial": 17,
+    "annex": 16,
+    "health": 8,
+    "hospitality": 6,
+    "education": 4,
+    "industrial": 4,
+    "office": 2,
+    "transport": 2,
+    "government": 1
+   },
+   "floorsFrom": {
+    "none": 138036,
+    "osm:building:levels": 2
+   },
+   "floors": {
+    "1": 2
+   },
+   "compoundsByDigits": {
+    "4": 80705,
+    "5": 35080
+   },
+   "annexCompounds": 18964,
+   "footprintAreaM2": {
+    "p10": 16.0,
+    "p25": 23.9,
+    "p50": 42.4,
+    "p75": 81.7,
+    "p90": 147.8
+   }
+  },
+  "N'Zi": {
+   "compounds": 63586,
+   "structures": 76019,
+   "fromOpenStreetMap": 6681,
+   "structuresPerCompound": 1.196,
+   "shareStructuresInMultiStructureCompounds": 0.301,
+   "compoundSizeMix": {
+    "1": 53143,
+    "2": 8758,
+    "3": 1437,
+    "4": 205,
+    "5": 35,
+    "6": 5,
+    "7+": 3
+   },
+   "rules": {
+    "single": 53141,
+    "annex": 10438,
+    "enclosure": 7
+   },
+   "coverage": {
+    "nways": 63586
+   },
+   "useTop": {
+    "residential": 75913,
+    "commercial": 27,
+    "annex": 20,
+    "health": 12,
+    "religious": 10,
+    "hospitality": 9,
+    "under_construction": 8,
+    "education": 6,
+    "transport": 5,
+    "office": 5,
+    "industrial": 4
+   },
+   "useDetail": {
+    "residential": 75913,
+    "commercial": 27,
+    "annex": 20,
+    "health": 12,
+    "religious": 10,
+    "hospitality": 9,
+    "under_construction": 8,
+    "education": 6,
+    "transport": 5,
+    "office": 5,
+    "industrial": 4
+   },
+   "floorsFrom": {
+    "none": 76006,
+    "osm:building:levels": 13
+   },
+   "floors": {
+    "1": 12,
+    "2": 1
+   },
+   "compoundsByDigits": {
+    "4": 48355,
+    "5": 15231
+   },
+   "annexCompounds": 10438,
+   "footprintAreaM2": {
+    "p10": 16.1,
+    "p25": 23.8,
+    "p50": 41.9,
+    "p75": 82.2,
+    "p90": 148.5
+   }
+  },
+  "Nawa": {
+   "compounds": 353610,
+   "structures": 418343,
+   "fromOpenStreetMap": 23005,
+   "structuresPerCompound": 1.183,
+   "shareStructuresInMultiStructureCompounds": 0.29,
+   "compoundSizeMix": {
+    "1": 297039,
+    "2": 49410,
+    "3": 6351,
+    "4": 681,
+    "5": 97,
+    "6": 18,
+    "7+": 14
+   },
+   "rules": {
+    "single": 297026,
+    "annex": 56511,
+    "enclosure": 73
+   },
+   "coverage": {
+    "nways": 353610
+   },
+   "useTop": {
+    "residential": 416401,
+    "commercial": 1182,
+    "under_construction": 207,
+    "annex": 151,
+    "health": 95,
+    "education": 89,
+    "religious": 76,
+    "hospitality": 56,
+    "industrial": 37,
+    "transport": 27,
+    "office": 16,
+    "government": 4,
+    "agricultural": 2
+   },
+   "useDetail": {
+    "residential": 416401,
+    "commercial": 1182,
+    "under_construction": 207,
+    "annex": 151,
+    "health": 95,
+    "education": 89,
+    "religious": 76,
+    "hospitality": 56,
+    "industrial": 37,
+    "transport": 27,
+    "office": 16,
+    "government": 4,
+    "agricultural": 2
+   },
+   "floorsFrom": {
+    "none": 418342,
+    "osm:building:levels": 1
+   },
+   "floors": {
+    "4": 1
+   },
+   "compoundsByDigits": {
+    "4": 251407,
+    "5": 102203
+   },
+   "annexCompounds": 56511,
+   "footprintAreaM2": {
+    "p10": 17.8,
+    "p25": 27.1,
+    "p50": 45.1,
+    "p75": 69.7,
+    "p90": 103.2
+   }
+  },
+  "Poro": {
+   "compounds": 349550,
+   "structures": 427470,
+   "fromOpenStreetMap": 110932,
+   "structuresPerCompound": 1.223,
+   "shareStructuresInMultiStructureCompounds": 0.331,
+   "compoundSizeMix": {
+    "1": 285933,
+    "2": 51878,
+    "3": 9747,
+    "4": 1576,
+    "5": 325,
+    "6": 63,
+    "7+": 28
+   },
+   "rules": {
+    "single": 285877,
+    "annex": 63521,
+    "enclosure": 152
+   },
+   "coverage": {
+    "nways": 349550
+   },
+   "useTop": {
+    "residential": 421400,
+    "under_construction": 3916,
+    "annex": 1025,
+    "commercial": 588,
+    "health": 124,
+    "religious": 114,
+    "hospitality": 100,
+    "education": 98,
+    "transport": 41,
+    "industrial": 32,
+    "office": 25,
+    "government": 5,
+    "mixed": 2
+   },
+   "useDetail": {
+    "residential": 421400,
+    "under_construction": 3916,
+    "annex": 1025,
+    "commercial": 588,
+    "health": 124,
+    "religious": 114,
+    "hospitality": 100,
+    "education": 98,
+    "transport": 41,
+    "industrial": 32,
+    "office": 25,
+    "government": 5,
+    "mixed": 2
+   },
+   "floorsFrom": {
+    "none": 427450,
+    "osm:building:levels": 20
+   },
+   "floors": {
+    "1": 15,
+    "2": 4,
+    "3": 1
+   },
+   "compoundsByDigits": {
+    "4": 252650,
+    "5": 96900
+   },
+   "annexCompounds": 63521,
+   "footprintAreaM2": {
+    "p10": 14.2,
+    "p25": 20.8,
+    "p50": 35.3,
+    "p75": 79.9,
+    "p90": 149.5
+   }
+  },
+  "San Pedro": {
+   "compounds": 338405,
+   "structures": 400569,
+   "fromOpenStreetMap": 53115,
+   "structuresPerCompound": 1.184,
+   "shareStructuresInMultiStructureCompounds": 0.29,
+   "compoundSizeMix": {
+    "1": 284505,
+    "2": 46801,
+    "3": 6137,
+    "4": 815,
+    "5": 116,
+    "6": 20,
+    "7+": 11
+   },
+   "rules": {
+    "single": 284496,
+    "annex": 53871,
+    "enclosure": 38
+   },
+   "coverage": {
+    "nways": 338405
+   },
+   "useTop": {
+    "residential": 397928,
+    "commercial": 1482,
+    "religious": 188,
+    "health": 177,
+    "under_construction": 167,
+    "industrial": 152,
+    "annex": 147,
+    "education": 131,
+    "hospitality": 122,
+    "office": 31,
+    "transport": 25,
+    "mixed": 15,
+    "government": 3,
+    "ruin": 1
+   },
+   "useDetail": {
+    "residential": 397928,
+    "commercial": 1482,
+    "religious": 188,
+    "health": 177,
+    "under_construction": 167,
+    "industrial": 152,
+    "annex": 147,
+    "education": 131,
+    "hospitality": 122,
+    "office": 31,
+    "transport": 25,
+    "mixed": 15,
+    "government": 3,
+    "ruin": 1
+   },
+   "floorsFrom": {
+    "none": 400523,
+    "osm:building:levels": 46
+   },
+   "floors": {
+    "1": 37,
+    "2": 7,
+    "4": 2
+   },
+   "compoundsByDigits": {
+    "4": 216312,
+    "5": 122093
+   },
+   "annexCompounds": 53871,
+   "footprintAreaM2": {
+    "p10": 18.5,
+    "p25": 27.5,
+    "p50": 45.0,
+    "p75": 69.9,
+    "p90": 107.9
+   }
+  },
+  "Sud-Comoe": {
+   "compounds": 255234,
+   "structures": 295627,
+   "fromOpenStreetMap": 29001,
+   "structuresPerCompound": 1.158,
+   "shareStructuresInMultiStructureCompounds": 0.254,
+   "compoundSizeMix": {
+    "1": 220438,
+    "2": 30118,
+    "3": 3989,
+    "4": 542,
+    "5": 102,
+    "6": 28,
+    "7+": 17
+   },
+   "rules": {
+    "single": 220365,
+    "annex": 34640,
+    "enclosure": 229
+   },
+   "coverage": {
+    "nways": 255234
+   },
+   "useTop": {
+    "residential": 294184,
+    "commercial": 421,
+    "under_construction": 288,
+    "hospitality": 152,
+    "annex": 139,
+    "health": 98,
+    "education": 91,
+    "industrial": 87,
+    "religious": 85,
+    "office": 58,
+    "transport": 13,
+    "government": 7,
+    "ruin": 4
+   },
+   "useDetail": {
+    "residential": 294184,
+    "commercial": 421,
+    "under_construction": 288,
+    "hospitality": 152,
+    "annex": 139,
+    "health": 98,
+    "education": 91,
+    "industrial": 87,
+    "religious": 85,
+    "office": 58,
+    "transport": 13,
+    "government": 7,
+    "ruin": 4
+   },
+   "floorsFrom": {
+    "none": 295587,
+    "osm:building:levels": 39,
+    "osm:height": 1
+   },
+   "floors": {
+    "1": 14,
+    "2": 4,
+    "3": 3,
+    "4": 19
+   },
+   "compoundsByDigits": {
+    "4": 172820,
+    "5": 82414
+   },
+   "annexCompounds": 34640,
+   "footprintAreaM2": {
+    "p10": 17.6,
+    "p25": 27.1,
+    "p50": 49.4,
+    "p75": 95.3,
+    "p90": 174.5
+   }
+  },
+  "Tchologo": {
+   "compounds": 238917,
+   "structures": 299668,
+   "fromOpenStreetMap": 143227,
+   "structuresPerCompound": 1.254,
+   "shareStructuresInMultiStructureCompounds": 0.356,
+   "compoundSizeMix": {
+    "1": 192856,
+    "2": 34823,
+    "3": 8645,
+    "4": 1981,
+    "5": 434,
+    "6": 129,
+    "7+": 49
+   },
+   "rules": {
+    "single": 192853,
+    "annex": 46053,
+    "enclosure": 11
+   },
+   "coverage": {
+    "nways": 238917
+   },
+   "useTop": {
+    "residential": 295474,
+    "annex": 3953,
+    "under_construction": 75,
+    "education": 33,
+    "hospitality": 26,
+    "commercial": 26,
+    "industrial": 16,
+    "government": 16,
+    "religious": 15,
+    "health": 15,
+    "office": 11,
+    "transport": 8
+   },
+   "useDetail": {
+    "residential": 295474,
+    "annex": 3953,
+    "under_construction": 75,
+    "education": 33,
+    "hospitality": 26,
+    "commercial": 26,
+    "industrial": 16,
+    "government": 16,
+    "religious": 15,
+    "health": 15,
+    "office": 11,
+    "transport": 8
+   },
+   "floorsFrom": {
+    "none": 299652,
+    "osm:building:levels": 14,
+    "osm:height": 2
+   },
+   "floors": {
+    "1": 14,
+    "2": 1,
+    "4": 1
+   },
+   "compoundsByDigits": {
+    "4": 181078,
+    "5": 57839
+   },
+   "annexCompounds": 46053,
+   "footprintAreaM2": {
+    "p10": 12.5,
+    "p25": 17.7,
+    "p50": 27.5,
+    "p75": 50.3,
+    "p90": 101.7
+   }
+  },
+  "Tonkpi": {
+   "compounds": 491515,
+   "structures": 588017,
+   "fromOpenStreetMap": 36717,
+   "structuresPerCompound": 1.196,
+   "shareStructuresInMultiStructureCompounds": 0.306,
+   "compoundSizeMix": {
+    "1": 408294,
+    "2": 71661,
+    "3": 10160,
+    "4": 1177,
+    "5": 182,
+    "6": 27,
+    "7+": 14
+   },
+   "rules": {
+    "single": 408284,
+    "annex": 83177,
+    "enclosure": 54
+   },
+   "coverage": {
+    "nways": 491515
+   },
+   "useTop": {
+    "residential": 587033,
+    "under_construction": 297,
+    "annex": 222,
+    "health": 116,
+    "commercial": 102,
+    "education": 97,
+    "hospitality": 57,
+    "religious": 30,
+    "office": 27,
+    "government": 15,
+    "transport": 12,
+    "industrial": 8,
+    "mixed": 1
+   },
+   "useDetail": {
+    "residential": 587033,
+    "under_construction": 297,
+    "annex": 222,
+    "health": 116,
+    "commercial": 102,
+    "education": 97,
+    "hospitality": 57,
+    "religious": 30,
+    "office": 27,
+    "government": 15,
+    "transport": 12,
+    "industrial": 8,
+    "mixed": 1
+   },
+   "floorsFrom": {
+    "none": 588015,
+    "osm:building:levels": 2
+   },
+   "floors": {
+    "1": 2
+   },
+   "compoundsByDigits": {
+    "4": 389432,
+    "5": 102083
+   },
+   "annexCompounds": 83177,
+   "footprintAreaM2": {
+    "p10": 16.4,
+    "p25": 23.5,
+    "p50": 36.5,
+    "p75": 58.9,
+    "p90": 98.8
+   }
+  },
+  "Worodougou": {
+   "compounds": 110671,
+   "structures": 131404,
+   "fromOpenStreetMap": 1484,
+   "structuresPerCompound": 1.187,
+   "shareStructuresInMultiStructureCompounds": 0.293,
+   "compoundSizeMix": {
+    "1": 92959,
+    "2": 15065,
+    "3": 2337,
+    "4": 263,
+    "5": 37,
+    "6": 5,
+    "7+": 5
+   },
+   "rules": {
+    "single": 92959,
+    "annex": 17712
+   },
+   "coverage": {
+    "nways": 110671
+   },
+   "useTop": {
+    "residential": 131334,
+    "commercial": 16,
+    "religious": 13,
+    "under_construction": 13,
+    "health": 9,
+    "education": 5,
+    "industrial": 4,
+    "hospitality": 4,
+    "annex": 4,
+    "office": 2
+   },
+   "useDetail": {
+    "residential": 131334,
+    "commercial": 16,
+    "religious": 13,
+    "under_construction": 13,
+    "health": 9,
+    "education": 5,
+    "industrial": 4,
+    "hospitality": 4,
+    "annex": 4,
+    "office": 2
+   },
+   "floorsFrom": {
+    "none": 131404
+   },
+   "floors": {},
+   "compoundsByDigits": {
+    "4": 89588,
+    "5": 21083
+   },
+   "annexCompounds": 17712,
+   "footprintAreaM2": {
+    "p10": 15.4,
+    "p25": 21.8,
+    "p50": 34.4,
+    "p75": 57.8,
+    "p90": 113.5
+   }
+  }
+ },
+ "units": {
+  "110301": {
+   "name": "Bouaké",
+   "compounds": 176774,
+   "structures": 217580
+  },
+  "010114": {
+   "name": "Cocody",
+   "compounds": 140412,
+   "structures": 168869
+  },
+  "010120": {
+   "name": "Yopougon",
+   "compounds": 134701,
+   "structures": 160977
+  },
+  "010111": {
+   "name": "Abobo",
+   "compounds": 132558,
+   "structures": 157016
+  },
+  "180102": {
+   "name": "Daloa",
+   "compounds": 117414,
+   "structures": 140008
+  },
+  "280201": {
+   "name": "Korhogo",
+   "compounds": 115537,
+   "structures": 140146
+  },
+  "290101": {
+   "name": "San-Pédro",
+   "compounds": 88439,
+   "structures": 106754
+  },
+  "130106": {
+   "name": "Gagnoa",
+   "compounds": 85522,
+   "structures": 102919
+  },
+  "010118": {
+   "name": "Port-Bouët",
+   "compounds": 82755,
+   "structures": 96886
+  },
+  "020201": {
+   "name": "Yamoussoukro",
+   "compounds": 82724,
+   "structures": 100126
+  },
+  "220103": {
+   "name": "Divo",
+   "compounds": 78025,
+   "structures": 92421
+  },
+  "310101": {
+   "name": "Ferkéssédougou",
+   "compounds": 72123,
+   "structures": 89487
+  },
+  "230103": {
+   "name": "Bouaflé",
+   "compounds": 70094,
+   "structures": 83827
+  },
+  "010103": {
+   "name": "Bingerville",
+   "compounds": 69707,
+   "structures": 80435
+  },
+  "260401": {
+   "name": "Soubre",
+   "compounds": 69582,
+   "structures": 84013
+  },
+  "320301": {
+   "name": "Man",
+   "compounds": 69479,
+   "structures": 83090
+  },
+  "010102": {
+   "name": "Anyama",
+   "compounds": 67622,
+   "structures": 77053
+  },
+  "160202": {
+   "name": "Duékoué",
+   "compounds": 64885,
+   "structures": 75798
+  },
+  "090201": {
+   "name": "Guiglo",
+   "compounds": 51095,
+   "structures": 59421
+  },
+  "290102": {
+   "name": "Doba",
+   "compounds": 50820,
+   "structures": 62006
+  },
+  "180306": {
+   "name": "Seitifla",
+   "compounds": 48162,
+   "structures": 57784
+  },
+  "240101": {
+   "name": "Adzopé",
+   "compounds": 48079,
+   "structures": 57453
+  },
+  "010105": {
+   "name": "Songon",
+   "compounds": 47149,
+   "structures": 52675
+  },
+  "200101": {
+   "name": "Abengourou",
+   "compounds": 45985,
+   "structures": 53631
+  },
+  "290104": {
+   "name": "Gabiadji",
+   "compounds": 43411,
+   "structures": 51804
+  },
+  "230102": {
+   "name": "Bonon",
+   "compounds": 42920,
+   "structures": 51326
+  },
+  "130201": {
+   "name": "Oumé",
+   "compounds": 42884,
+   "structures": 51433
+  },
+  "180101": {
+   "name": "Bédiala",
+   "compounds": 42537,
+   "structures": 51034
+  },
+  "230201": {
+   "name": "Sinfra",
+   "compounds": 42478,
+   "structures": 51291
+  },
+  "260403": {
+   "name": "Grand-Zatry",
+   "compounds": 42294,
+   "structures": 48697
+  },
+  "320202": {
+   "name": "Danané",
+   "compounds": 41366,
+   "structures": 48341
+  },
+  "290105": {
+   "name": "Grand-Béréby",
+   "compounds": 41059,
+   "structures": 48404
+  },
+  "090101": {
+   "name": "Bloléquin",
+   "compounds": 40269,
+   "structures": 46258
+  },
+  "180304": {
+   "name": "Dania",
+   "compounds": 40250,
+   "structures": 48212
+  },
+  "180301": {
+   "name": "Vavoua",
+   "compounds": 39905,
+   "structures": 47204
+  },
+  "220301": {
+   "name": "Lakota",
+   "compounds": 39345,
+   "structures": 45305
+  },
+  "030102": {
+   "name": "Agboville",
+   "compounds": 39255,
+   "structures": 46693
+  },
+  "300302": {
+   "name": "Bonoua",
+   "compounds": 38917,
+   "structures": 43861
+  },
+  "300303": {
+   "name": "Grand-Bassam",
+   "compounds": 38882,
+   "structures": 45499
+  },
+  "120206": {
+   "name": "Sago",
+   "compounds": 38006,
+   "structures": 45481
+  },
+  "260405": {
+   "name": "Okrouyo",
+   "compounds": 36476,
+   "structures": 42922
+  },
+  "290103": {
+   "name": "Dogbo",
+   "compounds": 36212,
+   "structures": 43518
+  },
+  "140103": {
+   "name": "Bondoukou",
+   "compounds": 36095,
+   "structures": 44000
+  },
+  "320501": {
+   "name": "Zouan Hounien",
+   "compounds": 35321,
+   "structures": 40995
+  },
+  "180206": {
+   "name": "Saïoua",
+   "compounds": 34623,
+   "structures": 40633
+  },
+  "150101": {
+   "name": "Dabou",
+   "compounds": 33952,
+   "structures": 38891
+  },
+  "070301": {
+   "name": "Mankono",
+   "compounds": 33730,
+   "structures": 40666
+  },
+  "310302": {
+   "name": "Diawala",
+   "compounds": 33578,
+   "structures": 42567
+  },
+  "260404": {
+   "name": "Liliyo",
+   "compounds": 33434,
+   "structures": 39637
+  },
+  "310301": {
+   "name": "Ouangolodougou",
+   "compounds": 33326,
+   "structures": 43193
+  },
+  "180201": {
+   "name": "Issia",
+   "compounds": 33222,
+   "structures": 37940
+  },
+  "320104": {
+   "name": "Gbonné",
+   "compounds": 33190,
+   "structures": 41031
+  },
+  "320101": {
+   "name": "Biankouma",
+   "compounds": 32422,
+   "structures": 40116
+  },
+  "180104": {
+   "name": "Gboguhé",
+   "compounds": 31265,
+   "structures": 36173
+  },
+  "260402": {
+   "name": "Gnanmangui",
+   "compounds": 31239,
+   "structures": 37883
+  },
+  "170201": {
+   "name": "Katiola",
+   "compounds": 29426,
+   "structures": 34561
+  },
+  "300101": {
+   "name": "Aboisso",
+   "compounds": 29386,
+   "structures": 34084
+  },
+  "290204": {
+   "name": "Djouroutou",
+   "compounds": 28776,
+   "structures": 32216
+  },
+  "220305": {
+   "name": "Niambézaria",
+   "compounds": 28770,
+   "structures": 33916
+  },
+  "260301": {
+   "name": "Méagui",
+   "compounds": 28761,
+   "structures": 33738
+  },
+  "240202": {
+   "name": "Akoupé",
+   "compounds": 28107,
+   "structures": 33085
+  },
+  "050301": {
+   "name": "Tengrela",
+   "compounds": 28006,
+   "structures": 34402
+  },
+  "260302": {
+   "name": "Oupoyo",
+   "compounds": 27684,
+   "structures": 33397
+  },
+  "050102": {
+   "name": "Boundiali",
+   "compounds": 27247,
+   "structures": 32747
+  },
+  "120201": {
+   "name": "Sassandra",
+   "compounds": 27211,
+   "structures": 32394
+  },
+  "080102": {
+   "name": "Bouna",
+   "compounds": 27118,
+   "structures": 31904
+  },
+  "010115": {
+   "name": "Koumassi",
+   "compounds": 27087,
+   "structures": 34044
+  },
+  "260101": {
+   "name": "Buyo",
+   "compounds": 27038,
+   "structures": 30788
+  },
+  "180302": {
+   "name": "Bazra-Nattis",
+   "compounds": 26840,
+   "structures": 31811
+  },
+  "070102": {
+   "name": "Dianra-Village",
+   "compounds": 26815,
+   "structures": 32222
+  },
+  "280301": {
+   "name": "M'Bengué",
+   "compounds": 26704,
+   "structures": 31987
+  },
+  "220201": {
+   "name": "Guitry",
+   "compounds": 26563,
+   "structures": 31826
+  },
+  "330201": {
+   "name": "Séguéla",
+   "compounds": 26560,
+   "structures": 31265
+  },
+  "130109": {
+   "name": "Guiberoua",
+   "compounds": 26386,
+   "structures": 30711
+  },
+  "260102": {
+   "name": "Dapéoua",
+   "compounds": 26219,
+   "structures": 31256
+  },
+  "160205": {
+   "name": "Guézon",
+   "compounds": 26094,
+   "structures": 30860
+  },
+  "290205": {
+   "name": "Grabo",
+   "compounds": 25917,
+   "structures": 29453
+  },
+  "160203": {
+   "name": "Gbapleu",
+   "compounds": 25905,
+   "structures": 30749
+  },
+  "210301": {
+   "name": "Odienné",
+   "compounds": 25589,
+   "structures": 30253
+  },
+  "150204": {
+   "name": "Grand Lahou",
+   "compounds": 25402,
+   "structures": 29369
+  },
+  "090302": {
+   "name": "Zagné",
+   "compounds": 25332,
+   "structures": 29959
+  },
+  "180303": {
+   "name": "Dananon",
+   "compounds": 25281,
+   "structures": 30029
+  },
+  "160403": {
+   "name": "Ouyably-Gnondrou",
+   "compounds": 25114,
+   "structures": 30703
+  },
+  "030201": {
+   "name": "Sikensi",
+   "compounds": 25031,
+   "structures": 28892
+  },
+  "010113": {
+   "name": "Attécoubé",
+   "compounds": 24290,
+   "structures": 29331
+  },
+  "190103": {
+   "name": "Daoukro",
+   "compounds": 23867,
+   "structures": 28665
+  },
+  "230301": {
+   "name": "Zuénoula",
+   "compounds": 23793,
+   "structures": 28118
+  },
+  "330207": {
+   "name": "Worofla",
+   "compounds": 23664,
+   "structures": 28362
+  },
+  "150301": {
+   "name": "Jacqueville",
+   "compounds": 23597,
+   "structures": 27759
+  },
+  "120202": {
+   "name": "Dakpadou",
+   "compounds": 23485,
+   "structures": 28487
+  },
+  "320308": {
+   "name": "Sangouiné",
+   "compounds": 23113,
+   "structures": 27945
+  },
+  "060401": {
+   "name": "Toumodi",
+   "compounds": 23062,
+   "structures": 26118
+  },
+  "160101": {
+   "name": "Bangolo",
+   "compounds": 22955,
+   "structures": 27349
+  },
+  "310303": {
+   "name": "Kaouara",
+   "compounds": 22886,
+   "structures": 30806
+  },
+  "220202": {
+   "name": "Dairo Didizo",
+   "compounds": 22859,
+   "structures": 27851
+  },
+  "220104": {
+   "name": "Hiré",
+   "compounds": 22611,
+   "structures": 26782
+  },
+  "130202": {
+   "name": "Diégonéfla",
+   "compounds": 22438,
+   "structures": 26358
+  },
+  "180203": {
+   "name": "Iboguhé",
+   "compounds": 22399,
+   "structures": 26522
+  },
+  "170301": {
+   "name": "Niakaramandougou",
+   "compounds": 22338,
+   "structures": 26268
+  },
+  "120203": {
+   "name": "Grihiri",
+   "compounds": 22327,
+   "structures": 26063
+  },
+  "010117": {
+   "name": "Marcory",
+   "compounds": 22088,
+   "structures": 26056
+  },
+  "030403": {
+   "name": "Morokro",
+   "compounds": 21734,
+   "structures": 26818
+  },
+  "320205": {
+   "name": "Mahapleu",
+   "compounds": 21712,
+   "structures": 25115
+  },
+  "160109": {
+   "name": "Zou",
+   "compounds": 21683,
+   "structures": 25459
+  },
+  "250301": {
+   "name": "M'Batto",
+   "compounds": 21548,
+   "structures": 25429
+  },
+  "010112": {
+   "name": "Adjamé",
+   "compounds": 21507,
+   "structures": 25938
+  },
+  "080403": {
+   "name": "Tougbo",
+   "compounds": 21496,
+   "structures": 25967
+  },
+  "130110": {
+   "name": "Ouragahio",
+   "compounds": 21111,
+   "structures": 24574
+  },
+  "110102": {
+   "name": "Béoumi",
+   "compounds": 20866,
+   "structures": 23703
+  },
+  "160204": {
+   "name": "Guéhiébly",
+   "compounds": 20508,
+   "structures": 24120
+  },
+  "230203": {
+   "name": "Kononfla",
+   "compounds": 20446,
+   "structures": 24743
+  },
+  "080202": {
+   "name": "Doropo",
+   "compounds": 19922,
+   "structures": 24249
+  },
+  "180103": {
+   "name": "Gadouan",
+   "compounds": 19635,
+   "structures": 23408
+  },
+  "240401": {
+   "name": "Yakasse-Attobrou",
+   "compounds": 19558,
+   "structures": 23227
+  },
+  "030401": {
+   "name": "Tiassalé",
+   "compounds": 19540,
+   "structures": 22915
+  },
+  "230107": {
+   "name": "Zaguiéta",
+   "compounds": 19537,
+   "structures": 23815
+  },
+  "160107": {
+   "name": "Kahin-Zarabaon",
+   "compounds": 19410,
+   "structures": 23142
+  },
+  "180401": {
+   "name": "Zoukougbeu",
+   "compounds": 19401,
+   "structures": 22533
+  },
+  "250203": {
+   "name": "Bongouanou",
+   "compounds": 19222,
+   "structures": 22841
+  },
+  "200106": {
+   "name": "Yakasse-Féyassé",
+   "compounds": 19212,
+   "structures": 23496
+  },
+  "200201": {
+   "name": "Agnibilekrou",
+   "compounds": 19153,
+   "structures": 21652
+  },
+  "070101": {
+   "name": "Dianra",
+   "compounds": 19090,
+   "structures": 23485
+  },
+  "050201": {
+   "name": "Kouto",
+   "compounds": 19034,
+   "structures": 23145
+  },
+  "110401": {
+   "name": "Sakassou",
+   "compounds": 18948,
+   "structures": 22720
+  },
+  "270203": {
+   "name": "Dimbokro",
+   "compounds": 18514,
+   "structures": 22090
+  },
+  "040301": {
+   "name": "Touba",
+   "compounds": 18360,
+   "structures": 21555
+  },
+  "200105": {
+   "name": "Niable",
+   "compounds": 18309,
+   "structures": 21216
+  },
+  "120102": {
+   "name": "Fresco",
+   "compounds": 17955,
+   "structures": 21112
+  },
+  "140105": {
+   "name": "Laoudi-Ba",
+   "compounds": 17923,
+   "structures": 21576
+  },
+  "280401": {
+   "name": "Sinématiali",
+   "compounds": 17816,
+   "structures": 21631
+  },
+  "070305": {
+   "name": "Tiéningboué",
+   "compounds": 17684,
+   "structures": 21235
+  },
+  "080401": {
+   "name": "Téhini",
+   "compounds": 17630,
+   "structures": 21267
+  },
+  "240304": {
+   "name": "Danguira",
+   "compounds": 17420,
+   "structures": 20760
+  },
+  "170202": {
+   "name": "Fronan",
+   "compounds": 17377,
+   "structures": 19931
+  },
+  "160304": {
+   "name": "Sémien",
+   "compounds": 17295,
+   "structures": 21012
+  },
+  "320201": {
+   "name": "Daleu",
+   "compounds": 17285,
+   "structures": 19937
+  },
+  "260202": {
+   "name": "Dabouyo",
+   "compounds": 17194,
+   "structures": 20054
+  },
+  "320105": {
+   "name": "Gouiné",
+   "compounds": 17073,
+   "structures": 21123
+  },
+  "220106": {
+   "name": "Ogoudou",
+   "compounds": 17039,
+   "structures": 20084
+  },
+  "280102": {
+   "name": "Dikodougou",
+   "compounds": 16925,
+   "structures": 21004
+  },
+  "120103": {
+   "name": "Gbagbam",
+   "compounds": 16878,
+   "structures": 20141
+  },
+  "030404": {
+   "name": "N'Douci",
+   "compounds": 16813,
+   "structures": 19224
+  },
+  "320204": {
+   "name": "Kouan-Houlé",
+   "compounds": 16745,
+   "structures": 20377
+  },
+  "070304": {
+   "name": "Sarhala",
+   "compounds": 16716,
+   "structures": 20632
+  },
+  "120101": {
+   "name": "Dahiri",
+   "compounds": 16486,
+   "structures": 20006
+  },
+  "130101": {
+   "name": "Bayota",
+   "compounds": 16438,
+   "structures": 19308
+  },
+  "160201": {
+   "name": "Bagohouo",
+   "compounds": 16399,
+   "structures": 19342
+  },
+  "300108": {
+   "name": "Yaou",
+   "compounds": 16307,
+   "structures": 19382
+  },
+  "300107": {
+   "name": "Maféré",
+   "compounds": 16305,
+   "structures": 18527
+  },
+  "160401": {
+   "name": "Kouibly",
+   "compounds": 16020,
+   "structures": 19330
+  },
+  "230304": {
+   "name": "Kanzra",
+   "compounds": 15960,
+   "structures": 19139
+  },
+  "100103": {
+   "name": "Mahandiana-Sokourani",
+   "compounds": 15913,
+   "structures": 19482
+  },
+  "240201": {
+   "name": "Afféry",
+   "compounds": 15865,
+   "structures": 18403
+  },
+  "070303": {
+   "name": "Marandallah",
+   "compounds": 15797,
+   "structures": 19359
+  },
+  "060301": {
+   "name": "Tiébissou",
+   "compounds": 15729,
+   "structures": 18446
+  },
+  "180205": {
+   "name": "Namané",
+   "compounds": 15494,
+   "structures": 18228
+  },
+  "310305": {
+   "name": "Toumoukoro",
+   "compounds": 15412,
+   "structures": 19183
+  },
+  "230307": {
+   "name": "Zanzra",
+   "compounds": 15344,
+   "structures": 18090
+  },
+  "050203": {
+   "name": "Gbon",
+   "compounds": 15228,
+   "structures": 18386
+  },
+  "070201": {
+   "name": "Kounahiri",
+   "compounds": 15193,
+   "structures": 18265
+  },
+  "320505": {
+   "name": "Téapleu",
+   "compounds": 15160,
+   "structures": 17583
+  },
+  "200103": {
+   "name": "Aniassué",
+   "compounds": 14988,
+   "structures": 17728
+  },
+  "070302": {
+   "name": "Bouandougou",
+   "compounds": 14974,
+   "structures": 17896
+  },
+  "120204": {
+   "name": "Lobakuya",
+   "compounds": 14926,
+   "structures": 17825
+  },
+  "090301": {
+   "name": "Taï",
+   "compounds": 14877,
+   "structures": 17379
+  },
+  "250101": {
+   "name": "Arrah",
+   "compounds": 14854,
+   "structures": 17913
+  },
+  "300102": {
+   "name": "Adaou",
+   "compounds": 14827,
+   "structures": 17357
+  },
+  "130103": {
+   "name": "Dignago",
+   "compounds": 14645,
+   "structures": 17354
+  },
+  "280212": {
+   "name": "Napiéléodougou",
+   "compounds": 14508,
+   "structures": 17696
+  },
+  "030105": {
+   "name": "Azaguié",
+   "compounds": 14218,
+   "structures": 16242
+  },
+  "310304": {
+   "name": "Niellé",
+   "compounds": 14164,
+   "structures": 17677
+  },
+  "320107": {
+   "name": "Santa",
+   "compounds": 13993,
+   "structures": 16902
+  },
+  "270102": {
+   "name": "Bocanda",
+   "compounds": 13862,
+   "structures": 16369
+  },
+  "220101": {
+   "name": "Chiépo",
+   "compounds": 13822,
+   "structures": 16203
+  },
+  "130204": {
+   "name": "Tonla",
+   "compounds": 13815,
+   "structures": 17137
+  },
+  "310201": {
+   "name": "Kong",
+   "compounds": 13771,
+   "structures": 16039
+  },
+  "260201": {
+   "name": "Guéyo",
+   "compounds": 13689,
+   "structures": 15958
+  },
+  "090203": {
+   "name": "Kaadé",
+   "compounds": 13601,
+   "structures": 15734
+  },
+  "030301": {
+   "name": "Taabo",
+   "compounds": 13421,
+   "structures": 15572
+  },
+  "220105": {
+   "name": "Nébo",
+   "compounds": 13402,
+   "structures": 16178
+  },
+  "190201": {
+   "name": "M'Bahiakro",
+   "compounds": 13395,
+   "structures": 16105
+  },
+  "200107": {
+   "name": "Zaranou",
+   "compounds": 13367,
+   "structures": 15879
+  },
+  "220203": {
+   "name": "Lauzoua",
+   "compounds": 13314,
+   "structures": 15644
+  },
+  "090105": {
+   "name": "Zéaglo",
+   "compounds": 13205,
+   "structures": 15364
+  },
+  "150103": {
+   "name": "Toupah",
+   "compounds": 12926,
+   "structures": 14774
+  },
+  "050303": {
+   "name": "Kanakono",
+   "compounds": 12839,
+   "structures": 15386
+  },
+  "220303": {
+   "name": "Goudouko",
+   "compounds": 12839,
+   "structures": 15198
+  },
+  "320402": {
+   "name": "Yorodougou",
+   "compounds": 12789,
+   "structures": 15236
+  },
+  "090103": {
+   "name": "Doké",
+   "compounds": 12775,
+   "structures": 14633
+  },
+  "130111": {
+   "name": "Sérihio",
+   "compounds": 12618,
+   "structures": 14655
+  },
+  "320305": {
+   "name": "Logoualé",
+   "compounds": 12607,
+   "structures": 15412
+  },
+  "240302": {
+   "name": "Alépé",
+   "compounds": 12604,
+   "structures": 14139
+  },
+  "130107": {
+   "name": "Galébouo",
+   "compounds": 12602,
+   "structures": 14675
+  },
+  "280209": {
+   "name": "Lataha",
+   "compounds": 12573,
+   "structures": 15740
+  },
+  "170103": {
+   "name": "Dabakala",
+   "compounds": 12496,
+   "structures": 14094
+  },
+  "040304": {
+   "name": "Guintéguéla",
+   "compounds": 12490,
+   "structures": 14886
+  },
+  "300106": {
+   "name": "Kouakro",
+   "compounds": 12441,
+   "structures": 14397
+  },
+  "170305": {
+   "name": "Tafiré",
+   "compounds": 12301,
+   "structures": 14357
+  },
+  "330101": {
+   "name": "Kani",
+   "compounds": 12218,
+   "structures": 14290
+  },
+  "130104": {
+   "name": "Dougroupalégnoa",
+   "compounds": 12174,
+   "structures": 14091
+  },
+  "320306": {
+   "name": "Podiagouiné",
+   "compounds": 12114,
+   "structures": 14471
+  },
+  "180404": {
+   "name": "Guéssabo",
+   "compounds": 12063,
+   "structures": 14249
+  },
+  "180207": {
+   "name": "Tapéguia",
+   "compounds": 12057,
+   "structures": 14050
+  },
+  "300201": {
+   "name": "Adiake",
+   "compounds": 12044,
+   "structures": 14131
+  },
+  "230302": {
+   "name": "Gohitafla",
+   "compounds": 11843,
+   "structures": 14168
+  },
+  "300202": {
+   "name": "Assinie-Mafia",
+   "compounds": 11825,
+   "structures": 13493
+  },
+  "150201": {
+   "name": "Ahouanou",
+   "compounds": 11778,
+   "structures": 13657
+  },
+  "140401": {
+   "name": "Tanda",
+   "compounds": 11734,
+   "structures": 13460
+  },
+  "080402": {
+   "name": "Gogo",
+   "compounds": 11713,
+   "structures": 14515
+  },
+  "280205": {
+   "name": "Kiémou",
+   "compounds": 11699,
+   "structures": 14399
+  },
+  "280204": {
+   "name": "Karakoro",
+   "compounds": 11568,
+   "structures": 14253
+  },
+  "020202": {
+   "name": "Kossou",
+   "compounds": 11567,
+   "structures": 13845
+  },
+  "110202": {
+   "name": "Diabo",
+   "compounds": 11504,
+   "structures": 13512
+  },
+  "030111": {
+   "name": "Rubino",
+   "compounds": 11488,
+   "structures": 13537
+  },
+  "320207": {
+   "name": "Zonneu",
+   "compounds": 11475,
+   "structures": 13210
+  },
+  "220204": {
+   "name": "Yocoboué",
+   "compounds": 11462,
+   "structures": 13503
+  },
+  "150102": {
+   "name": "Lopou",
+   "compounds": 11448,
+   "structures": 13251
+  },
+  "200301": {
+   "name": "Bettié",
+   "compounds": 11431,
+   "structures": 13738
+  },
+  "050205": {
+   "name": "Sianhala",
+   "compounds": 11326,
+   "structures": 13938
+  },
+  "220102": {
+   "name": "Didoko",
+   "compounds": 11281,
+   "structures": 13614
+  },
+  "280214": {
+   "name": "Sirasso",
+   "compounds": 11258,
+   "structures": 13695
+  },
+  "140201": {
+   "name": "Koun-Fao",
+   "compounds": 11250,
+   "structures": 13048
+  },
+  "090204": {
+   "name": "Nizahon",
+   "compounds": 11234,
+   "structures": 13754
+  },
+  "130112": {
+   "name": "Yopohue",
+   "compounds": 11179,
+   "structures": 12787
+  },
+  "250201": {
+   "name": "Andé",
+   "compounds": 11156,
+   "structures": 13106
+  },
+  "030202": {
+   "name": "Gomon",
+   "compounds": 11144,
+   "structures": 12824
+  },
+  "170303": {
+   "name": "Badikaha",
+   "compounds": 11061,
+   "structures": 13313
+  },
+  "240102": {
+   "name": "Agou",
+   "compounds": 11004,
+   "structures": 12577
+  },
+  "290201": {
+   "name": "Tabou",
+   "compounds": 10924,
+   "structures": 12287
+  },
+  "070202": {
+   "name": "Kongasso",
+   "compounds": 10888,
+   "structures": 12658
+  },
+  "320401": {
+   "name": "Sipilou",
+   "compounds": 10867,
+   "structures": 12555
+  },
+  "250304": {
+   "name": "Tiémélékro",
+   "compounds": 10859,
+   "structures": 13163
+  },
+  "050104": {
+   "name": "Kasséré",
+   "compounds": 10821,
+   "structures": 13292
+  },
+  "280203": {
+   "name": "Kanoroba",
+   "compounds": 10776,
+   "structures": 13030
+  },
+  "130203": {
+   "name": "Guépahouo",
+   "compounds": 10737,
+   "structures": 13169
+  },
+  "030402": {
+   "name": "Gbolouville",
+   "compounds": 10727,
+   "structures": 12738
+  },
+  "200204": {
+   "name": "Duffrebo",
+   "compounds": 10706,
+   "structures": 13117
+  },
+  "180202": {
+   "name": "Boguédia",
+   "compounds": 10697,
+   "structures": 12474
+  },
+  "330205": {
+   "name": "Massala",
+   "compounds": 10667,
+   "structures": 12478
+  },
+  "240203": {
+   "name": "Bécouéfin",
+   "compounds": 10565,
+   "structures": 12452
+  },
+  "030101": {
+   "name": "Aboudé",
+   "compounds": 10449,
+   "structures": 12207
+  },
+  "320304": {
+   "name": "Gbangbegouiné-Yati",
+   "compounds": 10392,
+   "structures": 12658
+  },
+  "180305": {
+   "name": "Kétro-Bassam",
+   "compounds": 10383,
+   "structures": 12408
+  },
+  "210302": {
+   "name": "Bako",
+   "compounds": 10266,
+   "structures": 12840
+  },
+  "300105": {
+   "name": "Bianouan",
+   "compounds": 10187,
+   "structures": 11522
+  },
+  "210201": {
+   "name": "Madinani",
+   "compounds": 10185,
+   "structures": 13036
+  },
+  "300103": {
+   "name": "Adjouan",
+   "compounds": 10184,
+   "structures": 11882
+  },
+  "220107": {
+   "name": "Zégo",
+   "compounds": 10100,
+   "structures": 11961
+  },
+  "190106": {
+   "name": "Ouellé",
+   "compounds": 10087,
+   "structures": 12384
+  },
+  "230106": {
+   "name": "Tibéita",
+   "compounds": 9798,
+   "structures": 11464
+  },
+  "050204": {
+   "name": "Kolia",
+   "compounds": 9760,
+   "structures": 12411
+  },
+  "190301": {
+   "name": "Prikro",
+   "compounds": 9729,
+   "structures": 11970
+  },
+  "280213": {
+   "name": "Niofoin",
+   "compounds": 9696,
+   "structures": 12128
+  },
+  "280208": {
+   "name": "Koni",
+   "compounds": 9650,
+   "structures": 11945
+  },
+  "130102": {
+   "name": "Dahiépa-Kéhi",
+   "compounds": 9627,
+   "structures": 11252
+  },
+  "060403": {
+   "name": "Kokoumbo",
+   "compounds": 9608,
+   "structures": 11372
+  },
+  "030106": {
+   "name": "Cechi",
+   "compounds": 9586,
+   "structures": 11725
+  },
+  "310204": {
+   "name": "Sikolo",
+   "compounds": 9526,
+   "structures": 11285
+  },
+  "200302": {
+   "name": "Diamarakro",
+   "compounds": 9340,
+   "structures": 10828
+  },
+  "020102": {
+   "name": "Lolobo",
+   "compounds": 9290,
+   "structures": 10834
+  },
+  "040201": {
+   "name": "Ouaninou",
+   "compounds": 9283,
+   "structures": 11161
+  },
+  "160102": {
+   "name": "Béoué-Zibiao",
+   "compounds": 9253,
+   "structures": 11540
+  },
+  "320102": {
+   "name": "Blapleu",
+   "compounds": 9244,
+   "structures": 11518
+  },
+  "120205": {
+   "name": "Medon",
+   "compounds": 9241,
+   "structures": 11335
+  },
+  "110304": {
+   "name": "Djébonoua",
+   "compounds": 9181,
+   "structures": 11204
+  },
+  "250204": {
+   "name": "N'Guessankro",
+   "compounds": 9167,
+   "structures": 11143
+  },
+  "280216": {
+   "name": "Tioroniaradougou",
+   "compounds": 9156,
+   "structures": 11162
+  },
+  "080204": {
+   "name": "Niamoué",
+   "compounds": 9113,
+   "structures": 10894
+  },
+  "080105": {
+   "name": "Youndouo",
+   "compounds": 9057,
+   "structures": 11005
+  },
+  "160103": {
+   "name": "Bléniméouin",
+   "compounds": 8971,
+   "structures": 10707
+  },
+  "280101": {
+   "name": "Boron",
+   "compounds": 8918,
+   "structures": 11203
+  },
+  "180403": {
+   "name": "Grégbeu",
+   "compounds": 8911,
+   "structures": 10434
+  },
+  "160106": {
+   "name": "Guinglo-Tahouaké",
+   "compounds": 8887,
+   "structures": 10480
+  },
+  "330202": {
+   "name": "Bobi-Diarabana",
+   "compounds": 8825,
+   "structures": 10479
+  },
+  "090401": {
+   "name": "Toulepleu",
+   "compounds": 8810,
+   "structures": 10212
+  },
+  "180106": {
+   "name": "Zaibo",
+   "compounds": 8808,
+   "structures": 10346
+  },
+  "010101": {
+   "name": "Abidjan",
+   "compounds": 8805,
+   "structures": 10468
+  },
+  "230202": {
+   "name": "Bazré",
+   "compounds": 8803,
+   "structures": 10544
+  },
+  "140205": {
+   "name": "Tankessé",
+   "compounds": 8793,
+   "structures": 10035
+  },
+  "150202": {
+   "name": "Bacanda",
+   "compounds": 8772,
+   "structures": 10278
+  },
+  "080301": {
+   "name": "Nassian",
+   "compounds": 8738,
+   "structures": 10392
+  },
+  "050103": {
+   "name": "Ganaoni",
+   "compounds": 8666,
+   "structures": 10536
+  },
+  "300104": {
+   "name": "Ayamé",
+   "compounds": 8642,
+   "structures": 10056
+  },
+  "030104": {
+   "name": "Attobrou",
+   "compounds": 8609,
+   "structures": 10240
+  },
+  "050105": {
+   "name": "Siempurgo",
+   "compounds": 8583,
+   "structures": 10467
+  },
+  "040303": {
+   "name": "Foungbesso",
+   "compounds": 8581,
+   "structures": 10193
+  },
+  "110201": {
+   "name": "Botro",
+   "compounds": 8579,
+   "structures": 10123
+  },
+  "320302": {
+   "name": "Bogouiné",
+   "compounds": 8554,
+   "structures": 10477
+  },
+  "110204": {
+   "name": "Languibonou",
+   "compounds": 8519,
+   "structures": 9983
+  },
+  "200102": {
+   "name": "Amélékia",
+   "compounds": 8506,
+   "structures": 10155
+  },
+  "180204": {
+   "name": "Nahio",
+   "compounds": 8478,
+   "structures": 9849
+  },
+  "030108": {
+   "name": "Guessiguié",
+   "compounds": 8381,
+   "structures": 9740
+  },
+  "140110": {
+   "name": "Tagadi",
+   "compounds": 8344,
+   "structures": 9866
+  },
+  "250103": {
+   "name": "Krégbé",
+   "compounds": 8303,
+   "structures": 9948
+  },
+  "110103": {
+   "name": "Bodokro",
+   "compounds": 8276,
+   "structures": 9812
+  },
+  "170306": {
+   "name": "Tortiya",
+   "compounds": 8135,
+   "structures": 9740
+  },
+  "300401": {
+   "name": "Tiapoum",
+   "compounds": 8118,
+   "structures": 9373
+  },
+  "140502": {
+   "name": "Assuéfry",
+   "compounds": 8078,
+   "structures": 9460
+  },
+  "230306": {
+   "name": "Voueboufla",
+   "compounds": 8054,
+   "structures": 9522
+  },
+  "010104": {
+   "name": "Brofodoumé",
+   "compounds": 8010,
+   "structures": 9503
+  },
+  "040101": {
+   "name": "Koro",
+   "compounds": 7982,
+   "structures": 9854
+  },
+  "160404": {
+   "name": "Totrodrou",
+   "compounds": 7953,
+   "structures": 9886
+  },
+  "160301": {
+   "name": "Facobly",
+   "compounds": 7948,
+   "structures": 9755
+  },
+  "100101": {
+   "name": "Goulia",
+   "compounds": 7931,
+   "structures": 9739
+  },
+  "180105": {
+   "name": "Gonaté",
+   "compounds": 7926,
+   "structures": 9310
+  },
+  "030103": {
+   "name": "Ananguié",
+   "compounds": 7918,
+   "structures": 9361
+  },
+  "320504": {
+   "name": "Goulaleu",
+   "compounds": 7910,
+   "structures": 9317
+  },
+  "160104": {
+   "name": "Diéouzon",
+   "compounds": 7792,
+   "structures": 9731
+  },
+  "170104": {
+   "name": "Foumbolo",
+   "compounds": 7786,
+   "structures": 9155
+  },
+  "280103": {
+   "name": "Guiembé",
+   "compounds": 7679,
+   "structures": 9766
+  },
+  "150203": {
+   "name": "Ebonou",
+   "compounds": 7557,
+   "structures": 8911
+  },
+  "240305": {
+   "name": "Oghlwapo",
+   "compounds": 7527,
+   "structures": 8492
+  },
+  "010119": {
+   "name": "Treichville",
+   "compounds": 7499,
+   "structures": 8962
+  },
+  "060404": {
+   "name": "Kpouèbo",
+   "compounds": 7403,
+   "structures": 8727
+  },
+  "300301": {
+   "name": "Bongo",
+   "compounds": 7355,
+   "structures": 8914
+  },
+  "320206": {
+   "name": "Seileu",
+   "compounds": 7345,
+   "structures": 8952
+  },
+  "280207": {
+   "name": "Komborodougou",
+   "compounds": 7278,
+   "structures": 9025
+  },
+  "130105": {
+   "name": "Doukouyo",
+   "compounds": 7273,
+   "structures": 8290
+  },
+  "280304": {
+   "name": "Katogo",
+   "compounds": 7218,
+   "structures": 9110
+  },
+  "220302": {
+   "name": "Djidji",
+   "compounds": 7168,
+   "structures": 8362
+  },
+  "330103": {
+   "name": "Fadiadougou",
+   "compounds": 7144,
+   "structures": 8530
+  },
+  "230104": {
+   "name": "N'Douffoukankro",
+   "compounds": 7104,
+   "structures": 8716
+  },
+  "320502": {
+   "name": "Banneu",
+   "compounds": 7084,
+   "structures": 8392
+  },
+  "030109": {
+   "name": "Loviguié",
+   "compounds": 7049,
+   "structures": 8435
+  },
+  "220304": {
+   "name": "Kadéko",
+   "compounds": 7049,
+   "structures": 8161
+  },
+  "240403": {
+   "name": "Biéby",
+   "compounds": 7046,
+   "structures": 8314
+  },
+  "200202": {
+   "name": "Akoboissué",
+   "compounds": 7039,
+   "structures": 8130
+  },
+  "230101": {
+   "name": "Bégbéssou",
+   "compounds": 7011,
+   "structures": 8546
+  },
+  "140204": {
+   "name": "Kouassi-Datékro",
+   "compounds": 6999,
+   "structures": 8323
+  },
+  "310102": {
+   "name": "Koumbala",
+   "compounds": 6979,
+   "structures": 8965
+  },
+  "040102": {
+   "name": "Booko",
+   "compounds": 6958,
+   "structures": 9081
+  },
+  "080101": {
+   "name": "Bouko",
+   "compounds": 6956,
+   "structures": 8310
+  },
+  "240402": {
+   "name": "Abongoua",
+   "compounds": 6899,
+   "structures": 8398
+  },
+  "300203": {
+   "name": "Etuéboué",
+   "compounds": 6833,
+   "structures": 8063
+  },
+  "230305": {
+   "name": "Maminigui",
+   "compounds": 6826,
+   "structures": 8086
+  },
+  "030107": {
+   "name": "Grand-Morié",
+   "compounds": 6824,
+   "structures": 8073
+  },
+  "140501": {
+   "name": "Transua",
+   "compounds": 6821,
+   "structures": 7624
+  },
+  "300402": {
+   "name": "Noé",
+   "compounds": 6803,
+   "structures": 7844
+  },
+  "050304": {
+   "name": "Papara",
+   "compounds": 6787,
+   "structures": 8949
+  },
+  "250102": {
+   "name": "Kotobi",
+   "compounds": 6737,
+   "structures": 7867
+  },
+  "280215": {
+   "name": "Sohouo",
+   "compounds": 6621,
+   "structures": 8113
+  },
+  "210501": {
+   "name": "Séguélon",
+   "compounds": 6612,
+   "structures": 7991
+  },
+  "320503": {
+   "name": "Bin-Houyé",
+   "compounds": 6609,
+   "structures": 7486
+  },
+  "090403": {
+   "name": "Méo",
+   "compounds": 6602,
+   "structures": 7350
+  },
+  "320311": {
+   "name": "Ziogouiné",
+   "compounds": 6494,
+   "structures": 8027
+  },
+  "100102": {
+   "name": "Kaniasso",
+   "compounds": 6461,
+   "structures": 8408
+  },
+  "060201": {
+   "name": "Bonikro",
+   "compounds": 6424,
+   "structures": 7855
+  },
+  "160303": {
+   "name": "Koua",
+   "compounds": 6405,
+   "structures": 7851
+  },
+  "240301": {
+   "name": "Aboisso-Comoé",
+   "compounds": 6397,
+   "structures": 7571
+  },
+  "090405": {
+   "name": "Péhé",
+   "compounds": 6361,
+   "structures": 7379
+  },
+  "190104": {
+   "name": "Ettrokro",
+   "compounds": 6287,
+   "structures": 7898
+  },
+  "160105": {
+   "name": "Gohouo-Zagna",
+   "compounds": 6216,
+   "structures": 7732
+  },
+  "310202": {
+   "name": "Bilimono",
+   "compounds": 6188,
+   "structures": 7544
+  },
+  "300403": {
+   "name": "Nouamou",
+   "compounds": 6178,
+   "structures": 7242
+  },
+  "140108": {
+   "name": "Sorobango",
+   "compounds": 6167,
+   "structures": 7410
+  },
+  "250302": {
+   "name": "Anoumaba",
+   "compounds": 6156,
+   "structures": 7295
+  },
+  "090202": {
+   "name": "Bédi-Gaozon",
+   "compounds": 6153,
+   "structures": 7043
+  },
+  "100204": {
+   "name": "Tienko",
+   "compounds": 6144,
+   "structures": 7829
+  },
+  "130108": {
+   "name": "Gnagbodougnoa",
+   "compounds": 6138,
+   "structures": 7223
+  },
+  "080203": {
+   "name": "Kalamon",
+   "compounds": 6054,
+   "structures": 7417
+  },
+  "310103": {
+   "name": "Togoniéré",
+   "compounds": 6041,
+   "structures": 7186
+  },
+  "270301": {
+   "name": "Kouassi-Kouassikro",
+   "compounds": 5895,
+   "structures": 6891
+  },
+  "090102": {
+   "name": "Diboké",
+   "compounds": 5879,
+   "structures": 6745
+  },
+  "320203": {
+   "name": "Gbon-Houyé",
+   "compounds": 5846,
+   "structures": 6989
+  },
+  "170101": {
+   "name": "Bassawa",
+   "compounds": 5820,
+   "structures": 6753
+  },
+  "200104": {
+   "name": "Ebilassokro",
+   "compounds": 5791,
+   "structures": 6798
+  },
+  "280210": {
+   "name": "N'Ganon",
+   "compounds": 5785,
+   "structures": 6937
+  },
+  "320309": {
+   "name": "Yapleu",
+   "compounds": 5778,
+   "structures": 6947
+  },
+  "140102": {
+   "name": "Bondo",
+   "compounds": 5765,
+   "structures": 7181
+  },
+  "330206": {
+   "name": "Sifié",
+   "compounds": 5704,
+   "structures": 6797
+  },
+  "140301": {
+   "name": "Sandégué",
+   "compounds": 5686,
+   "structures": 6732
+  },
+  "230204": {
+   "name": "Kouétinfla",
+   "compounds": 5678,
+   "structures": 6845
+  },
+  "170102": {
+   "name": "Bonieredougou",
+   "compounds": 5624,
+   "structures": 6323
+  },
+  "140206": {
+   "name": "Tienkoikro",
+   "compounds": 5618,
+   "structures": 6513
+  },
+  "080103": {
+   "name": "Ondéfidouo",
+   "compounds": 5608,
+   "structures": 6992
+  },
+  "270103": {
+   "name": "Kouadioblékro",
+   "compounds": 5572,
+   "structures": 6826
+  },
+  "240103": {
+   "name": "Annepé",
+   "compounds": 5528,
+   "structures": 6548
+  },
+  "270101": {
+   "name": "Bengassou",
+   "compounds": 5495,
+   "structures": 6810
+  },
+  "170304": {
+   "name": "Niédiékaha",
+   "compounds": 5490,
+   "structures": 6372
+  },
+  "140104": {
+   "name": "Gouméré",
+   "compounds": 5477,
+   "structures": 6564
+  },
+  "170105": {
+   "name": "Niéméné",
+   "compounds": 5473,
+   "structures": 6046
+  },
+  "160108": {
+   "name": "Zéo",
+   "compounds": 5472,
+   "structures": 6779
+  },
+  "030302": {
+   "name": "Pacobo",
+   "compounds": 5470,
+   "structures": 6665
+  },
+  "240105": {
+   "name": "Bécédi-Brignan",
+   "compounds": 5458,
+   "structures": 6415
+  },
+  "330204": {
+   "name": "Kamalo",
+   "compounds": 5440,
+   "structures": 6642
+  },
+  "080201": {
+   "name": "Danoa",
+   "compounds": 5431,
+   "structures": 6505
+  },
+  "240104": {
+   "name": "Assikoi",
+   "compounds": 5422,
+   "structures": 6257
+  },
+  "160302": {
+   "name": "Guézon",
+   "compounds": 5390,
+   "structures": 6422
+  },
+  "110403": {
+   "name": "Dibri-Assirikro",
+   "compounds": 5327,
+   "structures": 6508
+  },
+  "060102": {
+   "name": "Didievi",
+   "compounds": 5316,
+   "structures": 6089
+  },
+  "060103": {
+   "name": "Molonou-Blé",
+   "compounds": 5316,
+   "structures": 6250
+  },
+  "090104": {
+   "name": "Tinhou",
+   "compounds": 5308,
+   "structures": 6098
+  },
+  "280302": {
+   "name": "Bougou",
+   "compounds": 5202,
+   "structures": 6392
+  },
+  "290203": {
+   "name": "Djamandioké",
+   "compounds": 5187,
+   "structures": 5711
+  },
+  "250202": {
+   "name": "Assié-Koumassi",
+   "compounds": 5152,
+   "structures": 6130
+  },
+  "320106": {
+   "name": "Kpata",
+   "compounds": 5117,
+   "structures": 6279
+  },
+  "160402": {
+   "name": "Nidrou",
+   "compounds": 5101,
+   "structures": 6244
+  },
+  "320506": {
+   "name": "Yelleu",
+   "compounds": 5063,
+   "structures": 5915
+  },
+  "170108": {
+   "name": "Sokala-Sobara",
+   "compounds": 4970,
+   "structures": 5616
+  },
+  "140111": {
+   "name": "Taoudi",
+   "compounds": 4944,
+   "structures": 6085
+  },
+  "310203": {
+   "name": "Nafana",
+   "compounds": 4923,
+   "structures": 5736
+  },
+  "050202": {
+   "name": "Blességué",
+   "compounds": 4915,
+   "structures": 5873
+  },
+  "110303": {
+   "name": "Brobo",
+   "compounds": 4850,
+   "structures": 5504
+  },
+  "140109": {
+   "name": "Tabagne",
+   "compounds": 4818,
+   "structures": 5755
+  },
+  "110402": {
+   "name": "Ayaou-Sran",
+   "compounds": 4773,
+   "structures": 5866
+  },
+  "140304": {
+   "name": "Yorobodi",
+   "compounds": 4708,
+   "structures": 5586
+  },
+  "190202": {
+   "name": "Bonguéra",
+   "compounds": 4641,
+   "structures": 5527
+  },
+  "190303": {
+   "name": "Famienkro",
+   "compounds": 4608,
+   "structures": 5606
+  },
+  "060303": {
+   "name": "Molonou",
+   "compounds": 4571,
+   "structures": 5311
+  },
+  "110101": {
+   "name": "Ando-Kékrénou",
+   "compounds": 4571,
+   "structures": 5173
+  },
+  "210402": {
+   "name": "Kimbirila Sud",
+   "compounds": 4533,
+   "structures": 6164
+  },
+  "060302": {
+   "name": "Lomokankro",
+   "compounds": 4517,
+   "structures": 5534
+  },
+  "200203": {
+   "name": "Damé",
+   "compounds": 4465,
+   "structures": 5256
+  },
+  "080302": {
+   "name": "Bogofa",
+   "compounds": 4456,
+   "structures": 5474
+  },
+  "290206": {
+   "name": "Olodio",
+   "compounds": 4440,
+   "structures": 4897
+  },
+  "180402": {
+   "name": "Domangbeu",
+   "compounds": 4406,
+   "structures": 4976
+  },
+  "100201": {
+   "name": "Minignan",
+   "compounds": 4387,
+   "structures": 5503
+  },
+  "110305": {
+   "name": "Mamini",
+   "compounds": 4318,
+   "structures": 4976
+  },
+  "270104": {
+   "name": "N'Zécrezessou",
+   "compounds": 4288,
+   "structures": 5118
+  },
+  "220306": {
+   "name": "Zikisso",
+   "compounds": 4263,
+   "structures": 4979
+  },
+  "330102": {
+   "name": "Djibrosso",
+   "compounds": 4228,
+   "structures": 5098
+  },
+  "040206": {
+   "name": "Santa",
+   "compounds": 4151,
+   "structures": 5368
+  },
+  "170203": {
+   "name": "Timbé",
+   "compounds": 4141,
+   "structures": 4661
+  },
+  "060202": {
+   "name": "Djékanou",
+   "compounds": 4065,
+   "structures": 4669
+  },
+  "240303": {
+   "name": "Allosso",
+   "compounds": 4054,
+   "structures": 5017
+  },
+  "210102": {
+   "name": "Samango",
+   "compounds": 4013,
+   "structures": 5161
+  },
+  "330104": {
+   "name": "Morondo",
+   "compounds": 3985,
+   "structures": 4783
+  },
+  "020101": {
+   "name": "Attiégouakro",
+   "compounds": 3948,
+   "structures": 4535
+  },
+  "240106": {
+   "name": "Yakassé-Mé",
+   "compounds": 3936,
+   "structures": 4564
+  },
+  "140404": {
+   "name": "Tchèdio",
+   "compounds": 3927,
+   "structures": 4550
+  },
+  "060105": {
+   "name": "Tie N'Diékro",
+   "compounds": 3910,
+   "structures": 4536
+  },
+  "170302": {
+   "name": "Arikokaha",
+   "compounds": 3889,
+   "structures": 4599
+  },
+  "110105": {
+   "name": "Lolobo",
+   "compounds": 3878,
+   "structures": 4681
+  },
+  "280211": {
+   "name": "Nafoun",
+   "compounds": 3874,
+   "structures": 4742
+  },
+  "080304": {
+   "name": "Koutouba",
+   "compounds": 3817,
+   "structures": 4663
+  },
+  "140202": {
+   "name": "Boahia",
+   "compounds": 3816,
+   "structures": 4477
+  },
+  "280402": {
+   "name": "Bahouakaha",
+   "compounds": 3792,
+   "structures": 4653
+  },
+  "040105": {
+   "name": "Niokosso",
+   "compounds": 3782,
+   "structures": 4915
+  },
+  "110203": {
+   "name": "Krofoinsou",
+   "compounds": 3777,
+   "structures": 4484
+  },
+  "210304": {
+   "name": "Dioulatiedougou",
+   "compounds": 3773,
+   "structures": 4595
+  },
+  "280403": {
+   "name": "Kagbolodougou",
+   "compounds": 3738,
+   "structures": 4519
+  },
+  "050101": {
+   "name": "Baya",
+   "compounds": 3673,
+   "structures": 4518
+  },
+  "160305": {
+   "name": "Tiény-Séably",
+   "compounds": 3591,
+   "structures": 4488
+  },
+  "140403": {
+   "name": "Diamba",
+   "compounds": 3569,
+   "structures": 4189
+  },
+  "280206": {
+   "name": "Kombolokoura",
+   "compounds": 3556,
+   "structures": 4464
+  },
+  "270202": {
+   "name": "Diangokro",
+   "compounds": 3530,
+   "structures": 4403
+  },
+  "140503": {
+   "name": "Kouassia-Niaguini",
+   "compounds": 3524,
+   "structures": 3861
+  },
+  "320307": {
+   "name": "Sandougou-Soba",
+   "compounds": 3523,
+   "structures": 4422
+  },
+  "190102": {
+   "name": "Ananda",
+   "compounds": 3475,
+   "structures": 4181
+  },
+  "190105": {
+   "name": "N'Gattakro",
+   "compounds": 3357,
+   "structures": 4351
+  },
+  "170106": {
+   "name": "Satama-Sokoro",
+   "compounds": 3325,
+   "structures": 3762
+  },
+  "210203": {
+   "name": "N'Goloblasso",
+   "compounds": 3296,
+   "structures": 4094
+  },
+  "140303": {
+   "name": "Dimandougou",
+   "compounds": 3285,
+   "structures": 3922
+  },
+  "110107": {
+   "name": "N'Guéssankro",
+   "compounds": 3263,
+   "structures": 3930
+  },
+  "100203": {
+   "name": "Sokoro",
+   "compounds": 3243,
+   "structures": 4193
+  },
+  "200205": {
+   "name": "Tanguélan",
+   "compounds": 3235,
+   "structures": 3883
+  },
+  "010116": {
+   "name": "Le Plateau",
+   "compounds": 3231,
+   "structures": 3724
+  },
+  "210305": {
+   "name": "Tiémé",
+   "compounds": 3224,
+   "structures": 3842
+  },
+  "290202": {
+   "name": "Dapo-Iboké",
+   "compounds": 3220,
+   "structures": 3519
+  },
+  "110104": {
+   "name": "Kondrobo",
+   "compounds": 3211,
+   "structures": 3741
+  },
+  "100202": {
+   "name": "Kimbirila-Nord",
+   "compounds": 3170,
+   "structures": 3900
+  },
+  "080305": {
+   "name": "Sominassé",
+   "compounds": 3149,
+   "structures": 3814
+  },
+  "060402": {
+   "name": "Angoda",
+   "compounds": 3131,
+   "structures": 3572
+  },
+  "190305": {
+   "name": "Nafana",
+   "compounds": 2980,
+   "structures": 3594
+  },
+  "040204": {
+   "name": "Koonan",
+   "compounds": 2908,
+   "structures": 3635
+  },
+  "190304": {
+   "name": "Koffi-Amonkro",
+   "compounds": 2905,
+   "structures": 3569
+  },
+  "060304": {
+   "name": "Yakpabo-Sakassou",
+   "compounds": 2893,
+   "structures": 3418
+  },
+  "280404": {
+   "name": "Sédiogo",
+   "compounds": 2885,
+   "structures": 3511
+  },
+  "030110": {
+   "name": "Oress-Krobou",
+   "compounds": 2882,
+   "structures": 3374
+  },
+  "210303": {
+   "name": "Bougousso",
+   "compounds": 2831,
+   "structures": 3605
+  },
+  "190203": {
+   "name": "Kondossou",
+   "compounds": 2817,
+   "structures": 3543
+  },
+  "050302": {
+   "name": "Débété",
+   "compounds": 2816,
+   "structures": 3494
+  },
+  "230105": {
+   "name": "Pakouabo",
+   "compounds": 2687,
+   "structures": 3162
+  },
+  "280202": {
+   "name": "Dassoungboho",
+   "compounds": 2686,
+   "structures": 3271
+  },
+  "250303": {
+   "name": "Assahara",
+   "compounds": 2631,
+   "structures": 3203
+  },
+  "210401": {
+   "name": "Samatiguila",
+   "compounds": 2615,
+   "structures": 3347
+  },
+  "140203": {
+   "name": "Kokomian",
+   "compounds": 2594,
+   "structures": 2851
+  },
+  "210502": {
+   "name": "Gbongaha",
+   "compounds": 2583,
+   "structures": 3085
+  },
+  "140107": {
+   "name": "Sapli-Sépingo",
+   "compounds": 2455,
+   "structures": 3049
+  },
+  "280303": {
+   "name": "Katiali",
+   "compounds": 2452,
+   "structures": 2948
+  },
+  "320103": {
+   "name": "Gbangbégouiné",
+   "compounds": 2449,
+   "structures": 2996
+  },
+  "190107": {
+   "name": "Samanza",
+   "compounds": 2423,
+   "structures": 3035
+  },
+  "170107": {
+   "name": "Satama-Sokoura",
+   "compounds": 2416,
+   "structures": 2700
+  },
+  "320310": {
+   "name": "Zagoué",
+   "compounds": 2400,
+   "structures": 2967
+  },
+  "040103": {
+   "name": "Borotou",
+   "compounds": 2374,
+   "structures": 2930
+  },
+  "230303": {
+   "name": "Iriéfla",
+   "compounds": 2347,
+   "structures": 2824
+  },
+  "170109": {
+   "name": "Tendéné-Bambarasso",
+   "compounds": 2322,
+   "structures": 2715
+  },
+  "060101": {
+   "name": "Boli",
+   "compounds": 2313,
+   "structures": 2635
+  },
+  "270302": {
+   "name": "Mékro",
+   "compounds": 2310,
+   "structures": 2750
+  },
+  "040302": {
+   "name": "Dioman",
+   "compounds": 2288,
+   "structures": 2812
+  },
+  "140101": {
+   "name": "Appimadoum",
+   "compounds": 2272,
+   "structures": 2698
+  },
+  "040205": {
+   "name": "Saboudougou",
+   "compounds": 2263,
+   "structures": 2829
+  },
+  "330203": {
+   "name": "Dualla",
+   "compounds": 2236,
+   "structures": 2680
+  },
+  "270201": {
+   "name": "Abigui",
+   "compounds": 2230,
+   "structures": 2529
+  },
+  "210202": {
+   "name": "Fengolo",
+   "compounds": 2212,
+   "structures": 2815
+  },
+  "110106": {
+   "name": "Marabadiassa",
+   "compounds": 2192,
+   "structures": 2687
+  },
+  "140112": {
+   "name": "Yézimala",
+   "compounds": 2081,
+   "structures": 2592
+  },
+  "080303": {
+   "name": "Kakpin",
+   "compounds": 2068,
+   "structures": 2386
+  },
+  "110302": {
+   "name": "Bounda",
+   "compounds": 2060,
+   "structures": 2400
+  },
+  "090404": {
+   "name": "Nézobly",
+   "compounds": 1952,
+   "structures": 2255
+  },
+  "140402": {
+   "name": "Amanvi",
+   "compounds": 1903,
+   "structures": 2212
+  },
+  "270204": {
+   "name": "Nofou",
+   "compounds": 1890,
+   "structures": 2233
+  },
+  "150302": {
+   "name": "Attoutou",
+   "compounds": 1798,
+   "structures": 2127
+  },
+  "040202": {
+   "name": "Gbèlo",
+   "compounds": 1793,
+   "structures": 2139
+  },
+  "060104": {
+   "name": "Raviart",
+   "compounds": 1763,
+   "structures": 2017
+  },
+  "190302": {
+   "name": "Anianou",
+   "compounds": 1678,
+   "structures": 1929
+  },
+  "170110": {
+   "name": "Yaossédougou",
+   "compounds": 1672,
+   "structures": 1958
+  },
+  "040203": {
+   "name": "Gouékan",
+   "compounds": 1650,
+   "structures": 1907
+  },
+  "140106": {
+   "name": "Pinda-Boroko",
+   "compounds": 1644,
+   "structures": 1895
+  },
+  "190101": {
+   "name": "Akpassanou",
+   "compounds": 1579,
+   "structures": 1841
+  },
+  "210101": {
+   "name": "Gbéléban",
+   "compounds": 1558,
+   "structures": 1867
+  },
+  "090406": {
+   "name": "Tiobly",
+   "compounds": 1524,
+   "structures": 1735
+  },
+  "140302": {
+   "name": "Bandakagni-Tomora",
+   "compounds": 1524,
+   "structures": 1815
+  },
+  "040104": {
+   "name": "Mahandougou",
+   "compounds": 1506,
+   "structures": 1995
+  },
+  "210103": {
+   "name": "Seydougou",
+   "compounds": 1357,
+   "structures": 1670
+  },
+  "090402": {
+   "name": "Bakoubly",
+   "compounds": 1336,
+   "structures": 1457
+  },
+  "110404": {
+   "name": "Toumodi-Sakassou",
+   "compounds": 1322,
+   "structures": 1599
+  },
+  "150205": {
+   "name": "Toukouzou",
+   "compounds": 1300,
+   "structures": 1594
+  },
+  "320303": {
+   "name": "Fagnampleu",
+   "compounds": 996,
+   "structures": 1236
+  },
+  "080104": {
+   "name": "Parc National de Bona",
+   "compounds": 787,
+   "structures": 915
+  }
+ },
+ "validation": {
+  "mappedEnclosures": 2652,
+  "byKind": {
+   "osm-wall": 2380,
+   "osm-fence": 270,
+   "osm-hedge": 2
+  },
+  "whole": 119,
+  "exact": 107,
+  "missingOne": 904,
+  "shareWhole": 0.045,
+  "shareExact": 0.04,
+  "shareMissingOne": 0.341
+ },
+ "access": {
+  "health": {
+   "facilities": 1718,
+   "within2km": 0.278,
+   "within5km": 0.36,
+   "medianKm": 9.7
+  },
+  "school": {
+   "facilities": 4110,
+   "within2km": 0.34,
+   "within5km": 0.426,
+   "medianKm": 7.2
+  },
+  "police": {
+   "facilities": 291,
+   "within2km": 0.179,
+   "within5km": 0.27,
+   "medianKm": 18.1
+  },
+  "pharmacy": {
+   "facilities": 1138,
+   "within2km": 0.256,
+   "within5km": 0.328,
+   "medianKm": 12.1
+  }
+ },
+ "accessSample": 20000
+}

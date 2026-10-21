@@ -1,0 +1,15 @@
+{
+  "byUnit": {
+    "080104": 787
+  },
+  "codes": 787,
+  "country": "CI",
+  "credit": "N-Ways Addressing for Côte d'Ivoire, © N-WAYS LIMITED (nways.ng)",
+  "engine": "internal/addressing/ci (SPEC v1.0)",
+  "exported": "2026-10-20T14:50:41Z",
+  "licence": "ODbL 1.0 (LICENSE-DATA)",
+  "sha256": {
+    "080104.csv": "c410f90a7e948e2ee03f9257105a9debfa48a55fcbb6c6fe8269caf988fdafdf",
+    "areas.csv": "8c931080a1fe0d58fbb41e543d2ea7e32fea497d2f6a30ff1e53e4328aa6df68"
+  }
+}
